@@ -403,6 +403,615 @@ def build_completeness_report(
                             "status": "missing",
                             "valid_frames": 0,
                             "median_cv_percent": np.nan,
-          ß½;¶‰Ëkºwµç@È¸À°€‹’â7–îë¢º»nÓš:—–¢ºû¢«RÇ¦ë¦^Ó–æÏšZç–>7š¾Pˆ¤°4(€€€€€€€€ ‰¥¹}Í…µÁ±•}™¥ÑÑ•ˆ°™¥ÑÑ•‘}•áÁ½¹•¹Ğ°€‹’î’úo¢–¾¾ò3’â7¢÷šnÿ’î.³®/¢Şwšïš‚–ºhˆ¤°4(€€€t4(€€€É½İÌè±¥ÍÑm‘¥ÑmÍÑÈ°¹åut€ômt4(€€€‰…Í•±¥¹•}µ•‘¥…¹}Ø€ô¹À¹¹…¸4(€€€™½Èµ•Ñ¡½°•áÁ½¹•¹Ğ°¹½Ñ”¥¸µ•Ñ¡½‘Ìè4(€€€€€€€½ÉÉ•Ñ•€ôÕÍ…‰±•l‰±•…É}µ•…¸‰t€¨€ 4(€€€€€€€€€€€ÕÍ…‰±•l‰‘¥ÍÑ…¹•}µ•…¹}µ´‰t€¼É•™•É•¹•}‘¥ÍÑ…¹•}µ´4(€€€€€€€€¤€¨¨•áÁ½¹•¹Ğ4(€€€€€€€Ñ•µÁ½É…Éä€ôÕÍ…‰±•mÉ½ÕÁ}½±Õµ¹Ít¹½Áä ¤4(€€€€€€€Ñ•µÁ½É…Éål‰½ÉÉ•Ñ•‘}±•…È‰t€ô½ÉÉ•Ñ•4(€€€€€€€É½ÕÁ•€ôÑ•µÁ½É…Éä¹É½ÕÁ‰ä¡É½ÕÁ}½±Õµ¹Ì¥l‰½ÉÉ•Ñ•‘}±•…È‰t4(€€€€€€€ÙÌ€ôÉ½ÕÁ•¹ÍÑ¡‘‘½˜ôÄ¤€¼É½ÕÁ•¹µ•…¸ ¤€¨€ÄÀÀ¸À4(€€€€€€€µ•‘¥…¹}Ø€ô™±½…Ğ¡ÙÌ¹µ•‘¥…¸ ¤¤4(€€€€€€€¥˜µ•Ñ¡½€ôô€‰¹½¹”ˆè4(€€€€€€€€€€€‰…Í•±¥¹•}µ•‘¥…¹}Ø€ôµ•‘¥…¹}Ø4(€€€€€€€¥µÁÉ½Ù•µ•¹Ğ€ô€ 4(€€€€€€€€€€€€¡‰…Í•±¥¹•}µ•‘¥…¹}Ø€´µ•‘¥…¹}Ø¤€¼‰…Í•±¥¹•}µ•‘¥…¹}Ø€¨€ÄÀÀ¸À4(€€€€€€€€€€€¥˜‰…Í•±¥¹•}µ•‘¥…¹}Ø4(€€€€€€€€€€€•±Í”¹À¹¹…¸4(€€€€€€€€¤4(€€€€€€€É½İÌ¹…ÁÁ•¹ 4(€€€€€€€€€€€ì4(€€€€€€€€€€€€€€€€‰µ•Ñ¡½ˆèµ•Ñ¡½°4(€€€€€€€€€€€€€€€€‰•áÁ½¹•¹Ğˆè•áÁ½¹•¹Ğ°4(€€€€€€€€€€€€€€€€‰É•™•É•¹•}‘¥ÍÑ…¹•}µ´ˆèÉ•™•É•¹•}‘¥ÍÑ…¹•}µ´°4(€€€€€€€€€€€€€€€€‰µ•‘¥…¹}Á½Í¥Ñ¥½¹}Ù}Á•É•¹Ğˆèµ•‘¥…¹}Ø°4(€€€€€€€€€€€€€€€€‰µ•…¹}Á½Í¥Ñ¥½¹}Ù}Á•É•¹Ğˆè™±½…Ğ¡ÙÌ¹µ•…¸ ¤¤°4(€€€€€€€€€€€€€€€€‰¥µÁÉ½Ù•µ•¹Ñ}ÙÍ}¹½¹•}Á•É•¹Ğˆè¥µÁÉ½Ù•µ•¹Ğ°4(€€€€€€€€€€€€€€€€‰É•½µµ•¹‘•‘}™½É}ØÄˆè¥¹Ğ¡µ•Ñ¡½€ôô€‰¹½¹”ˆ¤°4(€€€€€€€€€€€€€€€€‰¹½Ñ”ˆè¹½Ñ”°4(€€€€€€€€€€€ô4(€€€€€€€€¤4(€€€É•ÑÕÉ¸Á¹…Ñ…É…µ”¡É½İÌ¤4(4(4)‘•˜…ÍÍ•ÍÍ}µ½‘•±}É•…‘¥¹•ÍÌ 4(€€€‘…¥±å}µ½‘•±}Í…µÁ±•ÌèÁ¹…Ñ…É…µ”°4(€€€µ¥¹¥µÕµ}™ÉÕ¥ÑÍ}Á•É}ÍÑ…Ñ”è¥¹Ğ€ô€È°4(¤€´øÑÕÁ±•m‰½½°°ÍÑÉtè4(€€€€ˆˆ‹–"–"¯–"“šZµ™É•Í ½É¥Í¯’ê3–"Æï–J3’â'–"Æïjšr’ö;.³®/šÂÓšzsšv‡’îÛˆˆˆ4(€€€™ÉÕ¥Ñ}½Õ¹ÑÌ€ô€ 4(€€€€€€€‘…¥±å}µ½‘•±}Í…µÁ±•Ì¹É½ÕÁ‰ä ‰™É•Í¡¹•ÍÍ}ÍÑ…Ñ”ˆ¥l‰Í…µÁ±•}¥‰t4(€€€€€€€€¹¹Õ¹¥ÅÕ” ¤4(€€€€€€€€¹Í½ÉÑ}¥¹‘•à ¤4(€€€€¤4(€€€¥˜±•¸¡™ÉÕ¥Ñ}½Õ¹ÑÌ¤€ğ€Èè4(€€€€€€€É•ÑÕÉ¸…±Í”°€‹–öO–&7–>«šr'’â’â«šZÃ¦Ês–ê›Æï–"¯¾ò3–#îŸî·¢–¾–>c–2[ˆ4(4(€€€½Õ¹ÑÍ}Ñ•áĞ€ô€ˆ°€ˆ¹©½¥¸ 4(€€€€€€€˜‰íÍÑ…Ñ•ôõí¥¹Ğ¡½Õ¹Ğ¥÷–>«šÂÓšzpˆ™½ÈÍÑ…Ñ”°½Õ¹Ğ¥¸™ÉÕ¥Ñ}½Õ¹ÑÌ¹¥Ñ•µÌ ¤4(€€€€¤4(€€€™É•Í¡}™ÉÕ¥ÑÌ€ô¥¹Ğ¡™ÉÕ¥Ñ}½Õ¹ÑÌ¹•Ğ ‰™É•Í ˆ°€À¤¤4(€€€É¥Í­}™ÉÕ¥ÑÌ€ô¥¹Ğ 4(€€€€€€€‘…¥±å}µ½‘•±}Í…µÁ±•Ì¹±½l4(€€€€€€€€€€€‘…¥±å}µ½‘•±}Í…µÁ±•Íl‰™É•Í¡¹•ÍÍ}ÍÑ…Ñ”‰t¹¥Í¥¸¡l‰İ…É¹¥¹œˆ°€‰ÍÁ½¥±•‰t¤°4(€€€€€€€€€€€€‰Í…µÁ±•}¥ˆ°4(€€€€€€€t¹¹Õ¹¥ÅÕ” ¤4(€€€€¤4(€€€‰¥¹…Éå}É•…‘ä€ô€ 4(€€€€€€€™É•Í¡}™ÉÕ¥ÑÌ€øôµ¥¹¥µÕµ}™ÉÕ¥ÑÍ}Á•É}ÍÑ…Ñ”4(€€€€€€€…¹É¥Í­}™ÉÕ¥ÑÌ€øôµ¥¹¥µÕµ}™ÉÕ¥ÑÍ}Á•É}ÍÑ…Ñ”4(€€€€¤4(€€€Ñ¡É••}±…ÍÍ}É•…‘ä€ô€ 4(€€€€€€€ì‰™É•Í ˆ°€‰İ…É¹¥¹œˆ°€‰ÍÁ½¥±•‰ô¹¥ÍÍÕ‰Í•Ğ¡™ÉÕ¥Ñ}½Õ¹ÑÌ¹¥¹‘•à¤4(€€€€€€€…¹…±° 4(€€€€€€€€€€€¥¹Ğ¡™ÉÕ¥Ñ}½Õ¹ÑÌ¹•Ğ¡ÍÑ…Ñ”°€À¤¤€øôµ¥¹¥µÕµ}™ÉÕ¥ÑÍ}Á•É}ÍÑ…Ñ”4(€€€€€€€€€€€™½ÈÍÑ…Ñ”¥¸€ ‰™É•Í ˆ°€‰İ…É¹¥¹œˆ°€‰ÍÁ½¥±•ˆ¤4(€€€€€€€€¤4(€€€€¤4(4(€€€¥˜¹½Ğ‰¥¹…Éå}É•…‘äè4(€€€€€€€É•ÑÕÉ¸€ 4(€€€€€€€€€€€…±Í”°4(€€€€€€€€€€€˜‹–ŞËšr'–’k’â«Æï–"¯¾ò3’ö.³®/šÂÓšzs’â7¢ÚÏ¾ò!í½Õ¹ÑÍ}Ñ•áÑ÷¾ò'¾òlˆ4(€€€€€€€€€€€˜‰™É•Í£–J1É¥Í¯–B¢Ï–ÂG¦r¢šíµ¥¹¥µÕµ}™ÉÕ¥ÑÍ}Á•É}ÍÑ…Ñ•÷–>«šÂÓšzsˆ°4(€€€€€€€€¤4(€€€¥˜Ñ¡É••}±…ÍÍ}É•…‘äè4(€€€€€€€É•ÑÕÉ¸QÉÕ”°˜‹’ê3–"Æï–J3’â'–"Æï–v–ß–’šr’ö;¢º·îšv‡’îÛ¾ò!í½Õ¹ÑÍ}Ñ•áÑ÷¾ò'ˆ4(€€€¥˜€‰ÍÁ½¥±•ˆ¥¸™ÉÕ¥Ñ}½Õ¹ÑÌ¹¥¹‘•àè4(€€€€€€€É•ÑÕÉ¸€ 4(€€€€€€€€€€€QÉÕ”°4(€€€€€€€€€€€˜‰™É•Í ½É¥Í¯’ê3–"Æï–>¿¢º·î¾ò!™É•Í õí™É•Í¡}™ÉÕ¥ÑÍ÷–>«¾ò1É¥Í¬õíÉ¥Í­}™ÉÕ¥ÑÍ÷–>«¾ò'¾òlˆ4(€€€€€€€€€€€˜‹’â'–"Æïšj’â7–>¿¢º·î¾ò!í½Õ¹ÑÍ}Ñ•áÑ÷¾ò'ˆ°4(€€€€€€€€¤4(€€€É•ÑÕÉ¸QÉÕ”°˜‹–ß–’²³’â&!™É•Í ½İ…É¹¥¹Ÿ’ê3–"Æï¢º·îšv‡’îÛ¾ò!í½Õ¹ÑÍ}Ñ•áÑ÷¾ò'ˆ4(4(4)‘•˜Í…Ù•}‘…äÁ}‰…Í•±¥¹•}Á±½Ğ¡ÍÕµµ…ÉäèÁ¹…Ñ…É…µ”°Á…Ñ èA…Ñ ¤€´ø9½¹”è4(€€€‘…å}é•É¼€ôÍÕµµ…Éä¹±½mÍÕµµ…Éål‰ÍÑ½É…•}‘…ä‰t€ôô€Át4(€€€™¥ÕÉ”°…á•Ì€ôÁ±Ğ¹ÍÕ‰Á±½ÑÌ Ä°€È°™¥Í¥é”ô ÄÌ°€Ô¤°½¹ÍÑÉ…¥¹•‘}±…å½ÕĞõQÉÕ”¤4(4(€€€™½ÈÉ½Ü¥¸‘…å}é•É¼¹¥Ñ•ÉÑÕÁ±•Ì¡¥¹‘•àõ…±Í”¤è4(€€€€€€€É…Ü€ô¹À¹…ÉÉ…ä¡m•Ñ…ÑÑÈ¡É½Ü°˜‰í¡…¹¹•±õ}µ•…¸ˆ¤™½È¡…¹¹•°¥¸Y%M%	1}!991Mt¤4(€€€€€€€¹½Éµ…±¥é•€ô¹À¹…ÉÉ…ä 4(€€€€€€€€€€€m•Ñ…ÑÑÈ¡É½Ü°˜‰í¡…¹¹•±õ}±•…É}¹½É´ˆ¤™½È¡…¹¹•°¥¸Y%M%	1}!991Mt4(€€€€€€€€¤4(€€€€€€€…á•ÍlÁt¹Á±½Ğ¡]Y19Q!M}94°É…Ü°µ…É­•Èô‰¼ˆ°±…‰•°õÉ½Ü¹Í…µÁ±•}¥¤4(€€€€€€€…á•ÍlÅt¹Á±½Ğ¡]Y19Q!M}94°¹½Éµ…±¥é•°µ…É­•Èô‰¼ˆ°±…‰•°õÉ½Ü¹Í…µÁ±•}¥¤4(4(€€€…á•ÍlÁt¹Í•Ñ}Ñ¥Ñ±” ‰…ä€ÀÉ…ÜÉ•™±•Ñ…¹”‰…Í•±¥¹”ˆ¤4(€€€…á•ÍlÁt¹Í•Ñ}å±…‰•° ‰5•…¸É…Ü½Õ¹Ğˆ¤4(€€€…á•ÍlÅt¹Í•Ñ}Ñ¥Ñ±” ‰…ä€À±•…Èµ¹½Éµ…±¥é•‰…Í•±¥¹”ˆ¤4(€€€…á•ÍlÅt¹Í•Ñ}å±…‰•° ‰¡…¹¹•°€¼±•…Èˆ¤4(€€€™½È…á¥Ì¥¸…á•Ìè4(€€€€€€€…á¥Ì¹Í•Ñ}á±…‰•° ‰]…Ù•±•¹Ñ €¡¹´¤ˆ¤4(€€€€€€€…á¥Ì¹É¥¡…±Á¡„ôÀ¸ÈÔ¤4(€€€€€€€¥˜¹½Ğ‘…å}é•É¼¹•µÁÑäè4(€€€€€€€€€€€…á¥Ì¹±••¹ ¤4(€€€™¥ÕÉ”¹ÍÕÁÑ¥Ñ±” ‰9•Ñ…É¥¹”™É•Í¡¹•ÍÌ•áÁ•É¥µ•¹Ğ€´…ä€Àˆ¤4(€€€Á…Ñ ¹Á…É•¹Ğ¹µ­‘¥È¡Á…É•¹ÑÌõQÉÕ”°•á¥ÍÑ}½¬õQÉÕ”¤4(€€€™¥ÕÉ”¹Í…Ù•™¥œ¡Á…Ñ °‘Á¤ôÄàÀ¤4(€€€Á±Ğ¹±½Í”¡™¥ÕÉ”¤4(4(4)‘•˜Í…Ù•}ÑÉ…©•Ñ½Éå}Á±½Ğ¡ÍÕµµ…ÉäèÁ¹…Ñ…É…µ”°Á…Ñ èA…Ñ ¤€´ø9½¹”è4(€€€™¥ÕÉ”°…á•Ì€ôÁ±Ğ¹ÍÕ‰Á±½ÑÌ È°€È°™¥Í¥é”ô ÄÌ°€à¤°½¹ÍÑÉ…¥¹•‘}±…å½ÕĞõQÉÕ”¤4(€€€ÍÑ½É…•}‘…åÌ€ôÍ½ÉÑ•¡¥¹Ğ¡Ù…±Õ”¤™½ÈÙ…±Õ”¥¸ÍÕµµ…Éål‰ÍÑ½É…•}‘…ä‰t¹Õ¹¥ÅÕ” ¤¤4(€€€µ•ÑÉ¥Ì€ôl4(€€€€€€€€ ‰±•…É}ÙÍ}‘…äÁ}Á•É•¹Ğˆ°€‰±•…È¡…¹”™É½´…ä€Àˆ°€ˆ”ˆ¤°4(€€€€€€€€ ‰9%I}ÙÍ}‘…äÁ}Á•É•¹Ğˆ°€‰9%H¡…¹”™É½´…ä€Àˆ°€ˆ”ˆ¤°4(€€€€€€€€ ‰á|ØàÁ¹µ}±•…É}¹½É´ˆ°€ˆØàÀ¹´€¼±•…Èˆ°€‰É…Ñ¥¼ˆ¤°4(€€€€€€€€ ‰İ•¥¡Ñ}±½ÍÍ}Á•É•¹Ğˆ°€‰]•¥¡Ğ±½ÍÌ™É½´…ä€Àˆ°€ˆ”ˆ¤°4(€€€t4(4(€€€™½ÈÍ…µÁ±•}¥°Í…µÁ±”¥¸ÍÕµµ…Éä¹É½ÕÁ‰ä ‰Í…µÁ±•}¥ˆ¤è4(€€€€€€€Í…µÁ±”€ôÍ…µÁ±”¹Í½ÉÑ}Ù…±Õ•Ì ‰ÍÑ½É…•}‘…äˆ¤4(€€€€€€€™½È…á¥Ì°€¡½±Õµ¸°Ñ¥Ñ±”°Õ¹¥Ğ¤¥¸é¥À¡…á•Ì¹™±…Ğ°µ•ÑÉ¥Ì¤è4(€€€€€€€€€€€¥˜½±Õµ¸¹½Ğ¥¸Í…µÁ±”¹½±Õµ¹Ìè4(€€€€€€€€€€€€€€€½¹Ñ¥¹Õ”4(€€€€€€€€€€€…á¥Ì¹Á±½Ğ 4(€€€€€€€€€€€€€€€Í…µÁ±•l‰ÍÑ½É…•}‘…ä‰t°4(€€€€€€€€€€€€€€€Í…µÁ±•m½±Õµ¹t°4(€€€€€€€€€€€€€€€µ…É­•Èô‰¼ˆ°4(€€€€€€€€€€€€€€€±…‰•°õÍ…µÁ±•}¥°4(€€€€€€€€€€€€¤4(€€€€€€€€€€€…á¥Ì¹Í•Ñ}Ñ¥Ñ±”¡Ñ¥Ñ±”¤4(€€€€€€€€€€€…á¥Ì¹Í•Ñ}á±…‰•° ‰MÑ½É…”‘…äˆ¤4(€€€€€€€€€€€…á¥Ì¹Í•Ñ}å±…‰•°¡Õ¹¥Ğ¤4(€€€€€€€€€€€…á¥Ì¹É¥¡…±Á¡„ôÀ¸ÈÔ¤4(4(€€€™½È…á¥Ì°€¡½±Õµ¸°Ñ¥Ñ±”°Õ¹¥Ğ¤¥¸é¥À¡…á•Ì¹™±…Ğ°µ•ÑÉ¥Ì¤è4(€€€€€€€…á¥Ì¹Í•Ñ}Ñ¥Ñ±”¡Ñ¥Ñ±”¤4(€€€€€€€…á¥Ì¹Í•Ñ}á±…‰•° ‰MÑ½É…”‘…äˆ¤4(€€€€€€€…á¥Ì¹Í•Ñ}å±…‰•°¡Õ¹¥Ğ¤4(€€€€€€€…á¥Ì¹É¥¡…±Á¡„ôÀ¸ÈÔ¤4(€€€€€€€¥˜½±Õµ¸¹½Ğ¥¸ÍÕµµ…Éä¹½±Õµ¹Ì½È¹½ĞÁ¹Ñ½}¹Õµ•É¥Œ 4(€€€€€€€€€€€ÍÕµµ…Éåm½±Õµ¹t°•ÉÉ½ÉÌô‰½•É”ˆ4(€€€€€€€€¤¹¹½Ñ¹„ ¤¹…¹ä ¤è4(€€€€€€€€€€€…á¥Ì¹Ñ•áĞ 4(€€€€€€€€€€€€€€€€À¸Ô°4(€€€€€€€€€€€€€€€€À¸Ô°4(€€€€€€€€€€€€€€€€‰9½Ğµ•…ÍÕÉ•‘q¹Á±…•¡½±‘•ÈÙ…±Õ•Ì•á±Õ‘•ˆ°4(€€€€€€€€€€€€€€€¡„ô‰•¹Ñ•Èˆ°4(€€€€€€€€€€€€€€€Ù„ô‰•¹Ñ•Èˆ°4(€€€€€€€€€€€€€€€ÑÉ…¹Í™½É´õ…á¥Ì¹ÑÉ…¹Íá•Ì°4(€€€€€€€€€€€€€€€½±½Èô‰‘¥µÉ…äˆ°4(€€€€€€€€€€€€¤4(4(€€€™½È…á¥Ì¥¸…á•Ì¹™±…Ğè4(€€€€€€€¥˜±•¸¡ÍÑ½É…•}‘…åÌ¤€ôô€Äè4(€€€€€€€€€€€…á¥Ì¹Í•Ñ}á±¥´¡ÍÑ½É…•}‘…åÍlÁt€´€À¸Ô°ÍÑ½É…•}‘…åÍlÁt€¬€À¸Ô¤4(€€€€€€€€€€€…á¥Ì¹Í•Ñ}áÑ¥­Ì¡ÍÑ½É…•}‘…åÌ¤4(€€€€€€€•±Í”è4(€€€€€€€€€€€…á¥Ì¹á…á¥Ì¹Í•Ñ}µ…©½É}±½…Ñ½È¡5…á91½…Ñ½È¡¥¹Ñ••ÈõQÉÕ”¤¤4(€€€€€€€¡…¹‘±•Ì°|€ô…á¥Ì¹•Ñ}±••¹‘}¡…¹‘±•Í}±…‰•±Ì ¤4(€€€€€€€¥˜¡…¹‘±•Ìè4(€€€€€€€€€€€…á¥Ì¹±••¹ ¤4(€€€‘…Ñ•Ì€ôÍ½ÉÑ•¡Ù…±Õ”™½ÈÙ…±Õ”¥¸ÍÕµµ…Éål‰½±±•Ñ¥½¹}‘…Ñ”‰t¹‘É½Á¹„ ¤¹Õ¹¥ÅÕ” ¤¥˜Ù…±Õ”¤4(€€€‘…Ñ•}Ñ•áĞ€ô€ˆÑ¼€ˆ¹©½¥¸¡‘…Ñ•Ì¤¥˜‘…Ñ•Ì•±Í”€‰‘…Ñ”Õ¹…Ù…¥±…‰±”ˆ4(€€€™¥ÕÉ”¹ÍÕÁÑ¥Ñ±”¡˜‰9•Ñ…É¥¹”™É•Í¡¹•ÍÌÑÉ…©•Ñ½É¥•Ì€¡í‘…Ñ•}Ñ•áÑô¤ˆ¤4(€€€Á…Ñ ¹Á…É•¹Ğ¹µ­‘¥È¡Á…É•¹ÑÌõQÉÕ”°•á¥ÍÑ}½¬õQÉÕ”¤4(€€€™¥ÕÉ”¹Í…Ù•™¥œ¡Á…Ñ °‘Á¤ôÄàÀ¤4(€€€Á±Ğ¹±½Í”¡™¥ÕÉ”¤4(4(4)‘•˜Í…Ù•}Á½Í¥Ñ¥½¹}Á±½Ğ¡Á½Í¥Ñ¥½¹}ÍÕµµ…ÉäèÁ¹…Ñ…É…µ”°Á…Ñ èA…Ñ ¤€´ø9½¹”è4(€€€€ˆˆ‹šbû’ëš¾?’â«šÂÓšzs–r£š¾?’â–’¥@Äµ@Ój–:–/’ê»–ê›–J3–öK’â–2[–'¢ÂÇš2š‚ˆˆˆ4(€€€Í…µÁ±•}¥‘Ì€ô±¥ÍĞ¡Á½Í¥Ñ¥½¹}ÍÕµµ…Éål‰Í…µÁ±•}¥‰t¹‘É½Á}‘ÕÁ±¥…Ñ•Ì ¤¤4(€€€™¥ÕÉ”°…á•Ì€ôÁ±Ğ¹ÍÕ‰Á±½ÑÌ 4(€€€€€€€±•¸¡Í…µÁ±•}¥‘Ì¤°4(€€€€€€€€È°4(€€€€€€€™¥Í¥é”ô ÄÌ°µ…à Ğ°€Ì¸Ø€¨±•¸¡Í…µÁ±•}¥‘Ì¤¤¤°4(€€€€€€€ÍÅÕ••é”õ…±Í”°4(€€€€€€€½¹ÍÑÉ…¥¹•‘}±…å½ÕĞõQÉÕ”°4(€€€€¤4(€€€™½ÈÉ½İ}¥¹‘•à°Í…µÁ±•}¥¥¸•¹Õµ•É…Ñ”¡Í…µÁ±•}¥‘Ì¤è4(€€€€€€€Í…µÁ±”€ôÁ½Í¥Ñ¥½¹}ÍÕµµ…Éä¹±½mÁ½Í¥Ñ¥½¹}ÍÕµµ…Éål‰Í…µÁ±•}¥‰t€ôôÍ…µÁ±•}¥‘t4(€€€€€€€™½ÈÍÑ½É…•}‘…ä°‘…å}‘…Ñ„¥¸Í…µÁ±”¹É½ÕÁ‰ä ‰ÍÑ½É…•}‘…äˆ¤è4(€€€€€€€€€€€‘…å}‘…Ñ„€ô‘…å}‘…Ñ„¹Í½ÉÑ}Ù…±Õ•Ì ‰Á½Í¥Ñ¥½¸ˆ°­•äõ±…µ‰‘„ÌèÌ¹…ÍÑåÁ”¡¥¹Ğ¤¤4(€€€€€€€€€€€™¥ÉÍÑ}Ñ¥µ”€ôÁ¹Ñ½}‘…Ñ•Ñ¥µ” 4(€€€€€€€€€€€€€€€‘…å}‘…Ñ…l‰½±±•Ñ¥½¹}ÍÑ…ÉÑ•‘}…Ğ‰t¹¥±½lÁt°•ÉÉ½ÉÌô‰½•É”ˆ4(€€€€€€€€€€€€¤4(€€€€€€€€€€€Ñ¥µ•}±…‰•°€ô€ 4(€€€€€€€€€€€€€€€™¥ÉÍÑ}Ñ¥µ”¹ÍÑÉ™Ñ¥µ” ˆ•´´•€• è•4ˆ¤4(€€€€€€€€€€€€€€€¥˜Á¹¹½Ñ¹„¡™¥ÉÍÑ}Ñ¥µ”¤4(€€€€€€€€€€€€€€€•±Í”€‰Ñ¥µ”Õ¹…Ù…¥±…‰±”ˆ4(€€€€€€€€€€€€¤4(€€€€€€€€€€€±…‰•°€ô˜‰…äí¥¹Ğ¡ÍÑ½É…•}‘…ä¥ôƒ
-ÜíÑ¥µ•}±…‰•±ôˆ4(€€€€€€€€€€€Á½Í¥Ñ¥½¹Ì€ôm˜‰AíÙ…±Õ•ôˆ™½ÈÙ…±Õ”¥¸‘…å}‘…Ñ…l‰Á½Í¥Ñ¥½¸‰ut4(€€€€€€€€€€€…á•ÍmÉ½İ}¥¹‘•à°€Át¹Á±½Ğ 4(€€€€€€€€€€€€€€€Á½Í¥Ñ¥½¹Ì°‘…å}‘…Ñ…l‰±•…É}µ•…¸‰t°µ…É­•Èô‰¼ˆ°±…‰•°õ±…‰•°4(€€€€€€€€€€€€¤4(€€€€€€€€€€€…á•ÍmÉ½İ}¥¹‘•à°€Åt¹Á±½Ğ 4(€€€€€€€€€€€€€€€Á½Í¥Ñ¥½¹Ì°4(€€€€€€€€€€€€€€€‘…å}‘…Ñ…l‰á|ØàÁ¹µ}±•…É}¹½É´‰t°4(€€€€€€€€€€€€€€€µ…É­•Èô‰¼ˆ°4(€€€€€€€€€€€€€€€±…‰•°õ±…‰•°°4(€€€€€€€€€€€€¤4(€€€€€€€…á•ÍmÉ½İ}¥¹‘•à°€Át¹Í•Ñ}Ñ¥Ñ±”¡˜‰íÍ…µÁ±•}¥‘ôè½ÉÉ•Ñ•±•…È‰äÁ½Í¥Ñ¥½¸ˆ¤4(€€€€€€€…á•ÍmÉ½İ}¥¹‘•à°€Át¹Í•Ñ}å±…‰•° ‰1¥Ğ€´…µ‰¥•¹Ğ€¡½Õ¹Ğ¤ˆ¤4(€€€€€€€…á•ÍmÉ½İ}¥¹‘•à°€Åt¹Í•Ñ}Ñ¥Ñ±”¡˜‰íÍ…µÁ±•}¥‘ôè€ØàÀ¹´€¼±•…È‰äÁ½Í¥Ñ¥½¸ˆ¤4(€€€€€€€…á•ÍmÉ½İ}¥¹‘•à°€Åt¹Í•Ñ}å±…‰•° ‰É…Ñ¥¼ˆ¤4(€€€€€€€™½È…á¥Ì¥¸…á•ÍmÉ½İ}¥¹‘•átè4(€€€€€€€€€€€…á¥Ì¹Í•Ñ}á±…‰•° ‰5…É­•™ÉÕ¥ĞÁ½Í¥Ñ¥½¸ˆ¤4(€€€€€€€€€€€…á¥Ì¹É¥¡…±Á¡„ôÀ¸ÈÔ¤4(€€€€€€€€€€€…á¥Ì¹±••¹¡™½¹ÑÍ¥é”ôà¤4(€€€™¥ÕÉ”¹ÍÕÁÑ¥Ñ±” ‰É½ÍÌµ‘…ä½µÁ…É¥Í½¸‰ä™ÉÕ¥Ğ°‘…Ñ”½Ñ¥µ”…¹@Äµ@Ğˆ¤4(€€€Á…Ñ ¹Á…É•¹Ğ¹µ­‘¥È¡Á…É•¹ÑÌõQÉÕ”°•á¥ÍÑ}½¬õQÉÕ”¤4(€€€™¥ÕÉ”¹Í…Ù•™¥œ¡Á…Ñ °‘Á¤ôÄàÀ¤4(€€€Á±Ğ¹±½Í”¡™¥ÕÉ”¤4(4(4)‘•˜ÉÕ¸¡…ÉÌè…ÉÁ…ÉÍ”¹9…µ•ÍÁ…”¤€´ø¥¹Ğè4(€€€É…İ}‘¥È€ôA…Ñ ¡…ÉÌ¹É…İ}‘¥È¤4(€€€¥˜¹½ĞÉ…İ}‘¥È¹¥Í}…‰Í½±ÕÑ” ¤è4(€€€€€€€É…İ}‘¥È€ôAI=)Q}I==P€¼É…İ}‘¥È4(€€€¥˜…ÉÌ¹™É…µ•Í}Á•É}Á½Í¥Ñ¥½¸€ğô€Àè4(€€€€€€€É…¥Í”Y…±Õ•ÉÉ½È ˆ´µ™É…µ•ÌµÁ•ÈµÁ½Í¥Ñ¥½¸ƒ–ş¦†ï–’Ÿ’ê8Àˆ¤4(4(€€€…¹‘¥‘…Ñ•Ì°Í½ÕÉ•}™É…µ•Ì°Í­¥ÁÁ•€ô‘¥Í½Ù•É}…¹‘¥‘…Ñ•Ì 4(€€€€€€€É…İ}‘¥È°4(€€€€€€€…ÉÌ¹™ÉÕ¥Ñ}ÑåÁ”°4(€€€€€€€…ÉÌ¹™É…µ•Í}Á•É}Á½Í¥Ñ¥½¸°4(€€€€¤4(€€€Í•±•Ñ¥½¸€ôÍ•±•Ñ}‰•ÍÑ}…¹‘¥‘…Ñ•Ì¡…¹‘¥‘…Ñ•Ì¤4(€€€Í•±•Ñ¥½¹}½Ù•ÉÉ¥‘•Í}Á…Ñ €ôA…Ñ ¡…ÉÌ¹Í•±•Ñ¥½¹}½Ù•ÉÉ¥‘•Ì¤4(€€€¥˜¹½ĞÍ•±•Ñ¥½¹}½Ù•ÉÉ¥‘•Í}Á…Ñ ¹¥Í}…‰Í½±ÕÑ” ¤è4(€€€€€€€Í•±•Ñ¥½¹}½Ù•ÉÉ¥‘•Í}Á…Ñ €ôAI=)Q}I==P€¼Í•±•Ñ¥½¹}½Ù•ÉÉ¥‘•Í}Á…Ñ 4(€€€Í•±•Ñ¥½¸€ô…ÁÁ±å}Í•±•Ñ¥½¹}½Ù•ÉÉ¥‘•Ì¡Í•±•Ñ¥½¸°Í•±•Ñ¥½¹}½Ù•ÉÉ¥‘•Í}Á…Ñ ¤4(€€€ÕÉ…Ñ•€ô‰Õ¥±‘}ÕÉ…Ñ•‘}™É…µ•Ì 4(€€€€€€€Í•±•Ñ¥½¸°4(€€€€€€€Í½ÕÉ•}™É…µ•Ì°4(€€€€€€€…ÉÌ¹™É…µ•Í}Á•É}Á½Í¥Ñ¥½¸°4(€€€€¤4(€€€½ÉÉ•Ñ¥½¹Í}Á…Ñ €ôA…Ñ ¡…ÉÌ¹µ•Ñ…‘…Ñ…}½ÉÉ•Ñ¥½¹Ì¤4(€€€¥˜¹½Ğ½ÉÉ•Ñ¥½¹Í}Á…Ñ ¹¥Í}…‰Í½±ÕÑ” ¤è4(€€€€€€€½ÉÉ•Ñ¥½¹Í}Á…Ñ €ôAI=)Q}I==P€¼½ÉÉ•Ñ¥½¹Í}Á…Ñ 4(€€€ÕÉ…Ñ•°½ÉÉ•Ñ¥½¹}…Õ‘¥Ğ€ô…ÁÁ±å}µ•Ñ…‘…Ñ…}½ÉÉ•Ñ¥½¹Ì 4(€€€€€€€ÕÉ…Ñ•°½ÉÉ•Ñ¥½¹Í}Á…Ñ 4(€€€€¤4(€€€¥˜…ÉÌ¹İ•¥¡Ñ}Õ¹…Ù…¥±…‰±”è4(€€€€€€€ÕÉ…Ñ•‘l‰İ•¥¡Ñ}œ‰t€ô¹À¹¹…¸4(€€€½µÁ±•Ñ•¹•ÍÌ€ô‰Õ¥±‘}½µÁ±•Ñ•¹•ÍÍ}É•Á½ÉĞ¡Í•±•Ñ¥½¸°…ÉÌ¹Á½Í¥Ñ¥½¹Ì¤4(€€€ÍÕµµ…Éä€ô‰Õ¥±‘}‘…¥±å}ÍÕµµ…Éä¡ÕÉ…Ñ•¤4(€€€Á½Í¥Ñ¥½¹}ÍÕµµ…Éä€ô‰Õ¥±‘}Á½Í¥Ñ¥½¹}ÍÕµµ…Éä¡ÕÉ…Ñ•¤4(€€€‘…¥±å}µ½‘•±}Í…µÁ±•Ì€ô‰Õ¥±‘}‘…¥±å}µ½‘•±}Í…µÁ±•Ì¡Á½Í¥Ñ¥½¹}ÍÕµµ…Éä¤4(€€€‘¥ÍÑ…¹•}É•Á½ÉĞ€ô‰Õ¥±‘}‘¥ÍÑ…¹•}½µÁ•¹Í…Ñ¥½¹}É•Á½ÉĞ¡Á½Í¥Ñ¥½¹}ÍÕµµ…Éä¤4(4(€€€ÁÉ•™¥à€ô…ÉÌ¹½ÕÑÁÕÑ}ÁÉ•™¥à¹É•Á±…” ˆ¼ˆ°€‰|ˆ¤¹É•Á±…” ‰qpˆ°€‰|ˆ¤4(€€€AI=MM}%H¹µ­‘¥È¡Á…É•¹ÑÌõQÉÕ”°•á¥ÍÑ}½¬õQÉÕ”¤4(€€€%UI}%H¹µ­‘¥È¡Á…É•¹ÑÌõQÉÕ”°•á¥ÍÑ}½¬õQÉÕ”¤4(€€€Í•±•Ñ¥½¹}Á…Ñ €ôAI=MM}%H€¼˜‰íÁÉ•™¥áõ}™¥±•}Í•±•Ñ¥½¸¹ÍØˆ4(€€€ÕÉ…Ñ•‘}Á…Ñ €ôAI=MM}%H€¼˜‰íÁÉ•™¥áõ}ÕÉ…Ñ•‘}™É…µ•Ì¹ÍØˆ4(€€€½µÁ±•Ñ•¹•ÍÍ}Á…Ñ €ôAI=MM}%H€¼˜‰íÁÉ•™¥áõ}½µÁ±•Ñ•¹•ÍÌ¹ÍØˆ4(€€€ÍÕµµ…Éå}Á…Ñ €ôAI=MM}%H€¼˜‰íÁÉ•™¥áõ}‘…¥±å}ÍÕµµ…Éä¹ÍØˆ4(€€€Á½Í¥Ñ¥½¹}ÍÕµµ…Éå}Á…Ñ €ôAI=MM}%H€¼˜‰íÁÉ•™¥áõ}Á½Í¥Ñ¥½¹}ÍÕµµ…Éä¹ÍØˆ4(€€€µ½‘•±}Í…µÁ±•Í}Á…Ñ €ôAI=MM}%H€¼˜‰íÁÉ•™¥áõ}‘…¥±å}µ½‘•±}Í…µÁ±•Ì¹ÍØˆ4(€€€‘¥ÍÑ…¹•}É•Á½ÉÑ}Á…Ñ €ôAI=MM}%H€¼˜‰íÁÉ•™¥áõ}‘¥ÍÑ…¹•}½µÁ•¹Í…Ñ¥½¸¹ÍØˆ4(€€€½ÉÉ•Ñ¥½¹}…Õ‘¥Ñ}Á…Ñ €ôAI=MM}%H€¼˜‰íÁÉ•™¥áõ}µ•Ñ…‘…Ñ…}½ÉÉ•Ñ¥½¹Í}…ÁÁ±¥•¹ÍØˆ4(€€€‰…Í•±¥¹•}Á…Ñ €ô%UI}%H€¼˜‰íÁÉ•™¥áõ}‘…äÁ}‰…Í•±¥¹”¹Á¹œˆ4(€€€ÑÉ…©•Ñ½Éå}Á…Ñ €ô%UI}%H€¼˜‰íÁÉ•™¥áõ}ÑÉ…©•Ñ½É¥•Ì¹Á¹œˆ4(€€€Á½Í¥Ñ¥½¹}Á…Ñ €ô%UI}%H€¼˜‰íÁÉ•™¥áõ}Á½Í¥Ñ¥½¹Í}‰å}Ñ¥µ”¹Á¹œˆ4(4(€€€Í•±•Ñ¥½¸¹Ñ½}ÍØ¡Í•±•Ñ¥½¹}Á…Ñ °¥¹‘•àõ…±Í”°•¹½‘¥¹œô‰ÕÑ˜´àµÍ¥œˆ¤4(€€€ÕÉ…Ñ•¹Ñ½}ÍØ¡ÕÉ…Ñ•‘}Á…Ñ °¥¹‘•àõ…±Í”°•¹½‘¥¹œô‰ÕÑ˜´àµÍ¥œˆ¤4(€€€½µÁ±•Ñ•¹•ÍÌ¹Ñ½}ÍØ¡½µÁ±•Ñ•¹•ÍÍ}Á…Ñ °¥¹‘•àõ…±Í”°•¹½‘¥¹œô‰ÕÑ˜´àµÍ¥œˆ¤4(€€€ÍÕµµ…Éä¹Ñ½}ÍØ¡ÍÕµµ…Éå}Á…Ñ °¥¹‘•àõ…±Í”°•¹½‘¥¹œô‰ÕÑ˜´àµÍ¥œˆ¤4(€€€Á½Í¥Ñ¥½¹}ÍÕµµ…Éä¹Ñ½}ÍØ¡Á½Í¥Ñ¥½¹}ÍÕµµ…Éå}Á…Ñ °¥¹‘•àõ…±Í”°•¹½‘¥¹œô‰ÕÑ˜´àµÍ¥œˆ¤4(€€€‘…¥±å}µ½‘•±}Í…µÁ±•Ì¹Ñ½}ÍØ¡µ½‘•±}Í…µÁ±•Í}Á…Ñ °¥¹‘•àõ…±Í”°•¹½‘¥¹œô‰ÕÑ˜´àµÍ¥œˆ¤4(€€€‘¥ÍÑ…¹•}É•Á½ÉĞ¹Ñ½}ÍØ¡‘¥ÍÑ…¹•}É•Á½ÉÑ}Á…Ñ °¥¹‘•àõ…±Í”°•¹½‘¥¹œô‰ÕÑ˜´àµÍ¥œˆ¤4(€€€½ÉÉ•Ñ¥½¹}…Õ‘¥Ğ¹Ñ½}ÍØ¡½ÉÉ•Ñ¥½¹}…Õ‘¥Ñ}Á…Ñ °¥¹‘•àõ…±Í”°•¹½‘¥¹œô‰ÕÑ˜´àµÍ¥œˆ¤4(€€€Í…Ù•}‘…äÁ}‰…Í•±¥¹•}Á±½Ğ¡ÍÕµµ…Éä°‰…Í•±¥¹•}Á…Ñ ¤4(€€€Í…Ù•}ÑÉ…©•Ñ½Éå}Á±½Ğ¡ÍÕµµ…Éä°ÑÉ…©•Ñ½Éå}Á…Ñ ¤4(€€€Í…Ù•}Á½Í¥Ñ¥½¹}Á±½Ğ¡Á½Í¥Ñ¥½¹}ÍÕµµ…Éä°Á½Í¥Ñ¥½¹}Á…Ñ ¤4(4(€€€Í•±•Ñ•€ôÍ•±•Ñ¥½¸¹±½mÍ•±•Ñ¥½¹l‰Í•±•Ñ•‰t€ôô€Åt4(€€€µ¥ÍÍ¥¹œ€ô½µÁ±•Ñ•¹•ÍÌ¹±½m½µÁ±•Ñ•¹•ÍÍl‰ÍÑ…ÑÕÌ‰t€ôô€‰µ¥ÍÍ¥¹œ‰t4(€€€¥¹½µÁ±•Ñ”€ô½µÁ±•Ñ•¹•ÍÌ¹±½m½µÁ±•Ñ•¹•ÍÍl‰ÍÑ…ÑÕÌ‰t€ôô€‰¥¹½µÁ±•Ñ”‰t4(€€€Õ¹ÍÑ…‰±”€ôÍ•±•Ñ•¹±½l4(€€€€€€€Í•±•Ñ•‘l‰µ•‘¥…¹}Ù}Á•É•¹Ğ‰t€ø…ÉÌ¹Ù}İ…É¹¥¹}Á•É•¹Ğ4(€€€t4(€€€ÍÑ…Ñ•Ì€ôÍ½ÉÑ• 4(€€€€€€€Í•Ğ¡ÕÉ…Ñ•‘l‰™É•Í¡¹•ÍÍ}ÍÑ…Ñ”‰t¹…ÍÑåÁ”¡ÍÑÈ¤¤°4(€€€€€€€­•äõ±…µ‰‘„Ù…±Õ”èMQQ}=IH¹•Ğ¡Ù…±Õ”°€ää¤°4(€€€€¤4(4(€€€ÁÉ¥¹Ğ ˆôôôƒšÊçš†šZÃ¦Ês–ê›¢ş{î·–º{¦ª3šš~”€ôôôˆ¤4(€€€ÁÉ¥¹Ğ¡˜‹–g¦'–:–/šZ’îØèí±•¸¡Í•±•Ñ¥½¸¥ôƒ’â¨ˆ¤4(€€€ÁÉ¥¹Ğ¡˜‹¦'R£šZ’îØèí±•¸¡Í•±•Ñ•¥ôƒ’â¨ˆ¤4(€€€ÁÉ¥¹Ğ¡˜‹š:K¦f“¦7–’4¿¦7šÖ/šZ’îØèí±•¸¡Í•±•Ñ¥½¸¤€´±•¸¡Í•±•Ñ•¥ôƒ’â¨ˆ¤4(€€€ÁÉ¥¹Ğ¡˜‹š¶–ò?šr'šV#–âœèí±•¸¡ÕÉ…Ñ•¥ôƒšv„ˆ¤4(€€€ÁÉ¥¹Ğ¡˜‹.³®/šÊçš†èíÕÉ…Ñ•‘lÍ…µÁ±•}¥t¹¹Õ¹¥ÅÕ” ¥ôƒ’â¨ˆ¤4(€€€‘…åÌ€ôÍ½ÉÑ•¡¥¹Ğ¡Ù…±Õ”¤™½ÈÙ…±Õ”¥¸ÕÉ…Ñ•‘l‰ÍÑ½É…•}‘…ä‰t¹Õ¹¥ÅÕ” ¤¤4(€€€ÁÉ¥¹Ğ¡˜‹–
-£–¶c–’§šVÀèí‘…åÍôˆ¤4(€€€ÁÉ¥¹Ğ¡˜‹–ŞËšr'*Ûšèìœ°€œ¹©½¥¸¡ÍÑ…Ñ•Ì¥ôˆ¤4(€€€ÁÉ¥¹Ğ¡˜‹–ŞË–êSR£–šVÃš6»šnÓš¶Œèí±•¸¡½ÉÉ•Ñ¥½¹}…Õ‘¥Ğ¥ôƒ¦†äˆ¤4(4(€€€¥˜Í­¥ÁÁ•è4(€€€€€€€ÁÉ¥¹Ğ ‰q¹o¢ŞÏ¢şšZ’îÙtˆ¤4(€€€€€€€™½Èµ•ÍÍ…”¥¸Í­¥ÁÁ•è4(€€€€€€€€€€€ÁÉ¥¹Ğ¡˜ˆ´íµ•ÍÍ…•ôˆ¤4(€€€¥˜¹½Ğµ¥ÍÍ¥¹œ¹•µÁÑäè4(€€€€€€€ÁÉ¥¹Ğ¡˜‰q¹oòë–ÂGšVÃš6¹tí±•¸¡µ¥ÍÍ¥¹œ¥ôƒ’â«š‚ß–N·–’§šVÀ·’ö7ö»î–B ˆ¤4(€€€€€€€ÁÉ¥¹Ğ¡µ¥ÍÍ¥¹ml‰Í…µÁ±•}¥ˆ°€‰ÍÑ½É…•}‘…äˆ°€‰Á½Í¥Ñ¥½¸‰ut¹Ñ½}ÍÑÉ¥¹œ¡¥¹‘•àõ…±Í”¤¤4(€€€¥˜¹½Ğ¥¹½µÁ±•Ñ”¹•µÁÑäè4(€€€€€€€ÁÉ¥¹Ğ¡˜‰q¹o–âŸšVÃ’â7¢ÚÍtí±•¸¡¥¹½µÁ±•Ñ”¥ôƒîˆ¤4(€€€¥˜¹½ĞÕ¹ÍÑ…‰±”¹•µÁÑäè4(€€€€€€€ÁÉ¥¹Ğ¡˜‰q¹o¢Ï–ºkšŸ¢¶›–F)tí±•¸¡Õ¹ÍÑ…‰±”¥ôƒî[’â·’ö7šVÃ¢Ú¢ş¦b#–ğˆ¤4(€€€€€€€ÁÉ¥¹Ğ 4(€€€€€€€€€€€Õ¹ÍÑ…‰±•l4(€€€€€€€€€€€€€€€l‰Í…µÁ±•}¥ˆ°€‰ÍÑ½É…•}‘…äˆ°€‰Á½Í¥Ñ¥½¸ˆ°€‰µ•‘¥…¹}Ù}Á•É•¹Ğˆ°€‰Í½ÕÉ•}™¥±”‰t4(€€€€€€€€€€€t¹Ñ½}ÍÑÉ¥¹œ¡¥¹‘•àõ…±Í”¤4(€€€€€€€€¤4(€€€µ½‘•±}É•…‘ä°µ½‘•±}µ•ÍÍ…”€ô…ÍÍ•ÍÍ}µ½‘•±}É•…‘¥¹•ÍÌ¡‘…¥±å}µ½‘•±}Í…µÁ±•Ì¤4(€€€ÍÑ…ÑÕÌ€ô€‹–>¿¢º·îˆ¥˜µ½‘•±}É•…‘ä•±Í”€‹šj’â7–>¿¢º·îˆ4(€€€ÁÉ¥¹Ğ¡˜‰q¹oš¢‡–z/*Ûš¾òiíÍÑ…ÑÕÍõtíµ½‘•±}µ•ÍÍ…•ôˆ¤4(4(€€€ÁÉ¥¹Ğ ‰q»¢úO–ëšZ’îØèˆ¤4(€€€™½ÈÁ…Ñ ¥¸€ 4(€€€€€€€Í•±•Ñ¥½¹}Á…Ñ °4(€€€€€€€ÕÉ…Ñ•‘}Á…Ñ °4(€€€€€€€½µÁ±•Ñ•¹•ÍÍ}Á…Ñ °4(€€€€€€€ÍÕµµ…Éå}Á…Ñ °4(€€€€€€€Á½Í¥Ñ¥½¹}ÍÕµµ…Éå}Á…Ñ °4(€€€€€€€µ½‘•±}Í…µÁ±•Í}Á…Ñ °4(€€€€€€€‘¥ÍÑ…¹•}É•Á½ÉÑ}Á…Ñ °4(€€€€€€€½ÉÉ•Ñ¥½¹}…Õ‘¥Ñ}Á…Ñ °4(€€€€€€€‰…Í•±¥¹•}Á…Ñ °4(€€€€€€€ÑÉ…©•Ñ½Éå}Á…Ñ °4(€€€€€€€Á½Í¥Ñ¥½¹}Á…Ñ °4(€€€€¤è4(€€€€€€€ÁÉ¥¹Ğ¡˜ˆ´íÁ…Ñ¡ôˆ¤4(€€€É•ÑÕÉ¸€À4(4(4)‘•˜µ…¥¸ ¤€´ø¥¹Ğè4(€€€ÑÉäè4(€€€€€€€É•ÑÕÉ¸ÉÕ¸¡Á…ÉÍ•}…ÉÌ ¤¤4(€€€•á•ÁĞ€¡¥±•9½Ñ½Õ¹‘ÉÉ½È°Y…±Õ•ÉÉ½È°Á¹•ÉÉ½ÉÌ¹A…ÉÍ•ÉÉÉ½È¤…Ì•ÉÉ½Èè4(€€€€€€€ÁÉ¥¹Ğ¡˜‰o¦Rg¢¾½tí•ÉÉ½Éôˆ¤4(€€€€€€€É•ÑÕÉ¸€Ä4(4(4)¥˜}}¹…µ•}|€ôô€‰}}µ…¥¹}|ˆè4(€€€É…¥Í”MåÍÑ•µá¥Ğ¡µ…¥¸ ¤¤4(
+                            "selected_source_file": "",
+                        }
+                    )
+                    continue
+                item = match.iloc[0]
+                rows.append(
+                    {
+                        "sample_id": sample_id,
+                        "storage_day": day,
+                        "position": str(position),
+                        "status": "complete" if item["complete"] else "incomplete",
+                        "valid_frames": int(item["valid_frames"]),
+                        "median_cv_percent": item["median_cv_percent"],
+                        "selected_source_file": item["source_file"],
+                    }
+                )
+    return pd.DataFrame(rows)
+
+
+def build_daily_summary(curated: pd.DataFrame) -> pd.DataFrame:
+    rows: list[dict[str, Any]] = []
+    group_columns = ["sample_id", "storage_day", "freshness_state"]
+
+    for keys, group in curated.groupby(group_columns, sort=True):
+        sample_id, storage_day, state = keys
+        timestamps = pd.to_datetime(group["timestamp"], errors="coerce").dropna()
+        record: dict[str, Any] = {
+            "sample_id": sample_id,
+            "storage_day": int(storage_day),
+            "freshness_state": state,
+            "state_code": STATE_ORDER.get(str(state), -1),
+            "positions": int(group["position"].nunique()),
+            "valid_frames": int(len(group)),
+            "collection_started_at": timestamps.min().isoformat()
+            if not timestamps.empty
+            else "",
+            "collection_ended_at": timestamps.max().isoformat()
+            if not timestamps.empty
+            else "",
+            "collection_date": timestamps.min().strftime("%Y-%m-%d")
+            if not timestamps.empty
+            else "",
+            "collection_time_start": timestamps.min().strftime("%H:%M:%S")
+            if not timestamps.empty
+            else "",
+            "collection_time_end": timestamps.max().strftime("%H:%M:%S")
+            if not timestamps.empty
+            else "",
+            "temperature_c": pd.to_numeric(
+                group["temperature_c"], errors="coerce"
+            ).median(),
+            "weight_g": pd.to_numeric(group["weight_g"], errors="coerce").median(),
+            "firmness_score": pd.to_numeric(
+                group["firmness_score"], errors="coerce"
+            ).median(),
+            "distance_mean_mm": pd.to_numeric(
+                group["distance_mm"], errors="coerce"
+            ).mean(),
+            "distance_std_mm": pd.to_numeric(
+                group["distance_mm"], errors="coerce"
+            ).std(ddof=1),
+            "surface_note": " | ".join(
+                sorted(set(group["surface_note"].dropna().astype(str)))
+            ),
+        }
+        for channel in SPECTRAL_CHANNELS:
+            values = pd.to_numeric(group[channel], errors="coerce")
+            mean = float(values.mean())
+            std = float(values.std(ddof=1))
+            record[f"{channel}_mean"] = mean
+            record[f"{channel}_spatial_cv_percent"] = (
+                std / mean * 100.0 if mean else np.nan
+            )
+            if channel != "Clear":
+                record[f"{channel}_clear_norm"] = mean / float(
+                    pd.to_numeric(group["Clear"], errors="coerce").mean()
+                )
+        rows.append(record)
+
+    summary = pd.DataFrame(rows).sort_values(["sample_id", "storage_day"])
+    for sample_id, indexes in summary.groupby("sample_id").groups.items():
+        sample = summary.loc[indexes]
+        day_zero = sample.loc[sample["storage_day"] == 0]
+        if day_zero.empty:
+            continue
+        baseline = day_zero.iloc[0]
+        baseline_time = pd.to_datetime(baseline["collection_started_at"], errors="coerce")
+        current_times = pd.to_datetime(
+            summary.loc[indexes, "collection_started_at"], errors="coerce"
+        )
+        summary.loc[indexes, "elapsed_hours_from_day0"] = (
+            current_times - baseline_time
+        ).dt.total_seconds() / 3600.0
+        baseline_weight = baseline["weight_g"]
+        if pd.notna(baseline_weight) and baseline_weight != 0:
+            summary.loc[indexes, "weight_loss_percent"] = (
+                (baseline_weight - summary.loc[indexes, "weight_g"])
+                / baseline_weight
+                * 100.0
+            )
+        summary.loc[indexes, "firmness_change_from_day0"] = (
+            summary.loc[indexes, "firmness_score"] - baseline["firmness_score"]
+        )
+        for channel in SPECTRAL_CHANNELS:
+            column = f"{channel}_mean"
+            baseline_value = baseline[column]
+            if pd.notna(baseline_value) and baseline_value != 0:
+                summary.loc[indexes, f"{channel}_vs_day0_percent"] = (
+                    (summary.loc[indexes, column] - baseline_value)
+                    / baseline_value
+                    * 100.0
+                )
+    return summary.reset_index(drop=True)
+
+
+def build_position_summary(curated: pd.DataFrame) -> pd.DataFrame:
+    """æŒ‰æ°´æœã€å‚¨å­˜æ—¥å’ŒPä½ç½®æ±‡æ€»ï¼Œä¿ç•™å®é™…æ—¥æœŸæ—¶é—´ç”¨äºè·¨å¤©å¤æ ¸ã€‚"""
+    rows: list[dict[str, Any]] = []
+    group_columns = [
+        "sample_id",
+        "storage_day",
+        "freshness_state",
+        "position",
+    ]
+    for keys, group in curated.groupby(group_columns, sort=True):
+        sample_id, storage_day, state, position = keys
+        timestamps = pd.to_datetime(group["timestamp"], errors="coerce").dropna()
+        clear = pd.to_numeric(group["Clear"], errors="coerce").mean()
+        record: dict[str, Any] = {
+            "sample_id": sample_id,
+            "storage_day": int(storage_day),
+            "freshness_state": state,
+            "position": str(position),
+            "collection_started_at": timestamps.min().isoformat()
+            if not timestamps.empty
+            else "",
+            "collection_ended_at": timestamps.max().isoformat()
+            if not timestamps.empty
+            else "",
+            "valid_frames": int(len(group)),
+            "distance_mean_mm": pd.to_numeric(
+                group["distance_mm"], errors="coerce"
+            ).mean(),
+            "ambient_clear_mean": pd.to_numeric(
+                group.get("Ambient_Clear"), errors="coerce"
+            ).mean(),
+            "lit_clear_mean": pd.to_numeric(
+                group.get("Lit_Clear"), errors="coerce"
+            ).mean(),
+            "Clear_mean": clear,
+        }
+        for channel in SPECTRAL_CHANNELS:
+            mean = pd.to_numeric(group[channel], errors="coerce").mean()
+            record[f"{channel}_mean"] = mean
+            if channel != "Clear":
+                record[f"{channel}_clear_norm"] = mean / clear if clear else np.nan
+        rows.append(record)
+    return pd.DataFrame(rows).sort_values(
+        ["sample_id", "storage_day", "position"]
+    ).reset_index(drop=True)
+
+
+def build_daily_model_samples(position_summary: pd.DataFrame) -> pd.DataFrame:
+    """ç”Ÿæˆç”¨äºå®šæ ‡ç­¾å’Œè§‚å¯Ÿè¶‹åŠ¿çš„â€œä¸€ä¸ªæ°´æœÃ—ä¸€å¤©ä¸€ä¸ªæ ·æœ¬â€ç‰¹å¾è¡¨ã€‚"""
+    rows: list[dict[str, Any]] = []
+    group_columns = ["sample_id", "storage_day", "freshness_state"]
+    normalized_channels = [
+        f"{channel}_clear_norm" for channel in SPECTRAL_CHANNELS if channel != "Clear"
+    ]
+    for keys, group in position_summary.groupby(group_columns, sort=True):
+        sample_id, storage_day, state = keys
+        timestamps = pd.to_datetime(
+            group["collection_started_at"], errors="coerce"
+        ).dropna()
+        clear_values = pd.to_numeric(group["Clear_mean"], errors="coerce")
+        record: dict[str, Any] = {
+            "sample_group_id": f"{sample_id}_day{int(storage_day)}",
+            "sample_id": sample_id,
+            "storage_day": int(storage_day),
+            "freshness_state": state,
+            "collection_started_at": timestamps.min().isoformat()
+            if not timestamps.empty
+            else "",
+            "position_count": int(group["position"].nunique()),
+            "distance_median_mm": pd.to_numeric(
+                group["distance_mean_mm"], errors="coerce"
+            ).median(),
+            "corrected_clear_median": clear_values.median(),
+            "corrected_clear_position_cv_percent": (
+                clear_values.std(ddof=1) / clear_values.mean() * 100.0
+                if clear_values.mean()
+                else np.nan
+            ),
+        }
+        for column in normalized_channels:
+            values = pd.to_numeric(group[column], errors="coerce")
+            record[f"{column}_median"] = values.median()
+            record[f"{column}_position_iqr"] = values.quantile(0.75) - values.quantile(
+                0.25
+            )
+        rows.append(record)
+
+    result = pd.DataFrame(rows).sort_values(["sample_id", "storage_day"])
+    for _, indexes in result.groupby("sample_id").groups.items():
+        sample = result.loc[indexes]
+        day_zero = sample.loc[sample["storage_day"] == 0]
+        if day_zero.empty:
+            continue
+        baseline_time = pd.to_datetime(
+            day_zero.iloc[0]["collection_started_at"], errors="coerce"
+        )
+        current_times = pd.to_datetime(
+            result.loc[indexes, "collection_started_at"], errors="coerce"
+        )
+        result.loc[indexes, "elapsed_hours_from_day0"] = (
+            current_times - baseline_time
+        ).dt.total_seconds() / 3600.0
+    return result.reset_index(drop=True)
+
+
+def build_distance_compensation_report(
+    position_summary: pd.DataFrame,
+    reference_distance_mm: float = 20.0,
+) -> pd.DataFrame:
+    """æ¯”è¾ƒä¸è¡¥å¿ã€å¹³æ–¹åæ¯”å’Œæ•°æ®å†…æ‹ŸåˆæŒ‡æ•°ï¼›åªç”¨äºè¯„ä¼°ï¼Œä¸ç›´æ¥æ”¹å…‰è°±ã€‚"""
+    usable = position_summary.loc[
+        (pd.to_numeric(position_summary["distance_mean_mm"], errors="coerce") > 0)
+        & (pd.to_numeric(position_summary["Clear_mean"], errors="coerce") > 0)
+    ].copy()
+    if usable.empty:
+        return pd.DataFrame()
+
+    usable["log_distance"] = np.log(usable["distance_mean_mm"].astype(float))
+    usable["log_clear"] = np.log(usable["Clear_mean"].astype(float))
+    group_columns = ["sample_id", "storage_day"]
+    usable["centered_log_distance"] = usable["log_distance"] - usable.groupby(
+        group_columns
+    )["log_distance"].transform("mean")
+    usable["centered_log_clear"] = usable["log_clear"] - usable.groupby(
+        group_columns
+    )["log_clear"].transform("mean")
+    denominator = float((usable["centered_log_distance"] ** 2).sum())
+    fitted_exponent = (
+        -float(
+            (
+                usable["centered_log_distance"] * usable["centered_log_clear"]
+            ).sum()
+        )
+        / denominator
+        if denominator
+        else 0.0
+    )
+
+    methods = [
+        ("none", 0.0, "ç¬¬ä¸€ç‰ˆæ¨èï¼šè·ç¦»ä»…åšèŒƒå›´é—¨æ§"),
+        ("linear_inverse", 1.0, "å¯¹ç…§æ–¹æ³•"),
+        ("inverse_square", 2.0, "ä¸å»ºè®®ç›´æ¥å‡è®¾è‡ªç”±ç©ºé—´å¹³æ–¹åæ¯”"),
+        ("in_sample_fitted", fitted_exponent, "ä»…ä¾›è§‚å¯Ÿï¼Œä¸èƒ½æ›¿ä»£ç‹¬ç«‹è·ç¦»æ ‡å®š"),
+    ]
+    rows: list[dict[str, Any]] = []
+    baseline_median_cv = np.nan
+    for method, exponent, note in methods:
+        corrected = usable["Clear_mean"] * (
+            usable["distance_mean_mm"] / reference_distance_mm
+        ) ** exponent
+        temporary = usable[group_columns].copy()
+        temporary["corrected_clear"] = corrected
+        grouped = temporary.groupby(group_columns)["corrected_clear"]
+        cvs = grouped.std(ddof=1) / grouped.mean() * 100.0
+        median_cv = float(cvs.median())
+        if method == "none":
+            baseline_median_cv = median_cv
+        improvement = (
+            (baseline_median_cv - median_cv) / baseline_median_cv * 100.0
+            if baseline_median_cv
+            else np.nan
+        )
+        rows.append(
+            {
+                "method": method,
+                "exponent": exponent,
+                "reference_distance_mm": reference_distance_mm,
+                "median_position_cv_percent": median_cv,
+                "mean_position_cv_percent": float(cvs.mean()),
+                "improvement_vs_none_percent": improvement,
+                "recommended_for_v1": int(method == "none"),
+                "note": note,
+            }
+        )
+    return pd.DataFrame(rows)
+
+
+def assess_model_readiness(
+    daily_model_samples: pd.DataFrame,
+    minimum_fruits_per_state: int = 2,
+) -> tuple[bool, str]:
+    """åˆ†åˆ«åˆ¤æ–­fresh/riskäºŒåˆ†ç±»å’Œä¸‰åˆ†ç±»çš„æœ€ä½ç‹¬ç«‹æ°´æœæ¡ä»¶ã€‚"""
+    fruit_counts = (
+        daily_model_samples.groupby("freshness_state")["sample_id"]
+        .nunique()
+        .sort_index()
+    )
+    if len(fruit_counts) < 2:
+        return False, "å½“å‰åªæœ‰ä¸€ä¸ªæ–°é²œåº¦ç±»åˆ«ï¼Œå…ˆç»§ç»­è§‚å¯Ÿå˜åŒ–ã€‚"
+
+    counts_text = ", ".join(
+        f"{state}={int(count)}åªæ°´æœ" for state, count in fruit_counts.items()
+    )
+    fresh_fruits = int(fruit_counts.get("fresh", 0))
+    risk_fruits = int(
+        daily_model_samples.loc[
+            daily_model_samples["freshness_state"].isin(["warning", "spoiled"]),
+            "sample_id",
+        ].nunique()
+    )
+    binary_ready = (
+        fresh_fruits >= minimum_fruits_per_state
+        and risk_fruits >= minimum_fruits_per_state
+    )
+    three_class_ready = (
+        {"fresh", "warning", "spoiled"}.issubset(fruit_counts.index)
+        and all(
+            int(fruit_counts.get(state, 0)) >= minimum_fruits_per_state
+            for state in ("fresh", "warning", "spoiled")
+        )
+    )
+
+    if not binary_ready:
+        return (
+            False,
+            f"å·²æœ‰å¤šä¸ªç±»åˆ«ï¼Œä½†ç‹¬ç«‹æ°´æœä¸è¶³ï¼ˆ{counts_text}ï¼‰ï¼›"
+            f"freshå’Œriskå„è‡³å°‘éœ€è¦{minimum_fruits_per_state}åªæ°´æœã€‚",
+        )
+    if three_class_ready:
+        return True, f"äºŒåˆ†ç±»å’Œä¸‰åˆ†ç±»å‡å…·å¤‡æœ€ä½è®­ç»ƒæ¡ä»¶ï¼ˆ{counts_text}ï¼‰ã€‚"
+    if "spoiled" in fruit_counts.index:
+        return (
+            True,
+            f"fresh/riskäºŒåˆ†ç±»å¯è®­ç»ƒï¼ˆfresh={fresh_fruits}åªï¼Œrisk={risk_fruits}åªï¼‰ï¼›"
+            f"ä¸‰åˆ†ç±»æš‚ä¸å¯è®­ç»ƒï¼ˆ{counts_text}ï¼‰ã€‚",
+        )
+    return True, f"å…·å¤‡ç¬¬ä¸€ç‰ˆfresh/warningäºŒåˆ†ç±»è®­ç»ƒæ¡ä»¶ï¼ˆ{counts_text}ï¼‰ã€‚"
+
+
+def save_day0_baseline_plot(summary: pd.DataFrame, path: Path) -> None:
+    day_zero = summary.loc[summary["storage_day"] == 0]
+    figure, axes = plt.subplots(1, 2, figsize=(13, 5), constrained_layout=True)
+
+    for row in day_zero.itertuples(index=False):
+        raw = np.array([getattr(row, f"{channel}_mean") for channel in VISIBLE_CHANNELS])
+        normalized = np.array(
+            [getattr(row, f"{channel}_clear_norm") for channel in VISIBLE_CHANNELS]
+        )
+        axes[0].plot(WAVELENGTHS_NM, raw, marker="o", label=row.sample_id)
+        axes[1].plot(WAVELENGTHS_NM, normalized, marker="o", label=row.sample_id)
+
+    axes[0].set_title("Day 0 raw reflectance baseline")
+    axes[0].set_ylabel("Mean raw count")
+    axes[1].set_title("Day 0 Clear-normalized baseline")
+    axes[1].set_ylabel("Channel / Clear")
+    for axis in axes:
+        axis.set_xlabel("Wavelength (nm)")
+        axis.grid(alpha=0.25)
+        if not day_zero.empty:
+            axis.legend()
+    figure.suptitle("Nectarine freshness experiment - Day 0")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    figure.savefig(path, dpi=180)
+    plt.close(figure)
+
+
+def save_trajectory_plot(summary: pd.DataFrame, path: Path) -> None:
+    figure, axes = plt.subplots(2, 2, figsize=(13, 8), constrained_layout=True)
+    storage_days = sorted(int(value) for value in summary["storage_day"].unique())
+    metrics = [
+        ("Clear_vs_day0_percent", "Clear change from Day 0", "%"),
+        ("NIR_vs_day0_percent", "NIR change from Day 0", "%"),
+        ("F8_680nm_clear_norm", "680 nm / Clear", "ratio"),
+        ("weight_loss_percent", "Weight loss from Day 0", "%"),
+    ]
+
+    for sample_id, sample in summary.groupby("sample_id"):
+        sample = sample.sort_values("storage_day")
+        for axis, (column, title, unit) in zip(axes.flat, metrics):
+            if column not in sample.columns:
+                continue
+            axis.plot(
+                sample["storage_day"],
+                sample[column],
+                marker="o",
+                label=sample_id,
+            )
+            axis.set_title(title)
+            axis.set_xlabel("Storage day")
+            axis.set_ylabel(unit)
+            axis.grid(alpha=0.25)
+
+    for axis, (column, title, unit) in zip(axes.flat, metrics):
+        axis.set_title(title)
+        axis.set_xlabel("Storage day")
+        axis.set_ylabel(unit)
+        axis.grid(alpha=0.25)
+        if column not in summary.columns or not pd.to_numeric(
+            summary[column], errors="coerce"
+        ).notna().any():
+            axis.text(
+                0.5,
+                0.5,
+                "Not measured\nplaceholder values excluded",
+                ha="center",
+                va="center",
+                transform=axis.transAxes,
+                color="dimgray",
+            )
+
+    for axis in axes.flat:
+        if len(storage_days) == 1:
+            axis.set_xlim(storage_days[0] - 0.5, storage_days[0] + 0.5)
+            axis.set_xticks(storage_days)
+        else:
+            axis.xaxis.set_major_locator(MaxNLocator(integer=True))
+        handles, _ = axis.get_legend_handles_labels()
+        if handles:
+            axis.legend()
+    dates = sorted(value for value in summary["collection_date"].dropna().unique() if value)
+    date_text = " to ".join(dates) if dates else "date unavailable"
+    figure.suptitle(f"Nectarine freshness trajectories ({date_text})")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    figure.savefig(path, dpi=180)
+    plt.close(figure)
+
+
+def save_position_plot(position_summary: pd.DataFrame, path: Path) -> None:
+    """æ˜¾ç¤ºæ¯ä¸ªæ°´æœåœ¨æ¯ä¸€å¤©P1-P4çš„åŸå§‹äº®åº¦å’Œå½’ä¸€åŒ–å…‰è°±æŒ‡æ ‡ã€‚"""
+    sample_ids = list(position_summary["sample_id"].drop_duplicates())
+    figure, axes = plt.subplots(
+        len(sample_ids),
+        2,
+        figsize=(13, max(4, 3.6 * len(sample_ids))),
+        squeeze=False,
+        constrained_layout=True,
+    )
+    for row_index, sample_id in enumerate(sample_ids):
+        sample = position_summary.loc[position_summary["sample_id"] == sample_id]
+        for storage_day, day_data in sample.groupby("storage_day"):
+            day_data = day_data.sort_values("position", key=lambda s: s.astype(int))
+            first_time = pd.to_datetime(
+                day_data["collection_started_at"].iloc[0], errors="coerce"
+            )
+            time_label = (
+                first_time.strftime("%m-%d %H:%M")
+                if pd.notna(first_time)
+                else "time unavailable"
+            )
+            label = f"Day {int(storage_day)} Â· {time_label}"
+            positions = [f"P{value}" for value in day_data["position"]]
+            axes[row_index, 0].plot(
+                positions, day_data["Clear_mean"], marker="o", label=label
+            )
+            axes[row_index, 1].plot(
+                positions,
+                day_data["F8_680nm_clear_norm"],
+                marker="o",
+                label=label,
+            )
+        axes[row_index, 0].set_title(f"{sample_id}: corrected Clear by position")
+        axes[row_index, 0].set_ylabel("Lit - ambient (count)")
+        axes[row_index, 1].set_title(f"{sample_id}: 680 nm / Clear by position")
+        axes[row_index, 1].set_ylabel("ratio")
+        for axis in axes[row_index]:
+            axis.set_xlabel("Marked fruit position")
+            axis.grid(alpha=0.25)
+            axis.legend(fontsize=8)
+    figure.suptitle("Cross-day comparison by fruit, date/time and P1-P4")
+    path.parent.mkdir(parents=True, exist_ok=True)
+    figure.savefig(path, dpi=180)
+    plt.close(figure)
+
+
+def run(args: argparse.Namespace) -> int:
+    raw_dir = Path(args.raw_dir)
+    if not raw_dir.is_absolute():
+        raw_dir = PROJECT_ROOT / raw_dir
+    if args.frames_per_position <= 0:
+        raise ValueError("--frames-per-position å¿…é¡»å¤§äº0")
+
+    candidates, source_frames, skipped = discover_candidates(
+        raw_dir,
+        args.fruit_type,
+        args.frames_per_position,
+    )
+    selection = select_best_candidates(candidates)
+    selection_overrides_path = Path(args.selection_overrides)
+    if not selection_overrides_path.is_absolute():
+        selection_overrides_path = PROJECT_ROOT / selection_overrides_path
+    selection = apply_selection_overrides(selection, selection_overrides_path)
+    curated = build_curated_frames(
+        selection,
+        source_frames,
+        args.frames_per_position,
+    )
+    corrections_path = Path(args.metadata_corrections)
+    if not corrections_path.is_absolute():
+        corrections_path = PROJECT_ROOT / corrections_path
+    curated, correction_audit = apply_metadata_corrections(
+        curated, corrections_path
+    )
+    if args.weight_unavailable:
+        curated["weight_g"] = np.nan
+    completeness = build_completeness_report(selection, args.positions)
+    summary = build_daily_summary(curated)
+    position_summary = build_position_summary(curated)
+    daily_model_samples = build_daily_model_samples(position_summary)
+    distance_report = build_distance_compensation_report(position_summary)
+
+    prefix = args.output_prefix.replace("/", "_").replace("\\", "_")
+    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
+    FIGURE_DIR.mkdir(parents=True, exist_ok=True)
+    selection_path = PROCESSED_DIR / f"{prefix}_file_selection.csv"
+    curated_path = PROCESSED_DIR / f"{prefix}_curated_frames.csv"
+    completeness_path = PROCESSED_DIR / f"{prefix}_completeness.csv"
+    summary_path = PROCESSED_DIR / f"{prefix}_daily_summary.csv"
+    position_summary_path = PROCESSED_DIR / f"{prefix}_position_summary.csv"
+    model_samples_path = PROCESSED_DIR / f"{prefix}_daily_model_samples.csv"
+    distance_report_path = PROCESSED_DIR / f"{prefix}_distance_compensation.csv"
+    correction_audit_path = PROCESSED_DIR / f"{prefix}_metadata_corrections_applied.csv"
+    baseline_path = FIGURE_DIR / f"{prefix}_day0_baseline.png"
+    trajectory_path = FIGURE_DIR / f"{prefix}_trajectories.png"
+    position_path = FIGURE_DIR / f"{prefix}_positions_by_time.png"
+
+    selection.to_csv(selection_path, index=False, encoding="utf-8-sig")
+    curated.to_csv(curated_path, index=False, encoding="utf-8-sig")
+    completeness.to_csv(completeness_path, index=False, encoding="utf-8-sig")
+    summary.to_csv(summary_path, index=False, encoding="utf-8-sig")
+    position_summary.to_csv(position_summary_path, index=False, encoding="utf-8-sig")
+    daily_model_samples.to_csv(model_samples_path, index=False, encoding="utf-8-sig")
+    distance_report.to_csv(distance_report_path, index=False, encoding="utf-8-sig")
+    correction_audit.to_csv(correction_audit_path, index=False, encoding="utf-8-sig")
+    save_day0_baseline_plot(summary, baseline_path)
+    save_trajectory_plot(summary, trajectory_path)
+    save_position_plot(position_summary, position_path)
+
+    selected = selection.loc[selection["selected"] == 1]
+    missing = completeness.loc[completeness["status"] == "missing"]
+    incomplete = completeness.loc[completeness["status"] == "incomplete"]
+    unstable = selected.loc[
+        selected["median_cv_percent"] > args.cv_warning_percent
+    ]
+    states = sorted(
+        set(curated["freshness_state"].astype(str)),
+        key=lambda value: STATE_ORDER.get(value, 99),
+    )
+
+    print("=== æ²¹æ¡ƒæ–°é²œåº¦è¿ç»­å®éªŒæ£€æŸ¥ ===")
+    print(f"å€™é€‰åŸå§‹æ–‡ä»¶: {len(selection)} ä¸ª")
+    print(f"é€‰ç”¨æ–‡ä»¶: {len(selected)} ä¸ª")
+    print(f"æ’é™¤é‡å¤/é‡æµ‹æ–‡ä»¶: {len(selection) - len(selected)} ä¸ª")
+    print(f"æ­£å¼æœ‰æ•ˆå¸§: {len(curated)} æ¡")
+    print(f"ç‹¬ç«‹æ²¹æ¡ƒ: {curated['sample_id'].nunique()} ä¸ª")
+    days = sorted(int(value) for value in curated["storage_day"].unique())
+    print(f"å‚¨å­˜å¤©æ•°: {days}")
+    print(f"å·²æœ‰çŠ¶æ€: {', '.join(states)}")
+    print(f"å·²åº”ç”¨å…ƒæ•°æ®æ›´æ­£: {len(correction_audit)} é¡¹")
+
+    if skipped:
+        print("\n[è·³è¿‡æ–‡ä»¶]")
+        for message in skipped:
+            print(f"- {message}")
+    if not missing.empty:
+        print(f"\n[ç¼ºå°‘æ•°æ®] {len(missing)} ä¸ªæ ·å“-å¤©æ•°-ä½ç½®ç»„åˆ")
+        print(missing[["sample_id", "storage_day", "position"]].to_string(index=False))
+    if not incomplete.empty:
+        print(f"\n[å¸§æ•°ä¸è¶³] {len(incomplete)} ç»„")
+    if not unstable.empty:
+        print(f"\n[ç¨³å®šæ€§è­¦å‘Š] {len(unstable)} ç»„CVä¸­ä½æ•°è¶…è¿‡é˜ˆå€¼")
+        print(
+            unstable[
+                ["sample_id", "storage_day", "position", "median_cv_percent", "source_file"]
+            ].to_string(index=False)
+        )
+    model_ready, model_message = assess_model_readiness(daily_model_samples)
+    status = "å¯è®­ç»ƒ" if model_ready else "æš‚ä¸å¯è®­ç»ƒ"
+    print(f"\n[æ¨¡å‹çŠ¶æ€ï¼š{status}] {model_message}")
+
+    print("\nè¾“å‡ºæ–‡ä»¶:")
+    for path in (
+        selection_path,
+        curated_path,
+        completeness_path,
+        summary_path,
+        position_summary_path,
+        model_samples_path,
+        distance_report_path,
+        correction_audit_path,
+        baseline_path,
+        trajectory_path,
+        position_path,
+    ):
+        print(f"- {path}")
+    return 0
+
+
+def main() -> int:
+    try:
+        return run(parse_args())
+    except (FileNotFoundError, ValueError, pd.errors.ParserError) as error:
+        print(f"[é”™è¯¯] {error}")
+        return 1
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

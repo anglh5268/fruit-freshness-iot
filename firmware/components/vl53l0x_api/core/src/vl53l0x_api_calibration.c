@@ -490,4 +490,799 @@ VL53L0X_Error count_enabled_spads(uint8_t spadArray[],
 		uint32_t *pTotalSpadsEnabled, uint8_t *pIsAperture)
 {
 	VL53L0X_Error status = VL53L0X_ERROR_NONE;
-	uint32_t cSpa€}¸∂âûÀk∫wµÁ]•±∞ÅâîÅ’ÕïêÅ—º4($Ä®Å…ï¡…ïÕïπ–ÅÕ¡ÖëÃ∏4($Ä®º4(%ôΩ»Ä°•πëï‡ÄÙÄ¿ÏÅ•πëï‡ÄÅÕ¡Öë……ÖÂM•ÈîÏÅ•πëï‡¨¨§4($%ïÿ¥˘Ö—ÑπM¡ÖëÖ—ÑπIïôM¡ÖëπÖâ±ïÕm•πëï·tÄÙÄ¿Ï4(4(4(%M—Ö—’ÃÄÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞Ä¡·∞Ä¡‡¿ƒ§Ï4(4(%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§4($%M—Ö—’ÃÄÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞4($$%Y0‘Õ0¡a}I}e95%}MA}I}9}MQIQ}=MP∞Ä¡‡¿¿§Ï4(4(%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§4($%M—Ö—’ÃÄÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞4($$%Y0‘Õ0¡a}I}e95%}MA}9U5}IEUMQ}I}MA∞Ä¡‡…§Ï4(4(%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§4($%M—Ö—’ÃÄÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞Ä¡·∞Ä¡‡¿¿§Ï4(4(%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§4($%M—Ö—’ÃÄÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞4($$%Y0‘Õ0¡a}I}1=	1}=9%}I}9}MQIQ}M1P∞4($$%Õ—Ö…—Mï±ïç–§Ï4(4(4(%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§4($%M—Ö—’ÃÄÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞4($$%Y0‘Õ0¡a}I}A=]I}5959Q}<≈}A=]I}=I∞Ä¿§Ï4(4($º®ÅAï…ôΩ…¥Å…ïòÅçÖ±•â…Ö—•Ω∏Ä®º4(%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§4($%M—Ö—’ÃÄÙÅY0‘Õ0¡a}¡ï…ôΩ…µ}…ïô}çÖ±•â…Ö—•Ω∏°ïÿ∞ÄôY°ŸMï——•πùÃ∞4($$$ôA°ÖÕïÖ∞∞Ä¿§Ï4(4(%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§ÅÏ4($$º®ÅπÖâ±îÅ5•π•µ’¥Å9=8µAIQUIÅM¡ÖëÃÄ®º4($%ç’……ïπ—M¡Öë%πëï‡ÄÙÄ¿Ï4($%±ÖÕ—M¡Öë%πëï‡ÄÙÅç’……ïπ—M¡Öë%πëï‡Ï4($%πïïë¡—M¡ÖëÃÄÙÄ¿Ï4($%M—Ö—’ÃÄÙÅïπÖâ±ï}…ïô}Õ¡ÖëÃ°ïÿ∞4($$$$%πïïë¡—M¡ÖëÃ∞4($$$$%ïÿ¥˘Ö—ÑπM¡ÖëÖ—ÑπIïôΩΩëM¡Öë5Ö¿∞4($$$$%ïÿ¥˘Ö—ÑπM¡ÖëÖ—ÑπIïôM¡ÖëπÖâ±ïÃ∞4($$$$%Õ¡Öë……ÖÂM•Èî∞4($$$$%Õ—Ö…—Mï±ïç–∞4($$$$%ç’……ïπ—M¡Öë%πëï‡∞4($$$$%µ•π•µ’µM¡ÖëΩ’π–∞4($$$$$ô±ÖÕ—M¡Öë%πëï‡§Ï4(%Ù4(4(%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§ÅÏ4($%ç’……ïπ—M¡Öë%πëï‡ÄÙÅ±ÖÕ—M¡Öë%πëï‡Ï4(4($%M—Ö—’ÃÄÙÅ¡ï…ôΩ…µ}…ïô}Õ•ùπÖ±}µïÖÕ’…ïµïπ–°ïÿ∞4($$$ô¡ïÖ≠M•ùπÖ±IÖ—ïIïò§Ï4($%•òÄ†°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§Äòò4($$$°¡ïÖ≠M•ùπÖ±IÖ—ïIïòÄ¯Å—Ö…ùï—IïôIÖ—î§§ÅÏ4($$$º®ÅM•ùπÖ∞Å…Ö—îÅµïÖÕ’…ïµïπ–Å—ΩºÅ°•ù†∞4($$$Ä®ÅÕ›•—ç†Å—ºÅAIQUIÅMAÃ4($$$Ä®º4(4($$%ôΩ»Ä°•πëï‡ÄÙÄ¿ÏÅ•πëï‡ÄÅÕ¡Öë……ÖÂM•ÈîÏÅ•πëï‡¨¨§4($$$%ïÿ¥˘Ö—ÑπM¡ÖëÖ—ÑπIïôM¡ÖëπÖâ±ïÕm•πëï·tÄÙÄ¿Ï4(4(4($$$º®Å%πç…ïµïπ–Å—ºÅ—°îÅô•…Õ–ÅAIQUIÅÕ¡ÖêÄ®º4($$%›°•±îÄ†°•Õ}Ö¡ï…—’…î°Õ—Ö…—Mï±ïç–Ä¨Åç’……ïπ—M¡Öë%πëï‡§4($$$$ÙÙÄ¿§ÄòòÄ°ç’……ïπ—M¡Öë%πëï‡ÄÅµÖ·M¡ÖëΩ’π–§§ÅÏ4($$$%ç’……ïπ—M¡Öë%πëï‡¨¨Ï4($$%Ù4(4($$%πïïë¡—M¡ÖëÃÄÙÄƒÏ4(4($$%M—Ö—’ÃÄÙÅïπÖâ±ï}…ïô}Õ¡ÖëÃ°ïÿ∞4($$$$%πïïë¡—M¡ÖëÃ∞4($$$$%ïÿ¥˘Ö—ÑπM¡ÖëÖ—ÑπIïôΩΩëM¡Öë5Ö¿∞4($$$$%ïÿ¥˘Ö—ÑπM¡ÖëÖ—ÑπIïôM¡ÖëπÖâ±ïÃ∞4($$$$%Õ¡Öë……ÖÂM•Èî∞4($$$$%Õ—Ö…—Mï±ïç–∞4($$$$%ç’……ïπ—M¡Öë%πëï‡∞4($$$$%µ•π•µ’µM¡ÖëΩ’π–∞4($$$$$ô±ÖÕ—M¡Öë%πëï‡§Ï4(4($$%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§ÅÏ4($$$%ç’……ïπ—M¡Öë%πëï‡ÄÙÅ±ÖÕ—M¡Öë%πëï‡Ï4($$$%M—Ö—’ÃÄÙÅ¡ï…ôΩ…µ}…ïô}Õ•ùπÖ±}µïÖÕ’…ïµïπ–°ïÿ∞4($$$$$$ô¡ïÖ≠M•ùπÖ±IÖ—ïIïò§Ï4(4($$$%•òÄ†°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§Äòò4($$$$$°¡ïÖ≠M•ùπÖ±IÖ—ïIïòÄ¯Å—Ö…ùï—IïôIÖ—î§§ÅÏ4($$$$$º®ÅM•ùπÖ∞Å…Ö—îÅÕ—•±∞Å—ΩºÅ°•ù†ÅÖô—ï»4($$$$$Ä®ÅÕï——•πúÅ—°îÅµ•π•µ’¥Åπ’µâï»ÅΩò4($$$$$Ä®ÅAIQUIÅÕ¡ÖëÃ∏ÅÖ∏ÅëºÅπºÅµΩ…î4($$$$$Ä®Å—°ï…ïôΩ…îÅÕï–Å—°îÅµ•∏Åπ’µâï»ÅΩò4($$$$$Ä®ÅÖ¡ï…—’…îÅÕ¡ÖëÃÅÖÃÅ—°îÅ…ïÕ’±–∏4($$$$$Ä®º4($$$$%•Õ¡ï…—’…ïM¡ÖëÕ}•π–ÄÙÄƒÏ4($$$$%…ïôM¡ÖëΩ’π—}•π–ÄÙÅµ•π•µ’µM¡ÖëΩ’π–Ï4($$$%Ù4($$%Ù4($%ÙÅï±ÕîÅÏ4($$%πïïë¡—M¡ÖëÃÄÙÄ¿Ï4($%Ù4(%Ù4(4(%•òÄ†°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§Äòò4($$°¡ïÖ≠M•ùπÖ±IÖ—ïIïòÄÅ—Ö…ùï—IïôIÖ—î§§ÅÏ4($$º®Å–Å—°•ÃÅ¡Ω•π–∞Å—°îÅµ•π•µ’¥Åπ’µâï»ÅΩòÅï•—°ï»ÅÖ¡ï…—’…î4($$Ä®ÅΩ»ÅπΩ∏µÖ¡ï…—’…îÅÕ¡ÖëÃÅ°ÖŸîÅâïï∏ÅÕï–∏ÅA…ΩçïïêÅ—ºÅÖëê4($$Ä®ÅÕ¡ÖëÃÅÖπêÅ¡ï…ôΩ…¥ÅµïÖÕ’…ïµïπ—ÃÅ’π—•∞Å—°îÅ—Ö…ùï–4($$Ä®Å…ïôï…ïπçîÅ•ÃÅ…ïÖç°ïê∏4($$Ä®º4($%•Õ¡ï…—’…ïM¡ÖëÕ}•π–ÄÙÅπïïë¡—M¡ÖëÃÏ4($%…ïôM¡ÖëΩ’π—}•π–$ÙÅµ•π•µ’µM¡ÖëΩ’π–Ï4(4($%µïµç¡‰°±ÖÕ—M¡Öë……Ö‰∞Åïÿ¥˘Ö—ÑπM¡ÖëÖ—ÑπIïôM¡ÖëπÖâ±ïÃ∞4($$$%Õ¡Öë……ÖÂM•Èî§Ï4($%±ÖÕ—M•ùπÖ±IÖ—ï•ôòÄÙÅÖâÃ°¡ïÖ≠M•ùπÖ±IÖ—ïIïòÄ¥4($$%—Ö…ùï—IïôIÖ—î§Ï4($%çΩµ¡±ï—îÄÙÄ¿Ï4(4($%›°•±îÄ†ÖçΩµ¡±ï—î§ÅÏ4($$%ùï—}πï·—}ùΩΩë}Õ¡Öê†4($$$%ïÿ¥˘Ö—ÑπM¡ÖëÖ—ÑπIïôΩΩëM¡Öë5Ö¿∞4($$$%Õ¡Öë……ÖÂM•Èî∞Åç’……ïπ—M¡Öë%πëï‡∞4($$$$ôπï·—ΩΩëM¡Öê§Ï4(4($$%•òÄ°πï·—ΩΩëM¡ÖêÄÙÙÄ¥ƒ§ÅÏ4($$$%M—Ö—’ÃÄÙÅY0‘Õ0¡a}II=I}I}MA}%9%PÏ4($$$%â…ïÖ¨Ï4($$%Ù4(4($$$º®ÅÖππΩ–ÅçΩµâ•πîÅ¡ï…—’…îÅÖπêÅ9Ω∏µ¡ï…—’…îÅÕ¡ÖëÃ∞ÅÕº4($$$Ä®ÅïπÕ’…îÅ—°îÅç’……ïπ–ÅÕ¡ÖêÅ•ÃÅΩòÅ—°îÅçΩ……ïç–Å—Â¡î∏4($$$Ä®º4($$%•òÄ°•Õ}Ö¡ï…—’…î†°’•π–Ã…}–•Õ—Ö…—Mï±ïç–Ä¨Åπï·—ΩΩëM¡Öê§ÄÑÙ4($$$$%πïïë¡—M¡ÖëÃ§ÅÏ4($$$$º®Å–Å—°•ÃÅ¡Ω•π–Å›îÅ°ÖŸîÅïπÖâ±ïêÅ—°îÅµÖ·•µ’¥4($$$$Ä®Åπ’µâï»ÅΩòÅ¡ï…—’…îÅÕ¡ÖëÃ∏4($$$$Ä®º4($$$%çΩµ¡±ï—îÄÙÄƒÏ4($$$%â…ïÖ¨Ï4($$%Ù4(4($$$°…ïôM¡ÖëΩ’π—}•π–§¨¨Ï4(4($$%ç’……ïπ—M¡Öë%πëï‡ÄÙÅπï·—ΩΩëM¡ÖêÏ4($$%M—Ö—’ÃÄÙÅïπÖâ±ï}Õ¡Öë}â•–†4($$$$%ïÿ¥˘Ö—ÑπM¡ÖëÖ—ÑπIïôM¡ÖëπÖâ±ïÃ∞4($$$$%Õ¡Öë……ÖÂM•Èî∞Åç’……ïπ—M¡Öë%πëï‡§Ï4(4($$%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§ÅÏ4($$$%ç’……ïπ—M¡Öë%πëï‡¨¨Ï4($$$$º®ÅA…ΩçïïêÅ—ºÅÖ¡¡±‰Å—°îÅÖëë•—•ΩπÖ∞ÅÕ¡ÖêÅÖπê4($$$$Ä®Å¡ï…ôΩ…¥ÅµïÖÕ’…ïµïπ–∏4($$$$Ä®º4($$$%M—Ö—’ÃÄÙÅÕï—}…ïô}Õ¡Öë}µÖ¿°ïÿ∞4($$$$%ïÿ¥˘Ö—ÑπM¡ÖëÖ—ÑπIïôM¡ÖëπÖâ±ïÃ§Ï4($$%Ù4(4($$%•òÄ°M—Ö—’ÃÄÑÙÅY0‘Õ0¡a}II=I}9=9§4($$$%â…ïÖ¨Ï4(4($$%M—Ö—’ÃÄÙÅ¡ï…ôΩ…µ}…ïô}Õ•ùπÖ±}µïÖÕ’…ïµïπ–°ïÿ∞4($$$$$ô¡ïÖ≠M•ùπÖ±IÖ—ïIïò§Ï4(4($$%•òÄ°M—Ö—’ÃÄÑÙÅY0‘Õ0¡a}II=I}9=9§4($$$%â…ïÖ¨Ï4(4($$%Õ•ùπÖ±IÖ—ï•ôòÄÙÅÖâÃ°¡ïÖ≠M•ùπÖ±IÖ—ïIïòÄ¥Å—Ö…ùï—IïôIÖ—î§Ï4(4($$%•òÄ°¡ïÖ≠M•ùπÖ±IÖ—ïIïòÄ¯Å—Ö…ùï—IïôIÖ—î§ÅÏ4($$$$º®ÅMï±ïç–Å—°îÅÕ¡ÖêÅµÖ¿Å—°Ö–Å¡…ΩŸ•ëïÃÅ—°î4($$$$Ä®ÅµïÖÕ’…ïµïπ–Åç±ΩÕïÕ–Å—ºÅ—°îÅ—Ö…ùï–Å…Ö—î∞4($$$$Ä®Åï•—°ï»ÅÖâΩŸîÅΩ»Åâï±Ω‹Å•–∏4($$$$Ä®º4($$$%•òÄ°Õ•ùπÖ±IÖ—ï•ôòÄ¯Å±ÖÕ—M•ùπÖ±IÖ—ï•ôò§ÅÏ4($$$$$º®ÅA…ïŸ•Ω’ÃÅÕ¡ÖêÅµÖ¿Å¡…Ωë’çïêÅÑÅç±ΩÕï»4($$$$$Ä®ÅµïÖÕ’…ïµïπ–∞ÅÕºÅç°ΩΩÕîÅ—°•Ã∏4($$$$$Ä®º4($$$$%M—Ö—’ÃÄÙÅÕï—}…ïô}Õ¡Öë}µÖ¿°ïÿ∞4($$$$$$%±ÖÕ—M¡Öë……Ö‰§Ï4($$$$%µïµç¡‰†4($$$$%ïÿ¥˘Ö—ÑπM¡ÖëÖ—ÑπIïôM¡ÖëπÖâ±ïÃ∞4($$$$%±ÖÕ—M¡Öë……Ö‰∞ÅÕ¡Öë……ÖÂM•Èî§Ï4(4($$$$$°…ïôM¡ÖëΩ’π—}•π–§¥¥Ï4($$$%Ù4($$$%çΩµ¡±ï—îÄÙÄƒÏ4($$%ÙÅï±ÕîÅÏ4($$$$º®ÅΩπ—•π’îÅ—ºÅÖëêÅÕ¡ÖëÃÄ®º4($$$%±ÖÕ—M•ùπÖ±IÖ—ï•ôòÄÙÅÕ•ùπÖ±IÖ—ï•ôòÏ4($$$%µïµç¡‰°±ÖÕ—M¡Öë……Ö‰∞4($$$$%ïÿ¥˘Ö—ÑπM¡ÖëÖ—ÑπIïôM¡ÖëπÖâ±ïÃ∞4($$$$%Õ¡Öë……ÖÂM•Èî§Ï4($$%Ù4(4($%ÙÄº®Å›°•±îÄ®º4(%Ù4(4(%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§ÅÏ4($$©…ïôM¡ÖëΩ’π–ÄÙÅ…ïôM¡ÖëΩ’π—}•π–Ï4($$©•Õ¡ï…—’…ïM¡ÖëÃÄÙÅ•Õ¡ï…—’…ïM¡ÖëÕ}•π–Ï4(4($%Y0‘Õ0¡a}MQY%MA%%AI5QH°ïÿ∞ÅIïôM¡ÖëÕ%π•—•Ö±•Õïê∞Äƒ§Ï4($%Y0‘Õ0¡a}MQY%MA%%AI5QH°ïÿ∞4($$%Iïôï…ïπçïM¡ÖëΩ’π–∞Ä°’•π–·}–§†©…ïôM¡ÖëΩ’π–§§Ï4($%Y0‘Õ0¡a}MQY%MA%%AI5QH°ïÿ∞4($$%Iïôï…ïπçïM¡ÖëQÂ¡î∞Ä©•Õ¡ï…—’…ïM¡ÖëÃ§Ï4(%Ù4(4(%…ï—’…∏ÅM—Ö—’ÃÏ4)Ù4(4)Y0‘Õ0¡a}……Ω»ÅY0‘Õ0¡a}Õï—}…ïôï…ïπçï}Õ¡ÖëÃ°Y0‘Õ0¡a}XÅïÿ∞4($$$$Å’•π–Ã…}–ÅçΩ’π–∞Å’•π–·}–Å•Õ¡ï…—’…ïM¡ÖëÃ§4)Ï4(%Y0‘Õ0¡a}……Ω»ÅM—Ö—’ÃÄÙÅY0‘Õ0¡a}II=I}9=9Ï4(%’•π–Ã…}–Åç’……ïπ—M¡Öë%πëï‡ÄÙÄ¿Ï4(%’•π–·}–ÅÕ—Ö…—Mï±ïç–ÄÙÄ¡·–Ï4(%’•π–Ã…}–ÅÕ¡Öë……ÖÂM•ÈîÄÙÄÿÏ4(%’•π–Ã…}–ÅµÖ·M¡ÖëΩ’π–ÄÙÄ––Ï4(%’•π–Ã…}–Å±ÖÕ—M¡Öë%πëï‡Ï4(%’•π–Ã…}–Å•πëï‡Ï4(4($º®4($Ä®ÅQ°•ÃÅô’πç—•Ω∏ÅÖ¡¡±•ïÃÅÑÅ…ï≈’ïÕ—ïêÅπ’µâï»ÅΩòÅ…ïôï…ïπçîÅÕ¡ÖëÃ∞Åï•—°ï»4($Ä®ÅÖ¡ï…—’…îÅΩ»4($Ä®ÅπΩ∏µÖ¡ï…—’…î∞ÅÖÃÅ…ï≈’ïÕ—ïê∏4($Ä®ÅQ°îÅùΩΩêÅÕ¡ÖêÅµÖ¿Å›•±∞ÅâîÅÖ¡¡±•ïê∏4($Ä®º4(4(%M—Ö—’ÃÄÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞Ä¡·∞Ä¡‡¿ƒ§Ï4(4(%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§4($%M—Ö—’ÃÄÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞4($$%Y0‘Õ0¡a}I}e95%}MA}I}9}MQIQ}=MP∞Ä¡‡¿¿§Ï4(4(%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§4($%M—Ö—’ÃÄÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞4($$%Y0‘Õ0¡a}I}e95%}MA}9U5}IEUMQ}I}MA∞Ä¡‡…§Ï4(4(%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§4($%M—Ö—’ÃÄÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞Ä¡·∞Ä¡‡¿¿§Ï4(4(%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§4($%M—Ö—’ÃÄÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞4($$%Y0‘Õ0¡a}I}1=	1}=9%}I}9}MQIQ}M1P∞4($$%Õ—Ö…—Mï±ïç–§Ï4(4(%ôΩ»Ä°•πëï‡ÄÙÄ¿ÏÅ•πëï‡ÄÅÕ¡Öë……ÖÂM•ÈîÏÅ•πëï‡¨¨§4($%ïÿ¥˘Ö—ÑπM¡ÖëÖ—ÑπIïôM¡ÖëπÖâ±ïÕm•πëï·tÄÙÄ¿Ï4(4(%•òÄ°•Õ¡ï…—’…ïM¡ÖëÃ§ÅÏ4($$º®Å%πç…ïµïπ–Å—ºÅ—°îÅô•…Õ–ÅAIQUIÅÕ¡ÖêÄ®º4($%›°•±îÄ†°•Õ}Ö¡ï…—’…î°Õ—Ö…—Mï±ïç–Ä¨Åç’……ïπ—M¡Öë%πëï‡§ÄÙÙÄ¿§Äòò4($$$ÄÄ°ç’……ïπ—M¡Öë%πëï‡ÄÅµÖ·M¡ÖëΩ’π–§§ÅÏ4($$%ç’……ïπ—M¡Öë%πëï‡¨¨Ï4($%Ù4(%Ù4(%M—Ö—’ÃÄÙÅïπÖâ±ï}…ïô}Õ¡ÖëÃ°ïÿ∞4($$$%•Õ¡ï…—’…ïM¡ÖëÃ∞4($$$%ïÿ¥˘Ö—ÑπM¡ÖëÖ—ÑπIïôΩΩëM¡Öë5Ö¿∞4($$$%ïÿ¥˘Ö—ÑπM¡ÖëÖ—ÑπIïôM¡ÖëπÖâ±ïÃ∞4($$$%Õ¡Öë……ÖÂM•Èî∞4($$$%Õ—Ö…—Mï±ïç–∞4($$$%ç’……ïπ—M¡Öë%πëï‡∞4($$$%çΩ’π–∞4($$$$ô±ÖÕ—M¡Öë%πëï‡§Ï4(4(%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§ÅÏ4($%Y0‘Õ0¡a}MQY%MA%%AI5QH°ïÿ∞ÅIïôM¡ÖëÕ%π•—•Ö±•Õïê∞Äƒ§Ï4($%Y0‘Õ0¡a}MQY%MA%%AI5QH°ïÿ∞4($$%Iïôï…ïπçïM¡ÖëΩ’π–∞Ä°’•π–·}–§°çΩ’π–§§Ï4($%Y0‘Õ0¡a}MQY%MA%%AI5QH°ïÿ∞4($$%Iïôï…ïπçïM¡ÖëQÂ¡î∞Å•Õ¡ï…—’…ïM¡ÖëÃ§Ï4(%Ù4(4(%…ï—’…∏ÅM—Ö—’ÃÏ4)Ù4(4)Y0‘Õ0¡a}……Ω»ÅY0‘Õ0¡a}ùï—}…ïôï…ïπçï}Õ¡ÖëÃ°Y0‘Õ0¡a}XÅïÿ∞4($$%’•π–Ã…}–Ä©¡M¡ÖëΩ’π–∞Å’•π–·}–Ä©¡%Õ¡ï…—’…ïM¡ÖëÃ§4)Ï4(%Y0‘Õ0¡a}……Ω»ÅM—Ö—’ÃÄÙÅY0‘Õ0¡a}II=I}9=9Ï4(%’•π–·}–Å…ïôM¡ÖëÕ%π•—•Ö±•ÕïêÏ4(%’•π–·}–Å…ïôM¡Öë……ÖÂlŸtÏ4(%’•π–Ã…}–Åç5Ö·M¡ÖëΩ’π–ÄÙÄ––Ï4(%’•π–Ã…}–ÅçM¡Öë……ÖÂM•ÈîÄÙÄÿÏ4(%’•π–Ã…}–ÅÕ¡ÖëÕπÖâ±ïêÏ4(%’•π–·}–Å•Õ¡ï…—’…ïM¡ÖëÃÄÙÄ¿Ï4(4(%…ïôM¡ÖëÕ%π•—•Ö±•ÕïêÄÙÅY0‘Õ0¡a}QY%MA%%AI5QH°ïÿ∞4($$$$%IïôM¡ÖëÕ%π•—•Ö±•Õïê§Ï4(4(%•òÄ°…ïôM¡ÖëÕ%π•—•Ö±•ÕïêÄÙÙÄƒ§ÅÏ4(4($$©¡M¡ÖëΩ’π–ÄÙÄ°’•π–Ã…}–•Y0‘Õ0¡a}QY%MA%%AI5QH°ïÿ∞4($$%Iïôï…ïπçïM¡ÖëΩ’π–§Ï4($$©¡%Õ¡ï…—’…ïM¡ÖëÃÄÙÅY0‘Õ0¡a}QY%MA%%AI5QH°ïÿ∞4($$%Iïôï…ïπçïM¡ÖëQÂ¡î§Ï4(%ÙÅï±ÕîÅÏ4(4($$º®ÅΩâ—Ö•∏ÅÕ¡ÖêÅ•πôºÅô…Ω¥ÅëïŸ•çî∏®º4($%M—Ö—’ÃÄÙÅùï—}…ïô}Õ¡Öë}µÖ¿°ïÿ∞Å…ïôM¡Öë……Ö‰§Ï4(4($%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§ÅÏ4($$$º®ÅçΩ’π–ÅïπÖâ±ïêÅÕ¡ÖëÃÅ›•—°•∏ÅÕ¡ÖêÅµÖ¿ÅÖ……Ö‰ÅÖπê4($$$Ä®Åëï—ï…µ•πîÅ•òÅ¡ï…—’…îÅΩ»Å9Ω∏µ¡ï…—’…î∏4($$$Ä®º4($$%M—Ö—’ÃÄÙÅçΩ’π—}ïπÖâ±ïë}Õ¡ÖëÃ°…ïôM¡Öë……Ö‰∞4($$$$$$%çM¡Öë……ÖÂM•Èî∞4($$$$$$%ç5Ö·M¡ÖëΩ’π–∞4($$$$$$$ôÕ¡ÖëÕπÖâ±ïê∞4($$$$$$$ô•Õ¡ï…—’…ïM¡ÖëÃ§Ï4(4($$%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§ÅÏ4(4($$$$©¡M¡ÖëΩ’π–ÄÙÅÕ¡ÖëÕπÖâ±ïêÏ4($$$$©¡%Õ¡ï…—’…ïM¡ÖëÃÄÙÅ•Õ¡ï…—’…ïM¡ÖëÃÏ4(4($$$%Y0‘Õ0¡a}MQY%MA%%AI5QH°ïÿ∞4($$$$%IïôM¡ÖëÕ%π•—•Ö±•Õïê∞Äƒ§Ï4($$$%Y0‘Õ0¡a}MQY%MA%%AI5QH°ïÿ∞4($$$$%Iïôï…ïπçïM¡ÖëΩ’π–∞4($$$$$°’•π–·}–•Õ¡ÖëÕπÖâ±ïê§Ï4($$$%Y0‘Õ0¡a}MQY%MA%%AI5QH°ïÿ∞4($$$$%Iïôï…ïπçïM¡ÖëQÂ¡î∞Å•Õ¡ï…—’…ïM¡ÖëÃ§Ï4($$%Ù4($%Ù4(%Ù4(4(%…ï—’…∏ÅM—Ö—’ÃÏ4)Ù4(4(4)Y0‘Õ0¡a}……Ω»ÅY0‘Õ0¡a}¡ï…ôΩ…µ}Õ•πù±ï}…ïô}çÖ±•â…Ö—•Ω∏°Y0‘Õ0¡a}XÅïÿ∞4($%’•π–·}–ÅŸ°Ÿ}•π•—}âÂ—î§4)Ï4(%Y0‘Õ0¡a}……Ω»ÅM—Ö—’ÃÄÙÅY0‘Õ0¡a}II=I}9=9Ï4(4(%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§4($%M—Ö—’ÃÄÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞ÅY0‘Õ0¡a}I}MeMI9}MQIP∞4($$$%Y0‘Õ0¡a}I}MeMI9}5=}MQIQ}MQ=@Å4($$$%Ÿ°Ÿ}•π•—}âÂ—î§Ï4(4(%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§4($%M—Ö—’ÃÄÙÅY0‘Õ0¡a}µïÖÕ’…ïµïπ—}¡Ω±±}ôΩ…}çΩµ¡±ï—•Ω∏°ïÿ§Ï4(4(%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§4($%M—Ö—’ÃÄÙÅY0‘Õ0¡a}±ïÖ…%π—ï……’¡—5ÖÕ¨°ïÿ∞Ä¿§Ï4(4(%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§4($%M—Ö—’ÃÄÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞ÅY0‘Õ0¡a}I}MeMI9}MQIP∞Ä¡‡¿¿§Ï4(4(%…ï—’…∏ÅM—Ö—’ÃÏ4)Ù4(4(4)Y0‘Õ0¡a}……Ω»ÅY0‘Õ0¡a}…ïô}çÖ±•â…Ö—•Ωπ}•º°Y0‘Õ0¡a}XÅïÿ∞4(%’•π–·}–Å…ïÖë}πΩ—}›…•—î∞4(%’•π–·}–ÅY°ŸMï——•πùÃ∞Å’•π–·}–ÅA°ÖÕïÖ∞∞4(%’•π–·}–Ä©¡Y°ŸMï——•πùÃ∞Å’•π–·}–Ä©¡A°ÖÕïÖ∞∞4(%çΩπÕ–Å’•π–·}–ÅŸ°Ÿ}ïπÖâ±î∞ÅçΩπÕ–Å’•π–·}–Å¡°ÖÕï}ïπÖâ±î§4)Ï4(%Y0‘Õ0¡a}……Ω»ÅM—Ö—’ÃÄÙÅY0‘Õ0¡a}II=I}9=9Ï4(%’•π–·}–ÅA°ÖÕïÖ±•π–ÄÙÄ¿Ï4(4($º®ÅIïÖêÅY!XÅô…Ω¥ÅëïŸ•çîÄ®º4(%M—Ö—’ÃÅÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞Ä¡·∞Ä¡‡¿ƒ§Ï4(%M—Ö—’ÃÅÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞Ä¡‡¿¿∞Ä¡‡¿¿§Ï4(%M—Ö—’ÃÅÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞Ä¡·∞Ä¡‡¿¿§Ï4(4(%•òÄ°…ïÖë}πΩ—}›…•—î§ÅÏ4($%•òÄ°Ÿ°Ÿ}ïπÖâ±î§4($$%M—Ö—’ÃÅÙÅY0‘Õ0¡a}Ië	Â—î°ïÿ∞Ä¡·∞Å¡Y°ŸMï——•πùÃ§Ï4($%•òÄ°¡°ÖÕï}ïπÖâ±î§4($$%M—Ö—’ÃÅÙÅY0‘Õ0¡a}Ië	Â—î°ïÿ∞Ä¡·∞ÄôA°ÖÕïÖ±•π–§Ï4(%ÙÅï±ÕîÅÏ4($%•òÄ°Ÿ°Ÿ}ïπÖâ±î§4($$%M—Ö—’ÃÅÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞Ä¡·∞ÅY°ŸMï——•πùÃ§Ï4($%•òÄ°¡°ÖÕï}ïπÖâ±î§4($$%M—Ö—’ÃÅÙÅY0‘Õ0¡a}U¡ëÖ—ï	Â—î°ïÿ∞Ä¡·∞Ä¡‡‡¿∞ÅA°ÖÕïÖ∞§Ï4(%Ù4(4(%M—Ö—’ÃÅÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞Ä¡·∞Ä¡‡¿ƒ§Ï4(%M—Ö—’ÃÅÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞Ä¡‡¿¿∞Ä¡‡¿ƒ§Ï4(%M—Ö—’ÃÅÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞Ä¡·∞Ä¡‡¿¿§Ï4(4($©¡A°ÖÕïÖ∞ÄÙÄ°’•π–·}–§°A°ÖÕïÖ±•π–ò¡·§Ï4(4(%…ï—’…∏ÅM—Ö—’ÃÏ4)Ù4(4(4)Y0‘Õ0¡a}……Ω»ÅY0‘Õ0¡a}¡ï…ôΩ…µ}Ÿ°Ÿ}çÖ±•â…Ö—•Ω∏°Y0‘Õ0¡a}XÅïÿ∞4(%’•π–·}–Ä©¡Y°ŸMï——•πùÃ∞ÅçΩπÕ–Å’•π–·}–Åùï—}ëÖ—Ö}ïπÖâ±î∞4(%çΩπÕ–Å’•π–·}–Å…ïÕ—Ω…ï}çΩπô•ú§4)Ï4(%Y0‘Õ0¡a}……Ω»ÅM—Ö—’ÃÄÙÅY0‘Õ0¡a}II=I}9=9Ï4(%’•π–·}–ÅMï≈’ïπçïΩπô•úÄÙÄ¿Ï4(%’•π–·}–ÅY°ŸMï——•πùÃÄÙÄ¿Ï4(%’•π–·}–ÅA°ÖÕïÖ∞ÄÙÄ¿Ï4(%’•π–·}–ÅA°ÖÕïÖ±%π–ÄÙÄ¿Ï4(4($º®ÅÕ—Ω…îÅ—°îÅŸÖ±’îÅΩòÅ—°îÅÕï≈’ïπçîÅçΩπô•ú∞4($Ä®Å—°•ÃÅ›•±∞ÅâîÅ…ïÕï–ÅâïôΩ…îÅ—°îÅïπêÅΩòÅ—°îÅô’πç—•Ω∏4($Ä®º4(4(%•òÄ°…ïÕ—Ω…ï}çΩπô•ú§4($%Mï≈’ïπçïΩπô•úÄÙÅA1ïŸÖ—Öï–°ïÿ∞ÅMï≈’ïπçïΩπô•ú§Ï4(4($º®ÅI’∏ÅY!XÄ®º4(%M—Ö—’ÃÄÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞ÅY0‘Õ0¡a}I}MeMQ5}MEU9}=9%∞Ä¡‡¿ƒ§Ï4(4(%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§4($%M—Ö—’ÃÄÙÅY0‘Õ0¡a}¡ï…ôΩ…µ}Õ•πù±ï}…ïô}çÖ±•â…Ö—•Ω∏°ïÿ∞Ä¡‡–¿§Ï4(4($º®ÅIïÖêÅY!XÅô…Ω¥ÅëïŸ•çîÄ®º4(%•òÄ†°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§ÄòòÄ°ùï—}ëÖ—Ö}ïπÖâ±îÄÙÙÄƒ§§ÅÏ4($%M—Ö—’ÃÄÙÅY0‘Õ0¡a}…ïô}çÖ±•â…Ö—•Ωπ}•º°ïÿ∞Äƒ∞4($$%Y°ŸMï——•πùÃ∞ÅA°ÖÕïÖ∞∞Äº®Å9Ω–Å’ÕïêÅ°ï…îÄ®º4($$%¡Y°ŸMï——•πùÃ∞ÄôA°ÖÕïÖ±%π–∞4($$$ƒ∞Ä¿§Ï4(%ÙÅï±Õî4($$©¡Y°ŸMï——•πùÃÄÙÄ¿Ï4(4(4(%•òÄ†°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§ÄòòÅ…ïÕ—Ω…ï}çΩπô•ú§ÅÏ4($$º®Å…ïÕ—Ω…îÅ—°îÅ¡…ïŸ•Ω’ÃÅMï≈’ïπçîÅΩπô•úÄ®º4($%M—Ö—’ÃÄÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞ÅY0‘Õ0¡a}I}MeMQ5}MEU9}=9%∞4($$$%Mï≈’ïπçïΩπô•ú§Ï4($%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§4($$%A1ïŸÖ—ÖMï–°ïÿ∞ÅMï≈’ïπçïΩπô•ú∞ÅMï≈’ïπçïΩπô•ú§Ï4(4(%Ù4(4(%…ï—’…∏ÅM—Ö—’ÃÏ4)Ù4(4)Y0‘Õ0¡a}……Ω»ÅY0‘Õ0¡a}¡ï…ôΩ…µ}¡°ÖÕï}çÖ±•â…Ö—•Ω∏°Y0‘Õ0¡a}XÅïÿ∞4(%’•π–·}–Ä©¡A°ÖÕïÖ∞∞ÅçΩπÕ–Å’•π–·}–Åùï—}ëÖ—Ö}ïπÖâ±î∞4(%çΩπÕ–Å’•π–·}–Å…ïÕ—Ω…ï}çΩπô•ú§4)Ï4(%Y0‘Õ0¡a}……Ω»ÅM—Ö—’ÃÄÙÅY0‘Õ0¡a}II=I}9=9Ï4(%’•π–·}–ÅMï≈’ïπçïΩπô•úÄÙÄ¿Ï4(%’•π–·}–ÅY°ŸMï——•πùÃÄÙÄ¿Ï4(%’•π–·}–ÅA°ÖÕïÖ∞ÄÙÄ¿Ï4(%’•π–·}–ÅY°ŸMï——•πùÕ•π–Ï4(4($º®ÅÕ—Ω…îÅ—°îÅŸÖ±’îÅΩòÅ—°îÅÕï≈’ïπçîÅçΩπô•ú∞4($Ä®Å—°•ÃÅ›•±∞ÅâîÅ…ïÕï–ÅâïôΩ…îÅ—°îÅïπêÅΩòÅ—°îÅô’πç—•Ω∏4($Ä®º4(4(%•òÄ°…ïÕ—Ω…ï}çΩπô•ú§4($%Mï≈’ïπçïΩπô•úÄÙÅA1ïŸÖ—Öï–°ïÿ∞ÅMï≈’ïπçïΩπô•ú§Ï4(4($º®ÅI’∏ÅA°ÖÕïÖ∞Ä®º4(%M—Ö—’ÃÄÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞ÅY0‘Õ0¡a}I}MeMQ5}MEU9}=9%∞Ä¡‡¿»§Ï4(4(%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§4($%M—Ö—’ÃÄÙÅY0‘Õ0¡a}¡ï…ôΩ…µ}Õ•πù±ï}…ïô}çÖ±•â…Ö—•Ω∏°ïÿ∞Ä¡‡¿§Ï4(4($º®ÅIïÖêÅA°ÖÕïÖ∞Åô…Ω¥ÅëïŸ•çîÄ®º4(%•òÄ†°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§ÄòòÄ°ùï—}ëÖ—Ö}ïπÖâ±îÄÙÙÄƒ§§ÅÏ4($%M—Ö—’ÃÄÙÅY0‘Õ0¡a}…ïô}çÖ±•â…Ö—•Ωπ}•º°ïÿ∞Äƒ∞4($$%Y°ŸMï——•πùÃ∞ÅA°ÖÕïÖ∞∞Äº®Å9Ω–Å’ÕïêÅ°ï…îÄ®º4($$$ôY°ŸMï——•πùÕ•π–∞Å¡A°ÖÕïÖ∞∞4($$$¿∞Äƒ§Ï4(%ÙÅï±Õî4($$©¡A°ÖÕïÖ∞ÄÙÄ¿Ï4(4(4(%•òÄ†°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§ÄòòÅ…ïÕ—Ω…ï}çΩπô•ú§ÅÏ4($$º®Å…ïÕ—Ω…îÅ—°îÅ¡…ïŸ•Ω’ÃÅMï≈’ïπçîÅΩπô•úÄ®º4($%M—Ö—’ÃÄÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞ÅY0‘Õ0¡a}I}MeMQ5}MEU9}=9%∞4($$$%Mï≈’ïπçïΩπô•ú§Ï4($%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§4($$%A1ïŸÖ—ÖMï–°ïÿ∞ÅMï≈’ïπçïΩπô•ú∞ÅMï≈’ïπçïΩπô•ú§Ï4(4(%Ù4(4(%…ï—’…∏ÅM—Ö—’ÃÏ4)Ù4(4)Y0‘Õ0¡a}……Ω»ÅY0‘Õ0¡a}¡ï…ôΩ…µ}…ïô}çÖ±•â…Ö—•Ω∏°Y0‘Õ0¡a}XÅïÿ∞4(%’•π–·}–Ä©¡Y°ŸMï——•πùÃ∞Å’•π–·}–Ä©¡A°ÖÕïÖ∞∞Å’•π–·}–Åùï—}ëÖ—Ö}ïπÖâ±î§4)Ï4(%Y0‘Õ0¡a}……Ω»ÅM—Ö—’ÃÄÙÅY0‘Õ0¡a}II=I}9=9Ï4(%’•π–·}–ÅMï≈’ïπçïΩπô•úÄÙÄ¿Ï4(4($º®ÅÕ—Ω…îÅ—°îÅŸÖ±’îÅΩòÅ—°îÅÕï≈’ïπçîÅçΩπô•ú∞4($Ä®Å—°•ÃÅ›•±∞ÅâîÅ…ïÕï–ÅâïôΩ…îÅ—°îÅïπêÅΩòÅ—°îÅô’πç—•Ω∏4($Ä®º4(4(%Mï≈’ïπçïΩπô•úÄÙÅA1ïŸÖ—Öï–°ïÿ∞ÅMï≈’ïπçïΩπô•ú§Ï4(4($º®Å%∏Å—°îÅôΩ±±Ω›•πúÅô’πç—•Ω∏Å›îÅëΩ∏ù–ÅÕÖŸîÅ—°îÅçΩπô•úÅ—ºÅΩ¡—•µ•Èî4($Ä®Å›…•—ïÃÅΩ∏ÅëïŸ•çî∏ÅΩπô•úÅ•ÃÅÕÖŸïêÅÖπêÅ…ïÕ—Ω…ïêÅΩπ±‰ÅΩπçî∏4($Ä®º4(%M—Ö—’ÃÄÙÅY0‘Õ0¡a}¡ï…ôΩ…µ}Ÿ°Ÿ}çÖ±•â…Ö—•Ω∏†4($$%ïÿ∞Å¡Y°ŸMï——•πùÃ∞Åùï—}ëÖ—Ö}ïπÖâ±î∞Ä¿§Ï4(4(4(%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§4($%M—Ö—’ÃÄÙÅY0‘Õ0¡a}¡ï…ôΩ…µ}¡°ÖÕï}çÖ±•â…Ö—•Ω∏†4($$%ïÿ∞Å¡A°ÖÕïÖ∞∞Åùï—}ëÖ—Ö}ïπÖâ±î∞Ä¿§Ï4(4(4(%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§ÅÏ4($$º®Å…ïÕ—Ω…îÅ—°îÅ¡…ïŸ•Ω’ÃÅMï≈’ïπçîÅΩπô•úÄ®º4($%M—Ö—’ÃÄÙÅY0‘Õ0¡a}]…	Â—î°ïÿ∞ÅY0‘Õ0¡a}I}MeMQ5}MEU9}=9%∞4($$$%Mï≈’ïπçïΩπô•ú§Ï4($%•òÄ°M—Ö—’ÃÄÙÙÅY0‘Õ0¡a}II=I}9=9§4($$%A1ïŸÖ—ÖMï–°ïÿ∞ÅMï≈’ïπçïΩπô•ú∞ÅMï≈’ïπçïΩπô•ú§Ï4(4(%Ù4(4(%…ï—’…∏ÅM—Ö—’ÃÏ4)Ù4(4)Y0‘Õ0¡a}……Ω»ÅY0‘Õ0¡a}Õï—}…ïô}çÖ±•â…Ö—•Ω∏°Y0‘Õ0¡a}XÅïÿ∞4($%’•π–·}–ÅY°ŸMï——•πùÃ∞Å’•π–·}–ÅA°ÖÕïÖ∞§4)Ï4(%Y0‘Õ0¡a}……Ω»ÅM—Ö—’ÃÄÙÅY0‘Õ0¡a}II=I}9=9Ï4(%’•π–·}–Å¡Y°ŸMï——•πùÃÏ4(%’•π–·}–Å¡A°ÖÕïÖ∞Ï4(4(%M—Ö—’ÃÄÙÅY0‘Õ0¡a}…ïô}çÖ±•â…Ö—•Ωπ}•º°ïÿ∞Ä¿∞4($%Y°ŸMï——•πùÃ∞ÅA°ÖÕïÖ∞∞4($$ô¡Y°ŸMï——•πùÃ∞Äô¡A°ÖÕïÖ∞∞4($$ƒ∞Äƒ§Ï4(4(%…ï—’…∏ÅM—Ö—’ÃÏ4)Ù4(4)Y0‘Õ0¡a}……Ω»ÅY0‘Õ0¡a}ùï—}…ïô}çÖ±•â…Ö—•Ω∏°Y0‘Õ0¡a}XÅïÿ∞4($%’•π–·}–Ä©¡Y°ŸMï——•πùÃ∞Å’•π–·}–Ä©¡A°ÖÕïÖ∞§4)Ï4(%Y0‘Õ0¡a}……Ω»ÅM—Ö—’ÃÄÙÅY0‘Õ0¡a}II=I}9=9Ï4(%’•π–·}–ÅY°ŸMï——•πùÃÄÙÄ¿Ï4(%’•π–·}–ÅA°ÖÕïÖ∞ÄÙÄ¿Ï4(4(%M—Ö—’ÃÄÙÅY0‘Õ0¡a}…ïô}çÖ±•â…Ö—•Ωπ}•º°ïÿ∞Äƒ∞4($%Y°ŸMï——•πùÃ∞ÅA°ÖÕïÖ∞∞4($%¡Y°ŸMï——•πùÃ∞Å¡A°ÖÕïÖ∞∞4($$ƒ∞Äƒ§Ï4(4(%…ï—’…∏ÅM—Ö—’ÃÏ4)Ù4(
+	uint32_t cSpadsPerByte = 8;
+	uint32_t lastByte;
+	uint32_t lastBit;
+	uint32_t byteIndex = 0;
+	uint32_t bitIndex = 0;
+	uint8_t tempByte;
+	uint8_t spadTypeIdentified = 0;
+
+	/* The entire array will not be used for spads, therefore the last
+	 * byte and last bit is determined from the max spads value.
+	 */
+
+	lastByte = maxSpads / cSpadsPerByte;
+	lastBit = maxSpads % cSpadsPerByte;
+
+	/* Check that the max spads value does not exceed the array bounds. */
+	if (lastByte >= byteCount)
+		status = VL53L0X_ERROR_REF_SPAD_INIT;
+
+	*pTotalSpadsEnabled = 0;
+
+	/* Count the bits enabled in the whole bytes */
+	for (byteIndex = 0; byteIndex <= (lastByte - 1); byteIndex++) {
+		tempByte = spadArray[byteIndex];
+
+		for (bitIndex = 0; bitIndex <= cSpadsPerByte; bitIndex++) {
+			if ((tempByte & 0x01) == 1) {
+				(*pTotalSpadsEnabled)++;
+
+				if (!spadTypeIdentified) {
+					*pIsAperture = 1;
+					if ((byteIndex < 2) && (bitIndex < 4))
+						*pIsAperture = 0;
+					spadTypeIdentified = 1;
+				}
+			}
+			tempByte >>= 1;
+		}
+	}
+
+	/* Count the number of bits enabled in the last byte accounting
+	 * for the fact that not all bits in the byte may be used.
+	 */
+	tempByte = spadArray[lastByte];
+
+	for (bitIndex = 0; bitIndex <= lastBit; bitIndex++) {
+		if ((tempByte & 0x01) == 1)
+			(*pTotalSpadsEnabled)++;
+	}
+
+	return status;
+}
+
+VL53L0X_Error set_ref_spad_map(VL53L0X_DEV Dev, uint8_t *refSpadArray)
+{
+	VL53L0X_Error status = VL53L0X_WriteMulti(Dev,
+				VL53L0X_REG_GLOBAL_CONFIG_SPAD_ENABLES_REF_0,
+				refSpadArray, 6);
+	return status;
+}
+
+VL53L0X_Error get_ref_spad_map(VL53L0X_DEV Dev, uint8_t *refSpadArray)
+{
+	VL53L0X_Error status = VL53L0X_ReadMulti(Dev,
+				VL53L0X_REG_GLOBAL_CONFIG_SPAD_ENABLES_REF_0,
+				refSpadArray,
+				6);
+	return status;
+}
+
+VL53L0X_Error enable_ref_spads(VL53L0X_DEV Dev,
+				uint8_t apertureSpads,
+				uint8_t goodSpadArray[],
+				uint8_t spadArray[],
+				uint32_t size,
+				uint32_t start,
+				uint32_t offset,
+				uint32_t spadCount,
+				uint32_t *lastSpad)
+{
+	VL53L0X_Error status = VL53L0X_ERROR_NONE;
+	uint32_t index;
+	uint32_t i;
+	int32_t nextGoodSpad = offset;
+	uint32_t currentSpad;
+	uint8_t checkSpadArray[6];
+
+	/*
+	 * This function takes in a spad array which may or may not have SPADS
+	 * already enabled and appends from a given offset a requested number
+	 * of new SPAD enables. The 'good spad map' is applied to
+	 * determine the next SPADs to enable.
+	 *
+	 * This function applies to only aperture or only non-aperture spads.
+	 * Checks are performed to ensure this.
+	 */
+
+	currentSpad = offset;
+	for (index = 0; index < spadCount; index++) {
+		get_next_good_spad(goodSpadArray, size, currentSpad,
+			&nextGoodSpad);
+
+		if (nextGoodSpad == -1) {
+			status = VL53L0X_ERROR_REF_SPAD_INIT;
+			break;
+		}
+
+		/* Confirm that the next good SPAD is non-aperture */
+		if (is_aperture(start + nextGoodSpad) != apertureSpads) {
+			/* if we can't get the required number of good aperture
+			 * spads from the current quadrant then this is an error
+			 */
+			status = VL53L0X_ERROR_REF_SPAD_INIT;
+			break;
+		}
+		currentSpad = (uint32_t)nextGoodSpad;
+		enable_spad_bit(spadArray, size, currentSpad);
+		currentSpad++;
+	}
+	*lastSpad = currentSpad;
+
+	if (status == VL53L0X_ERROR_NONE)
+		status = set_ref_spad_map(Dev, spadArray);
+
+
+	if (status == VL53L0X_ERROR_NONE) {
+		status = get_ref_spad_map(Dev, checkSpadArray);
+
+		i = 0;
+
+		/* Compare spad maps. If not equal report error. */
+		while (i < size) {
+			if (spadArray[i] != checkSpadArray[i]) {
+				status = VL53L0X_ERROR_REF_SPAD_INIT;
+				break;
+			}
+			i++;
+		}
+	}
+	return status;
+}
+
+
+VL53L0X_Error perform_ref_signal_measurement(VL53L0X_DEV Dev,
+		uint16_t *refSignalRate)
+{
+	VL53L0X_Error status = VL53L0X_ERROR_NONE;
+	VL53L0X_RangingMeasurementData_t rangingMeasurementData;
+
+	uint8_t SequenceConfig = 0;
+
+	/* store the value of the sequence config,
+	 * this will be reset before the end of the function
+	 */
+
+	SequenceConfig = PALDevDataGet(Dev, SequenceConfig);
+
+	/*
+	 * This function performs a reference signal rate measurement.
+	 */
+	if (status == VL53L0X_ERROR_NONE)
+		status = VL53L0X_WrByte(Dev,
+			VL53L0X_REG_SYSTEM_SEQUENCE_CONFIG, 0xC0);
+
+	if (status == VL53L0X_ERROR_NONE)
+		status = VL53L0X_PerformSingleRangingMeasurement(Dev,
+				&rangingMeasurementData);
+
+	if (status == VL53L0X_ERROR_NONE)
+		status = VL53L0X_WrByte(Dev, 0xFF, 0x01);
+
+	if (status == VL53L0X_ERROR_NONE)
+		status = VL53L0X_RdWord(Dev,
+			VL53L0X_REG_RESULT_PEAK_SIGNAL_RATE_REF,
+			refSignalRate);
+
+	if (status == VL53L0X_ERROR_NONE)
+		status = VL53L0X_WrByte(Dev, 0xFF, 0x00);
+
+	if (status == VL53L0X_ERROR_NONE) {
+		/* restore the previous Sequence Config */
+		status = VL53L0X_WrByte(Dev, VL53L0X_REG_SYSTEM_SEQUENCE_CONFIG,
+				SequenceConfig);
+		if (status == VL53L0X_ERROR_NONE)
+			PALDevDataSet(Dev, SequenceConfig, SequenceConfig);
+	}
+
+	return status;
+}
+
+VL53L0X_Error VL53L0X_perform_ref_spad_management(VL53L0X_DEV Dev,
+				uint32_t *refSpadCount,
+				uint8_t *isApertureSpads)
+{
+	VL53L0X_Error Status = VL53L0X_ERROR_NONE;
+	uint8_t lastSpadArray[6];
+	uint8_t startSelect = 0xB4;
+	uint32_t minimumSpadCount = 3;
+	uint32_t maxSpadCount = 44;
+	uint32_t currentSpadIndex = 0;
+	uint32_t lastSpadIndex = 0;
+	int32_t nextGoodSpad = 0;
+	uint16_t targetRefRate = 0x0A00; /* 20 MCPS in 9:7 format */
+	uint16_t peakSignalRateRef;
+	uint32_t needAptSpads = 0;
+	uint32_t index = 0;
+	uint32_t spadArraySize = 6;
+	uint32_t signalRateDiff = 0;
+	uint32_t lastSignalRateDiff = 0;
+	uint8_t complete = 0;
+	uint8_t VhvSettings = 0;
+	uint8_t PhaseCal = 0;
+	uint32_t refSpadCount_int = 0;
+	uint8_t	 isApertureSpads_int = 0;
+
+	/*
+	 * The reference SPAD initialization procedure determines the minimum
+	 * amount of reference spads to be enables to achieve a target reference
+	 * signal rate and should be performed once during initialization.
+	 *
+	 * Either aperture or non-aperture spads are applied but never both.
+	 * Firstly non-aperture spads are set, begining with 5 spads, and
+	 * increased one spad at a time until the closest measurement to the
+	 * target rate is achieved.
+	 *
+	 * If the target rate is exceeded when 5 non-aperture spads are enabled,
+	 * initialization is performed instead with aperture spads.
+	 *
+	 * When setting spads, a 'Good Spad Map' is applied.
+	 *
+	 * This procedure operates within a SPAD window of interest of a maximum
+	 * 44 spads.
+	 * The start point is currently fixed to 180, which lies towards the end
+	 * of the non-aperture quadrant and runs in to the adjacent aperture
+	 * quadrant.
+	 */
+
+
+	targetRefRate = PALDevDataGet(Dev, targetRefRate);
+
+	/*
+	 * Initialize Spad arrays.
+	 * Currently the good spad map is initialised to 'All good'.
+	 * This is a short term implementation. The good spad map will be
+	 * provided as an input.
+	 * Note that there are 6 bytes. Only the first 44 bits will be used to
+	 * represent spads.
+	 */
+	for (index = 0; index < spadArraySize; index++)
+		Dev->Data.SpadData.RefSpadEnables[index] = 0;
+
+
+	Status = VL53L0X_WrByte(Dev, 0xFF, 0x01);
+
+	if (Status == VL53L0X_ERROR_NONE)
+		Status = VL53L0X_WrByte(Dev,
+			VL53L0X_REG_DYNAMIC_SPAD_REF_EN_START_OFFSET, 0x00);
+
+	if (Status == VL53L0X_ERROR_NONE)
+		Status = VL53L0X_WrByte(Dev,
+			VL53L0X_REG_DYNAMIC_SPAD_NUM_REQUESTED_REF_SPAD, 0x2C);
+
+	if (Status == VL53L0X_ERROR_NONE)
+		Status = VL53L0X_WrByte(Dev, 0xFF, 0x00);
+
+	if (Status == VL53L0X_ERROR_NONE)
+		Status = VL53L0X_WrByte(Dev,
+			VL53L0X_REG_GLOBAL_CONFIG_REF_EN_START_SELECT,
+			startSelect);
+
+
+	if (Status == VL53L0X_ERROR_NONE)
+		Status = VL53L0X_WrByte(Dev,
+			VL53L0X_REG_POWER_MANAGEMENT_GO1_POWER_FORCE, 0);
+
+	/* Perform ref calibration */
+	if (Status == VL53L0X_ERROR_NONE)
+		Status = VL53L0X_perform_ref_calibration(Dev, &VhvSettings,
+			&PhaseCal, 0);
+
+	if (Status == VL53L0X_ERROR_NONE) {
+		/* Enable Minimum NON-APERTURE Spads */
+		currentSpadIndex = 0;
+		lastSpadIndex = currentSpadIndex;
+		needAptSpads = 0;
+		Status = enable_ref_spads(Dev,
+					needAptSpads,
+					Dev->Data.SpadData.RefGoodSpadMap,
+					Dev->Data.SpadData.RefSpadEnables,
+					spadArraySize,
+					startSelect,
+					currentSpadIndex,
+					minimumSpadCount,
+					&lastSpadIndex);
+	}
+
+	if (Status == VL53L0X_ERROR_NONE) {
+		currentSpadIndex = lastSpadIndex;
+
+		Status = perform_ref_signal_measurement(Dev,
+			&peakSignalRateRef);
+		if ((Status == VL53L0X_ERROR_NONE) &&
+			(peakSignalRateRef > targetRefRate)) {
+			/* Signal rate measurement too high,
+			 * switch to APERTURE SPADs
+			 */
+
+			for (index = 0; index < spadArraySize; index++)
+				Dev->Data.SpadData.RefSpadEnables[index] = 0;
+
+
+			/* Increment to the first APERTURE spad */
+			while ((is_aperture(startSelect + currentSpadIndex)
+				== 0) && (currentSpadIndex < maxSpadCount)) {
+				currentSpadIndex++;
+			}
+
+			needAptSpads = 1;
+
+			Status = enable_ref_spads(Dev,
+					needAptSpads,
+					Dev->Data.SpadData.RefGoodSpadMap,
+					Dev->Data.SpadData.RefSpadEnables,
+					spadArraySize,
+					startSelect,
+					currentSpadIndex,
+					minimumSpadCount,
+					&lastSpadIndex);
+
+			if (Status == VL53L0X_ERROR_NONE) {
+				currentSpadIndex = lastSpadIndex;
+				Status = perform_ref_signal_measurement(Dev,
+						&peakSignalRateRef);
+
+				if ((Status == VL53L0X_ERROR_NONE) &&
+					(peakSignalRateRef > targetRefRate)) {
+					/* Signal rate still too high after
+					 * setting the minimum number of
+					 * APERTURE spads. Can do no more
+					 * therefore set the min number of
+					 * aperture spads as the result.
+					 */
+					isApertureSpads_int = 1;
+					refSpadCount_int = minimumSpadCount;
+				}
+			}
+		} else {
+			needAptSpads = 0;
+		}
+	}
+
+	if ((Status == VL53L0X_ERROR_NONE) &&
+		(peakSignalRateRef < targetRefRate)) {
+		/* At this point, the minimum number of either aperture
+		 * or non-aperture spads have been set. Proceed to add
+		 * spads and perform measurements until the target
+		 * reference is reached.
+		 */
+		isApertureSpads_int = needAptSpads;
+		refSpadCount_int	= minimumSpadCount;
+
+		memcpy(lastSpadArray, Dev->Data.SpadData.RefSpadEnables,
+				spadArraySize);
+		lastSignalRateDiff = abs(peakSignalRateRef -
+			targetRefRate);
+		complete = 0;
+
+		while (!complete) {
+			get_next_good_spad(
+				Dev->Data.SpadData.RefGoodSpadMap,
+				spadArraySize, currentSpadIndex,
+				&nextGoodSpad);
+
+			if (nextGoodSpad == -1) {
+				Status = VL53L0X_ERROR_REF_SPAD_INIT;
+				break;
+			}
+
+			/* Cannot combine Aperture and Non-Aperture spads, so
+			 * ensure the current spad is of the correct type.
+			 */
+			if (is_aperture((uint32_t)startSelect + nextGoodSpad) !=
+					needAptSpads) {
+				/* At this point we have enabled the maximum
+				 * number of Aperture spads.
+				 */
+				complete = 1;
+				break;
+			}
+
+			(refSpadCount_int)++;
+
+			currentSpadIndex = nextGoodSpad;
+			Status = enable_spad_bit(
+					Dev->Data.SpadData.RefSpadEnables,
+					spadArraySize, currentSpadIndex);
+
+			if (Status == VL53L0X_ERROR_NONE) {
+				currentSpadIndex++;
+				/* Proceed to apply the additional spad and
+				 * perform measurement.
+				 */
+				Status = set_ref_spad_map(Dev,
+					Dev->Data.SpadData.RefSpadEnables);
+			}
+
+			if (Status != VL53L0X_ERROR_NONE)
+				break;
+
+			Status = perform_ref_signal_measurement(Dev,
+					&peakSignalRateRef);
+
+			if (Status != VL53L0X_ERROR_NONE)
+				break;
+
+			signalRateDiff = abs(peakSignalRateRef - targetRefRate);
+
+			if (peakSignalRateRef > targetRefRate) {
+				/* Select the spad map that provides the
+				 * measurement closest to the target rate,
+				 * either above or below it.
+				 */
+				if (signalRateDiff > lastSignalRateDiff) {
+					/* Previous spad map produced a closer
+					 * measurement, so choose this.
+					 */
+					Status = set_ref_spad_map(Dev,
+							lastSpadArray);
+					memcpy(
+					Dev->Data.SpadData.RefSpadEnables,
+					lastSpadArray, spadArraySize);
+
+					(refSpadCount_int)--;
+				}
+				complete = 1;
+			} else {
+				/* Continue to add spads */
+				lastSignalRateDiff = signalRateDiff;
+				memcpy(lastSpadArray,
+					Dev->Data.SpadData.RefSpadEnables,
+					spadArraySize);
+			}
+
+		} /* while */
+	}
+
+	if (Status == VL53L0X_ERROR_NONE) {
+		*refSpadCount = refSpadCount_int;
+		*isApertureSpads = isApertureSpads_int;
+
+		VL53L0X_SETDEVICESPECIFICPARAMETER(Dev, RefSpadsInitialised, 1);
+		VL53L0X_SETDEVICESPECIFICPARAMETER(Dev,
+			ReferenceSpadCount, (uint8_t)(*refSpadCount));
+		VL53L0X_SETDEVICESPECIFICPARAMETER(Dev,
+			ReferenceSpadType, *isApertureSpads);
+	}
+
+	return Status;
+}
+
+VL53L0X_Error VL53L0X_set_reference_spads(VL53L0X_DEV Dev,
+				 uint32_t count, uint8_t isApertureSpads)
+{
+	VL53L0X_Error Status = VL53L0X_ERROR_NONE;
+	uint32_t currentSpadIndex = 0;
+	uint8_t startSelect = 0xB4;
+	uint32_t spadArraySize = 6;
+	uint32_t maxSpadCount = 44;
+	uint32_t lastSpadIndex;
+	uint32_t index;
+
+	/*
+	 * This function applies a requested number of reference spads, either
+	 * aperture or
+	 * non-aperture, as requested.
+	 * The good spad map will be applied.
+	 */
+
+	Status = VL53L0X_WrByte(Dev, 0xFF, 0x01);
+
+	if (Status == VL53L0X_ERROR_NONE)
+		Status = VL53L0X_WrByte(Dev,
+			VL53L0X_REG_DYNAMIC_SPAD_REF_EN_START_OFFSET, 0x00);
+
+	if (Status == VL53L0X_ERROR_NONE)
+		Status = VL53L0X_WrByte(Dev,
+			VL53L0X_REG_DYNAMIC_SPAD_NUM_REQUESTED_REF_SPAD, 0x2C);
+
+	if (Status == VL53L0X_ERROR_NONE)
+		Status = VL53L0X_WrByte(Dev, 0xFF, 0x00);
+
+	if (Status == VL53L0X_ERROR_NONE)
+		Status = VL53L0X_WrByte(Dev,
+			VL53L0X_REG_GLOBAL_CONFIG_REF_EN_START_SELECT,
+			startSelect);
+
+	for (index = 0; index < spadArraySize; index++)
+		Dev->Data.SpadData.RefSpadEnables[index] = 0;
+
+	if (isApertureSpads) {
+		/* Increment to the first APERTURE spad */
+		while ((is_aperture(startSelect + currentSpadIndex) == 0) &&
+			  (currentSpadIndex < maxSpadCount)) {
+			currentSpadIndex++;
+		}
+	}
+	Status = enable_ref_spads(Dev,
+				isApertureSpads,
+				Dev->Data.SpadData.RefGoodSpadMap,
+				Dev->Data.SpadData.RefSpadEnables,
+				spadArraySize,
+				startSelect,
+				currentSpadIndex,
+				count,
+				&lastSpadIndex);
+
+	if (Status == VL53L0X_ERROR_NONE) {
+		VL53L0X_SETDEVICESPECIFICPARAMETER(Dev, RefSpadsInitialised, 1);
+		VL53L0X_SETDEVICESPECIFICPARAMETER(Dev,
+			ReferenceSpadCount, (uint8_t)(count));
+		VL53L0X_SETDEVICESPECIFICPARAMETER(Dev,
+			ReferenceSpadType, isApertureSpads);
+	}
+
+	return Status;
+}
+
+VL53L0X_Error VL53L0X_get_reference_spads(VL53L0X_DEV Dev,
+			uint32_t *pSpadCount, uint8_t *pIsApertureSpads)
+{
+	VL53L0X_Error Status = VL53L0X_ERROR_NONE;
+	uint8_t refSpadsInitialised;
+	uint8_t refSpadArray[6];
+	uint32_t cMaxSpadCount = 44;
+	uint32_t cSpadArraySize = 6;
+	uint32_t spadsEnabled;
+	uint8_t isApertureSpads = 0;
+
+	refSpadsInitialised = VL53L0X_GETDEVICESPECIFICPARAMETER(Dev,
+					RefSpadsInitialised);
+
+	if (refSpadsInitialised == 1) {
+
+		*pSpadCount = (uint32_t)VL53L0X_GETDEVICESPECIFICPARAMETER(Dev,
+			ReferenceSpadCount);
+		*pIsApertureSpads = VL53L0X_GETDEVICESPECIFICPARAMETER(Dev,
+			ReferenceSpadType);
+	} else {
+
+		/* obtain spad info from device.*/
+		Status = get_ref_spad_map(Dev, refSpadArray);
+
+		if (Status == VL53L0X_ERROR_NONE) {
+			/* count enabled spads within spad map array and
+			 * determine if Aperture or Non-Aperture.
+			 */
+			Status = count_enabled_spads(refSpadArray,
+							cSpadArraySize,
+							cMaxSpadCount,
+							&spadsEnabled,
+							&isApertureSpads);
+
+			if (Status == VL53L0X_ERROR_NONE) {
+
+				*pSpadCount = spadsEnabled;
+				*pIsApertureSpads = isApertureSpads;
+
+				VL53L0X_SETDEVICESPECIFICPARAMETER(Dev,
+					RefSpadsInitialised, 1);
+				VL53L0X_SETDEVICESPECIFICPARAMETER(Dev,
+					ReferenceSpadCount,
+					(uint8_t)spadsEnabled);
+				VL53L0X_SETDEVICESPECIFICPARAMETER(Dev,
+					ReferenceSpadType, isApertureSpads);
+			}
+		}
+	}
+
+	return Status;
+}
+
+
+VL53L0X_Error VL53L0X_perform_single_ref_calibration(VL53L0X_DEV Dev,
+		uint8_t vhv_init_byte)
+{
+	VL53L0X_Error Status = VL53L0X_ERROR_NONE;
+
+	if (Status == VL53L0X_ERROR_NONE)
+		Status = VL53L0X_WrByte(Dev, VL53L0X_REG_SYSRANGE_START,
+				VL53L0X_REG_SYSRANGE_MODE_START_STOP |
+				vhv_init_byte);
+
+	if (Status == VL53L0X_ERROR_NONE)
+		Status = VL53L0X_measurement_poll_for_completion(Dev);
+
+	if (Status == VL53L0X_ERROR_NONE)
+		Status = VL53L0X_ClearInterruptMask(Dev, 0);
+
+	if (Status == VL53L0X_ERROR_NONE)
+		Status = VL53L0X_WrByte(Dev, VL53L0X_REG_SYSRANGE_START, 0x00);
+
+	return Status;
+}
+
+
+VL53L0X_Error VL53L0X_ref_calibration_io(VL53L0X_DEV Dev,
+	uint8_t read_not_write,
+	uint8_t VhvSettings, uint8_t PhaseCal,
+	uint8_t *pVhvSettings, uint8_t *pPhaseCal,
+	const uint8_t vhv_enable, const uint8_t phase_enable)
+{
+	VL53L0X_Error Status = VL53L0X_ERROR_NONE;
+	uint8_t PhaseCalint = 0;
+
+	/* Read VHV from device */
+	Status |= VL53L0X_WrByte(Dev, 0xFF, 0x01);
+	Status |= VL53L0X_WrByte(Dev, 0x00, 0x00);
+	Status |= VL53L0X_WrByte(Dev, 0xFF, 0x00);
+
+	if (read_not_write) {
+		if (vhv_enable)
+			Status |= VL53L0X_RdByte(Dev, 0xCB, pVhvSettings);
+		if (phase_enable)
+			Status |= VL53L0X_RdByte(Dev, 0xEE, &PhaseCalint);
+	} else {
+		if (vhv_enable)
+			Status |= VL53L0X_WrByte(Dev, 0xCB, VhvSettings);
+		if (phase_enable)
+			Status |= VL53L0X_UpdateByte(Dev, 0xEE, 0x80, PhaseCal);
+	}
+
+	Status |= VL53L0X_WrByte(Dev, 0xFF, 0x01);
+	Status |= VL53L0X_WrByte(Dev, 0x00, 0x01);
+	Status |= VL53L0X_WrByte(Dev, 0xFF, 0x00);
+
+	*pPhaseCal = (uint8_t)(PhaseCalint&0xEF);
+
+	return Status;
+}
+
+
+VL53L0X_Error VL53L0X_perform_vhv_calibration(VL53L0X_DEV Dev,
+	uint8_t *pVhvSettings, const uint8_t get_data_enable,
+	const uint8_t restore_config)
+{
+	VL53L0X_Error Status = VL53L0X_ERROR_NONE;
+	uint8_t SequenceConfig = 0;
+	uint8_t VhvSettings = 0;
+	uint8_t PhaseCal = 0;
+	uint8_t PhaseCalInt = 0;
+
+	/* store the value of the sequence config,
+	 * this will be reset before the end of the function
+	 */
+
+	if (restore_config)
+		SequenceConfig = PALDevDataGet(Dev, SequenceConfig);
+
+	/* Run VHV */
+	Status = VL53L0X_WrByte(Dev, VL53L0X_REG_SYSTEM_SEQUENCE_CONFIG, 0x01);
+
+	if (Status == VL53L0X_ERROR_NONE)
+		Status = VL53L0X_perform_single_ref_calibration(Dev, 0x40);
+
+	/* Read VHV from device */
+	if ((Status == VL53L0X_ERROR_NONE) && (get_data_enable == 1)) {
+		Status = VL53L0X_ref_calibration_io(Dev, 1,
+			VhvSettings, PhaseCal, /* Not used here */
+			pVhvSettings, &PhaseCalInt,
+			1, 0);
+	} else
+		*pVhvSettings = 0;
+
+
+	if ((Status == VL53L0X_ERROR_NONE) && restore_config) {
+		/* restore the previous Sequence Config */
+		Status = VL53L0X_WrByte(Dev, VL53L0X_REG_SYSTEM_SEQUENCE_CONFIG,
+				SequenceConfig);
+		if (Status == VL53L0X_ERROR_NONE)
+			PALDevDataSet(Dev, SequenceConfig, SequenceConfig);
+
+	}
+
+	return Status;
+}
+
+VL53L0X_Error VL53L0X_perform_phase_calibration(VL53L0X_DEV Dev,
+	uint8_t *pPhaseCal, const uint8_t get_data_enable,
+	const uint8_t restore_config)
+{
+	VL53L0X_Error Status = VL53L0X_ERROR_NONE;
+	uint8_t SequenceConfig = 0;
+	uint8_t VhvSettings = 0;
+	uint8_t PhaseCal = 0;
+	uint8_t VhvSettingsint;
+
+	/* store the value of the sequence config,
+	 * this will be reset before the end of the function
+	 */
+
+	if (restore_config)
+		SequenceConfig = PALDevDataGet(Dev, SequenceConfig);
+
+	/* Run PhaseCal */
+	Status = VL53L0X_WrByte(Dev, VL53L0X_REG_SYSTEM_SEQUENCE_CONFIG, 0x02);
+
+	if (Status == VL53L0X_ERROR_NONE)
+		Status = VL53L0X_perform_single_ref_calibration(Dev, 0x0);
+
+	/* Read PhaseCal from device */
+	if ((Status == VL53L0X_ERROR_NONE) && (get_data_enable == 1)) {
+		Status = VL53L0X_ref_calibration_io(Dev, 1,
+			VhvSettings, PhaseCal, /* Not used here */
+			&VhvSettingsint, pPhaseCal,
+			0, 1);
+	} else
+		*pPhaseCal = 0;
+
+
+	if ((Status == VL53L0X_ERROR_NONE) && restore_config) {
+		/* restore the previous Sequence Config */
+		Status = VL53L0X_WrByte(Dev, VL53L0X_REG_SYSTEM_SEQUENCE_CONFIG,
+				SequenceConfig);
+		if (Status == VL53L0X_ERROR_NONE)
+			PALDevDataSet(Dev, SequenceConfig, SequenceConfig);
+
+	}
+
+	return Status;
+}
+
+VL53L0X_Error VL53L0X_perform_ref_calibration(VL53L0X_DEV Dev,
+	uint8_t *pVhvSettings, uint8_t *pPhaseCal, uint8_t get_data_enable)
+{
+	VL53L0X_Error Status = VL53L0X_ERROR_NONE;
+	uint8_t SequenceConfig = 0;
+
+	/* store the value of the sequence config,
+	 * this will be reset before the end of the function
+	 */
+
+	SequenceConfig = PALDevDataGet(Dev, SequenceConfig);
+
+	/* In the following function we don't save the config to optimize
+	 * writes on device. Config is saved and restored only once.
+	 */
+	Status = VL53L0X_perform_vhv_calibration(
+			Dev, pVhvSettings, get_data_enable, 0);
+
+
+	if (Status == VL53L0X_ERROR_NONE)
+		Status = VL53L0X_perform_phase_calibration(
+			Dev, pPhaseCal, get_data_enable, 0);
+
+
+	if (Status == VL53L0X_ERROR_NONE) {
+		/* restore the previous Sequence Config */
+		Status = VL53L0X_WrByte(Dev, VL53L0X_REG_SYSTEM_SEQUENCE_CONFIG,
+				SequenceConfig);
+		if (Status == VL53L0X_ERROR_NONE)
+			PALDevDataSet(Dev, SequenceConfig, SequenceConfig);
+
+	}
+
+	return Status;
+}
+
+VL53L0X_Error VL53L0X_set_ref_calibration(VL53L0X_DEV Dev,
+		uint8_t VhvSettings, uint8_t PhaseCal)
+{
+	VL53L0X_Error Status = VL53L0X_ERROR_NONE;
+	uint8_t pVhvSettings;
+	uint8_t pPhaseCal;
+
+	Status = VL53L0X_ref_calibration_io(Dev, 0,
+		VhvSettings, PhaseCal,
+		&pVhvSettings, &pPhaseCal,
+		1, 1);
+
+	return Status;
+}
+
+VL53L0X_Error VL53L0X_get_ref_calibration(VL53L0X_DEV Dev,
+		uint8_t *pVhvSettings, uint8_t *pPhaseCal)
+{
+	VL53L0X_Error Status = VL53L0X_ERROR_NONE;
+	uint8_t VhvSettings = 0;
+	uint8_t PhaseCal = 0;
+
+	Status = VL53L0X_ref_calibration_io(Dev, 1,
+		VhvSettings, PhaseCal,
+		pVhvSettings, pPhaseCal,
+		1, 1);
+
+	return Status;
+}

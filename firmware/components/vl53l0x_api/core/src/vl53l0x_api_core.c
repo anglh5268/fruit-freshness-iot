@@ -533,4 +533,1596 @@ uint32_t VL53L0X_decode_timeout(uint16_t encoded_timeout)
 	 * Decode 16-bit timeout register value - format (LSByte * 2^MSByte) + 1
 	 */
 
-	×N{ÖÚ$z{-®éÜj×f—…ö–çCce÷BF–fc%öÖ73°Ğ ”f—…ö–çCce÷B7#°Ğ ”f—…ö–çCce÷B7##°Ğ ”f—…ö–çCce÷B7%7VÓ°Ğ ”f—…ö–çCce÷B7'E&W7VÇEö6VçF•öç3°Ğ ”f—…ö–çCce÷B7'E&W7VÇC°Ğ ”f—…ö–çCce÷BF÷FÅ6–væÅ&FUöÖ73°Ğ ”f—…ö–çCce÷B6–vÖW7E&Vc°Ğ —V–çC3%÷Bf76VÅv–GFƒ°Ğ —V–çC3%÷Bf–æÅ&ævTÖ7&õ4Äµ3°Ğ —V–çC3%÷B&U&ævTÖ7&õ4Äµ3°Ğ —V–çC3%÷BVµf76VÄGW&F–öå÷W3°Ğ —V–çC…÷Bf–æÅ&ævUf76VÅ4Äµ3°Ğ —V–çC…÷B&U&ævUf76VÅ4Äµ3°Ğ ’ò¢ÆFGFöw&÷W6Æ5÷6–vÖöW7F–ÖFPĞ ’¢°Ğ ’ Ğ ’¢W7F–ÖFW2F†R&ævR6–vÖĞ ’¢ğĞ Ğ ”ÄôuôeTä5D”ôåõ5D%B‚""“°Ğ Ğ •dÃS4Ã…ôtUE$ÔUDU$d”TÄB„FWbÂ…FÆ´6ö×Vç6F–öå&FTÖVv72ÀĞ —…FÆ´6ö×&FUöÖ72“°Ğ Ğ ’ò Ğ ’¢vRv÷&²–â¶72&F†W"F†âÖ722F†—2†VÇ2¶VWv—F†–âF†PĞ ’¢6öæf–æW2öbF†R3"f—ƒcbG—RàĞ ’¢ğĞ Ğ –Ö&–VçE&FUö¶72ĞĞ ’‡&æv–ætÖV7W&VÖVçDFFÓäÖ&–VçE&FU'FäÖVv72¢’ãâc°Ğ Ğ •7FGW2ÒdÃS4Ã…övWE÷F÷FÅ÷6–væÅ÷&FR€Ğ ”FWbÂ&æv–ætÖV7W&VÖVçDFFÂgF÷FÅ6–væÅ&FUöÖ72“°Ğ •7FGW2ÒdÃS4Ã…övWE÷F÷FÅ÷‡FÆµ÷&FR€Ğ ”FWbÂ&æv–ætÖV7W&VÖVçDFFÂg…FÆ´6ö×&FUöÖ72“°Ğ Ğ Ğ ’ò¢6–væÂ&FRÖV7W&VÖVçB&÷f–FVB'’FWf–6R—2F†PĞ ’¢V²6–væÂ&FRÂæ÷BfW&vRàĞ ’¢ğĞ —Vµ6–væÅ&FUö¶72Ò‡F÷FÅ6–væÅ&FUöÖ72¢“°Ğ —Vµ6–væÅ&FUö¶72Ò‡Vµ6–væÅ&FUö¶72²ƒƒ’ãâc°Ğ Ğ —…FÆ´6ö×&FUö¶72Ò…FÆ´6ö×&FUöÖ72¢°Ğ Ğ ––b‡…FÆ´6ö×&FUö¶72â4Ö……FÆµö¶72Ğ —…FÆ´6ö×&FUö¶72Ò4Ö……FÆµö¶73°Ğ Ğ ––b…7FGW2ÓÒdÃS4Ã…ôU%$õ%ôäôäR’°Ğ Ğ ’ò¢6Æ7VÆFRf–æÂ&ævRÖ7&òW&–öG2¢ğĞ –f–æÅ&ævUF–ÖV÷WDÖ–7&õ6V72ÒdÃS4Ã…ôtUDDUd”4U5T4”d”5$ÔUDU"€Ğ ”FWbÂf–æÅ&ævUF–ÖV÷WDÖ–7&õ6V72“°Ğ Ğ –f–æÅ&ævUf76VÅ4Äµ2ÒdÃS4Ã…ôtUDDUd”4U5T4”d”5$ÔUDU"€Ğ ”FWbÂf–æÅ&ævUf76VÅVÇ6UW&–öB“°Ğ Ğ –f–æÅ&ævTÖ7&õ4Äµ2ÒdÃS4Ã…ö6Æ5÷F–ÖV÷WEöÖ6Æ·2€Ğ ”FWbÂf–æÅ&ævUF–ÖV÷WDÖ–7&õ6V72Âf–æÅ&ævUf76VÅ4Äµ2“°Ğ Ğ ’ò¢6Æ7VÆFR&R×&ævRÖ7&òW&–öG2¢ğĞ —&U&ævUF–ÖV÷WDÖ–7&õ6V72ÒdÃS4Ã…ôtUDDUd”4U5T4”d”5$ÔUDU"€Ğ ”FWbÂ&U&ævUF–ÖV÷WDÖ–7&õ6V72“°Ğ Ğ —&U&ævUf76VÅ4Äµ2ÒdÃS4Ã…ôtUDDUd”4U5T4”d”5$ÔUDU"€Ğ ”FWbÂ&U&ævUf76VÅVÇ6UW&–öB“°Ğ Ğ —&U&ævTÖ7&õ4Äµ2ÒdÃS4Ã…ö6Æ5÷F–ÖV÷WEöÖ6Æ·2€Ğ ”FWbÂ&U&ævUF–ÖV÷WDÖ–7&õ6V72Â&U&ævUf76VÅ4Äµ2“°Ğ Ğ —f76VÅv–GF‚Ò3°Ğ ––b†f–æÅ&ævUf76VÅ4Äµ2ÓÒ‚Ğ —f76VÅv–GF‚Ò#°Ğ Ğ Ğ —Vµf76VÄGW&F–öå÷W2Òf76VÅv–GF‚¢#C‚ Ğ ’‡&U&ævTÖ7&õ4Äµ2²f–æÅ&ævTÖ7&õ4Äµ2“°Ğ —Vµf76VÄGW&F–öå÷W2Ò‡Vµf76VÄGW&F–öå÷W2²S’ó°Ğ —Vµf76VÄGW&F–öå÷W2£Ò5ÆÅW&–öE÷3°Ğ —Vµf76VÄGW&F–öå÷W2Ò‡Vµf76VÄGW&F–öå÷W2²S’ó°Ğ Ğ ’ò¢f—ƒcbãâ‚Òf—ƒ#C‚¢ğĞ —F÷FÅ6–væÅ&FUöÖ72Ò‡F÷FÅ6–væÅ&FUöÖ72²ƒƒ’ãâƒ°Ğ Ğ ’ò¢f—ƒ#C‚¢V–çC3"Òf—ƒ#C‚¢ğĞ —f76VÅF÷FÄWfVçG5'FâÒF÷FÅ6–væÅ&FUöÖ72 Ğ —Vµf76VÄGW&F–öå÷W3°Ğ Ğ ’ò¢f—ƒ#C‚ãâ‚ÒV–çC3"¢ğĞ —f76VÅF÷FÄWfVçG5'FâÒ‡f76VÅF÷FÄWfVçG5'Fâ²ƒƒ’ãâƒ°Ğ Ğ ’ò¢f—ƒ#C‚ÃÂ‚Òf—ƒcbÒ¢ğĞ —F÷FÅ6–væÅ&FUöÖ72ÃÃÒƒ°Ğ —ĞĞ Ğ ––b…7FGW2ÒdÃS4Ã…ôU%$õ%ôäôäR’°Ğ ”ÄôuôeTä5D”ôåôTäB…7FGW2“°Ğ —&WGW&â7FGW3°Ğ —ĞĞ Ğ ––b‡Vµ6–væÅ&FUö¶72ÓÒ’°Ğ ’§6–vÖW7F–ÖFRÒ56–vÖW7DÖƒ°Ğ •ÄFWdFF6WB„FWbÂ6–vÖW7F–ÖFRÂ56–vÖW7DÖ‚“°Ğ —ÒVÇ6R°Ğ ––b‡f76VÅF÷FÄWfVçG5'FâÂĞ —f76VÅF÷FÄWfVçG5'FâÒ°Ğ Ğ —6–vÖW7F–ÖFUÒ5VÇ6TVffV7F—fUv–GF…ö6VçF•öç3°Ğ Ğ ’ò¢‚„f—…ö–çCcbÃÂb’¢V–çC3"’÷V–çC3"Òf—…ö–çCcb¢ğĞ —6–vÖW7F–ÖFU"Ò†Ö&–VçE&FUö¶72ÃÂb’÷Vµ6–væÅ&FUö¶73°Ğ ––b‡6–vÖW7F–ÖFU"â4Ö%Fõ6–væÅ&F–ôÖ‚’°Ğ ’ò¢6Æ—Fò&WfVçB÷fW&fÆ÷râv–ÆÂVç7W&R6fPĞ ’¢Ö‚&W7VÇBàĞ ’¢ğĞ —6–vÖW7F–ÖFU"Ò4Ö%Fõ6–væÅ&F–ôÖƒ°Ğ —ĞĞ —6–vÖW7F–ÖFU"£Ò4Ö&–VçDVffV7F—fUv–GF…ö6VçF•öç3°Ğ Ğ —6–vÖW7F–ÖFU2Ò"¢dÃS4Ã…ö—7'B‡f76VÅF÷FÄWfVçG5'Fâ¢"“°Ğ Ğ ’ò¢V–çC3"¢f—…ö–çCcbÒf—…ö–çCcb¢ğĞ –FVÇFE÷2Ò&æv–ætÖV7W&VÖVçDFFÓå&ævTÖ–ÆÆ”ÖWFW" Ğ –5Dôe÷W%öÖÕ÷3°Ğ Ğ ’ò Ğ ’¢f76VÅ&FRÒ‡FÆ´6ö×&FPĞ ’¢‡V–çC3"ÃÂb’Òf—…ö–çCcbÒf—…ö–çCcbàĞ ’¢F—f–FR&W7VÇB'’Fò6öçfW'BFòÖ72àĞ ’¢S—2FFVBFòVç7W&R&÷VæF–ærv†Vâ–çFVvW"F—f—6–öàĞ ’¢G'Væ6FW2àĞ ’¢ğĞ –F–fcöÖ72Ò‚‚‡Vµ6–væÅ&FUö¶72ÃÂb’ĞĞ “"¢…FÆ´6ö×&FUö¶72’²S’ó°Ğ Ğ ’ò¢f76VÅ&FR²‡FÆ´6ö×&FR¢ğĞ –F–fc%öÖ72Ò‚‡Vµ6–væÅ&FUö¶72ÃÂb’²S’ó°Ğ Ğ ’ò¢6†–gB'’‚&—G2Fò–æ7&V6R&W6öÇWF–öâ&–÷"FòF†PĞ ’¢F—f—6–öàĞ ’¢ğĞ –F–fcöÖ72ÃÃÒƒ°Ğ Ğ ’ò¢f—…ö–çCƒ#Bôf—…ö–çCcbÒf—…ö–çC#C‚¢ğĞ —…FÆ´6÷'&V7F–öà’Ò'2†F–fcöÖ72öF–fc%öÖ72“°Ğ Ğ ’ò¢f—…ö–çC#C‚ÃÂ‚Òf—…ö–çCcb¢ğĞ —…FÆ´6÷'&V7F–öâÃÃÒƒ°Ğ Ğ ––b‡&æv–ætÖV7W&VÖVçDFFÓå&ævU7FGW2Ò’°Ğ —t×VÇBÒÃÂc°Ğ —ÒVÇ6R°Ğ ’ò¢f—…ö–çCcb÷V–çC3"Òf—…ö–çCcb¢ğĞ ’ò¢6ÖÆÆW"F†âãb¢ğĞ —t×VÇBÒFVÇFE÷2ö5f76VÅVÇ6Uv–GF…÷3°Ğ Ğ ’ò Ğ ’¢f—…ö–çCcb¢f—…ö–çCcbÒf—…ö–çC3#3"Â†÷vWfW Ğ ’¢&÷F‚fÇVW2&R6ÖÆÂVæ÷Vv‚7V6‚F†C3"&—G2v–ÆÀĞ ’¢æ÷B&RW†6VVFVBàĞ ’¢ğĞ —t×VÇB£Ò‚ƒÃÂb’Ò…FÆ´6÷'&V7F–öâ“°Ğ Ğ ’ò¢„f—…ö–çC3#3"ãâb’Òf—…ö–çCcb¢ğĞ —t×VÇBÒ‡t×VÇB²3d&—E&÷VæF–æu&Ò’ãâc°Ğ Ğ ’ò¢f—…ö–çCcb²f—…ö–çCcbÒf—…ö–çCcb¢ğĞ —t×VÇB³ÒƒÃÂb“°Ğ Ğ ’ò Ğ ’¢BF†—2ö–çBF†RfÇVRv–ÆÂ&Rç‡‚ÂF†W&Vf÷&R–bvPĞ ’¢7V&RF†RfÇVRF†—2v–ÆÂW†6VVB3"&—G2âFòFG&W70Ğ ’¢F†—2W&f÷&Ò6–ævÆR6†–gBFòF†R&–v‡B&Vf÷&RF†PĞ ’¢×VÇF—Æ–6F–öâàĞ ’¢ğĞ —t×VÇBããÒ°Ğ ’ò¢f—…ö–çCsR¢f—…ö–çCsRÒf—…ö–çC3C3¢ğĞ —t×VÇBÒt×VÇB¢t×VÇC°Ğ Ğ ’ò¢„f—…ö–çC3C3ãâB’Òf—ƒcb¢ğĞ —t×VÇBããÒC°Ğ —ĞĞ Ğ ’ò¢f—…ö–çCcb¢V–çC3"Òf—…ö–çCcb¢ğĞ —7#Òt×VÇB¢6–vÖW7F–ÖFU°Ğ Ğ ’ò¢„f—…ö–çCcbãâb’Òf—…ö–çC3#¢ğĞ —7#Ò‡7#²ƒƒ’ãâc°Ğ Ğ ’ò¢f—…ö–çC3#¢f—…ö–çC3#Òf—…ö–çCcC¢ğĞ —7#£Ò7#°Ğ Ğ —7#"Ò6–vÖW7F–ÖFU#°Ğ Ğ ’ò¢„f—…ö–çCcbãâb’Òf—…ö–çC3#¢ğĞ —7#"Ò‡7#"²ƒƒ’ãâc°Ğ Ğ ’ò¢f—…ö–çC3#¢f—…ö–çC3#Òf—…ö–çCcC¢ğĞ —7#"£Ò7##°Ğ Ğ ’ò¢f—…ö–çCcC²f—…ö–çCcCÒf—…ö–çCcC¢ğĞ —7%7VÒÒ7#²7##°Ğ Ğ ’ò¢5%B„f—…ö–ãcC’Òf—…ö–çC3#¢ğĞ —7'E&W7VÇEö6VçF•öç2ÒdÃS4Ã…ö—7'B‡7%7VÒ“°Ğ Ğ ’ò¢„f—…ö–çC3#ÃÂb’Òf—…ö–çCcb¢ğĞ —7'E&W7VÇEö6VçF•öç2ÃÃÒc°Ğ Ğ ’ò Ğ ’¢æ÷FRF†BF†R7VVBöbÆ–v‡B—2W‡&W76VB–âVÒW"RÓ Ğ ’¢6V6öæG2ƒ#““r’F†W&Vf÷&RFòvWBÖÒöç2vR†fRFòF—f–FR'Ğ ’¢ Ğ ’¢ğĞ —6–vÖW7E'FâÒ‚‚‡7'E&W7VÇEö6VçF•öç2³S’ó’ğĞ —6–vÖW7F–ÖFU2“°Ğ —6–vÖW7E'Fà’£ÒdÃS4Ã…õ5TTEôôeôÄ”t…Eô”åô•#°Ğ Ğ ’ò¢FBS&Vf÷&RF—f–F–ær'’FòVç7W&R&÷VæF–ærâ¢ğĞ —6–vÖW7E'Fà’³ÒS°Ğ —6–vÖW7E'Fà’óÒ°Ğ Ğ ––b‡6–vÖW7E'Fââ56–vÖW7E'FäÖ‚’°Ğ ’ò¢6Æ—Fò&WfVçB÷fW&fÆ÷râv–ÆÂVç7W&R6fPĞ ’¢Ö‚&W7VÇBàĞ ’¢ğĞ —6–vÖW7E'FâÒ56–vÖW7E'FäÖƒ°Ğ —ĞĞ –f–æÅ&ævT–çFVw&F–öåF–ÖTÖ–ÆÆ•6V72ĞĞ ’†f–æÅ&ævUF–ÖV÷WDÖ–7&õ6V72²&U&ævUF–ÖV÷WDÖ–7&õ6V72°Ğ ’S’ò°Ğ Ğ ’ò¢6–vÖW7E&VbÒÖÒ¢#V×2öf–æÂ&ævR–çFVw&F–öâF–ÖPĞ ’¢†–æ2&R×&ævRĞ ’¢7'B„f—…ö–çCcbö–çB’Òf—…ö–çC#C‚Ğ ’¢ğĞ —6–vÖW7E&VbĞĞ •dÃS4Ã…ö—7'B‚†4FfÇDf–æÅ&ævT–çFVw&F–öåF–ÖTÖ–ÆÆ•6V72°Ğ –f–æÅ&ævT–çFVw&F–öåF–ÖTÖ–ÆÆ•6V72ó"’ğĞ –f–æÅ&ævT–çFVw&F–öåF–ÖTÖ–ÆÆ•6V72“°Ğ Ğ ’ò¢f—…ö–çC#C‚ÃÂ‚Òf—…ö–çCcb¢ğĞ —6–vÖW7E&VbÃÃÒƒ°Ğ —6–vÖW7E&VbÒ‡6–vÖW7E&Vb²S’ó°Ğ Ğ ’ò¢f—…ö–çCcb¢f—…ö–çCcbÒf—…ö–çC3#3"¢ğĞ —7#Ò6–vÖW7E'Fâ¢6–vÖW7E'Fã°Ğ ’ò¢f—…ö–çCcb¢f—…ö–çCcbÒf—…ö–çC3#3"¢ğĞ —7#"Ò6–vÖW7E&Vb¢6–vÖW7E&Vc°Ğ Ğ ’ò¢7'B„f—…ö–çC3#3"’Òf—…ö–çCcb¢ğĞ —7'E&W7VÇBÒdÃS4Ã…ö—7'B‚‡7#²7#"’“°Ğ ’ò Ğ ’¢æ÷FRF†BF†R6†–gB'’B&—G2–æ7&V6W2&W6öÇWF–öâ&–÷"FğĞ ’¢F†R7'BÂF†W&Vf÷&RF†R&W7VÇB×W7B&R6†–gFVB'’"&—G2FğĞ ’¢F†R&–v‡BFò&WfW'B&6²FòF†Rf—…ö–çCcbf÷&ÖBàĞ ’¢ğĞ Ğ —6–vÖW7F–ÖFP’Ò¢7'E&W7VÇC°Ğ Ğ ––b‚‡Vµ6–væÅ&FUö¶72Â’ÇÂ‡f76VÅF÷FÄWfVçG5'FâÂ’ÇÀĞ ’‡6–vÖW7F–ÖFRâ56–vÖW7DÖ‚’’°Ğ —6–vÖW7F–ÖFRÒ56–vÖW7DÖƒ°Ğ —ĞĞ Ğ ’§6–vÖW7F–ÖFRÒ‡V–çC3%÷B’‡6–vÖW7F–ÖFR“°Ğ •ÄFWdFF6WB„FWbÂ6–vÖW7F–ÖFRÂ§6–vÖW7F–ÖFR“°Ğ —ĞĞ Ğ ”ÄôuôeTä5D”ôåôTäB…7FGW2“°Ğ —&WGW&â7FGW3°Ğ§ĞĞ Ğ¥dÃS4Ã…ôW'&÷"dÃS4Ã…övWE÷Å÷&ævU÷7FGW2…dÃS4Ã…ôDUbFWbÀĞ —V–çC…÷BFWf–6U&ævU7FGW2ÀĞ ”f—…ö–çCce÷B6–væÅ&FRÀĞ —V–çCe÷BVffV7F—fU7E'Fä6÷VçBÀĞ •dÃS4Ã…õ&æv–ætÖV7W&VÖVçDFF÷B§&æv–ætÖV7W&VÖVçDFFÀĞ —V–çC…÷B§Å&ævU7FGW2Ğ§°Ğ •dÃS4Ã…ôW'&÷"7FGW2ÒdÃS4Ã…ôU%$õ%ôäôäS°Ğ —V–çC…÷BæöæTfÆs°Ğ —V–çC…÷B6–vÖÆ–Ö—FfÆrÒ°Ğ —V–çC…÷B6–væÅ&Vd6Æ—fÆrÒ°Ğ —V–çC…÷B&ævT–væ÷&UF‡&W6†öÆFfÆrÒ°Ğ —V–çC…÷B6–vÖÆ–Ö—D6†V6´Væ&ÆRÒ°Ğ —V–çC…÷B6–væÅ&FTf–æÅ&ævTÆ–Ö—D6†V6´Væ&ÆRÒ°Ğ —V–çC…÷B6–væÅ&Vd6Æ—Æ–Ö—D6†V6´Væ&ÆRÒ°Ğ —V–çC…÷B&ævT–væ÷&UF‡&W6†öÆDÆ–Ö—D6†V6´Væ&ÆRÒ°Ğ ”f—…ö–çCce÷B6–vÖW7F–ÖFS°Ğ ”f—…ö–çCce÷B6–vÖÆ–Ö—EfÇVS°Ğ ”f—…ö–çCce÷B6–væÅ&Vd6Æ—fÇVS°Ğ ”f—…ö–çCce÷B&ævT–væ÷&UF‡&W6†öÆEfÇVS°Ğ ”f—…ö–çCce÷B6–væÅ&FUW%7C°Ğ —V–çC…÷BFWf–6U&ævU7FGW4–çFW&æÂÒ°Ğ —V–çCe÷BF×v÷&BÒ°Ğ —V–çC…÷BFV×ƒ°Ğ —V–çC3%÷BFÖ…öÖÒÒ°Ğ ”f—…ö–çCce÷BÆ7E6–væÅ&VdÖ73°Ğ Ğ ”ÄôuôeTä5D”ôåõ5D%B‚""“°Ğ Ğ Ğ ’ò Ğ ’¢dÃS4Ã‚†2vööB&æv–ærv†VâF†RfÇVRöbF†PĞ ’¢FWf–6U&ævU7FGW2ÒâF†—2gVæ7F–öâv–ÆÂ&WÆ6RF†RfÇVRv—F€Ğ ’¢F†RfÇVR–âF†RFWf–6U&ævU7FGW2àĞ ’¢–âFF—F–öâÂF†R6–vÖW7F–ÖF÷"—2æ÷B–æ6ÇVFVB–âF†RdÃS4Ã€Ğ ’¢FWf–6U&ævU7FGW2ÂF†—2v–ÆÂ&RFFVB–âF†RÅ&ævU7FGW2àĞ ’¢ğĞ Ğ ”FWf–6U&ævU7FGW4–çFW&æÂÒ‚„FWf–6U&ævU7FGW2bƒs‚’ãâ2“°Ğ Ğ ––b„FWf–6U&ævU7FGW4–çFW&æÂÓÒÇÀĞ ”FWf–6U&ævU7FGW4–çFW&æÂÓÒRÇÀĞ ”FWf–6U&ævU7FGW4–çFW&æÂÓÒrÇÀĞ ”FWf–6U&ævU7FGW4–çFW&æÂÓÒ"ÇÀĞ ”FWf–6U&ævU7FGW4–çFW&æÂÓÒ2ÇÀĞ ”FWf–6U&ævU7FGW4–çFW&æÂÓÒBÇÀĞ ”FWf–6U&ævU7FGW4–çFW&æÂÓÒPĞ ’’°Ğ ”æöæTfÆrÒ°Ğ —ÒVÇ6R°Ğ ”æöæTfÆrÒ°Ğ —ĞĞ Ğ ’ò Ğ ’¢6†V6²–b6–vÖÆ–Ö—B—2Væ&ÆVBÂ–b–W2F†VâFò6ö×&—6öâv—F‚Æ–Ö—@Ğ ’¢fÇVRæBWBF†R&W7VÇB&6²–çFòÅ&ævU7FGW2àĞ ’¢ğĞ ––b…7FGW2ÓÒdÃS4Ã…ôU%$õ%ôäôäRĞ •7FGW2ÒdÃS4Ã…ôvWDÆ–Ö—D6†V6´Væ&ÆR„FWbÀĞ •dÃS4Ã…ô4„T4´Tä$ÄUõ4”tÔôd”äÅõ$ätRÀĞ ’e6–vÖÆ–Ö—D6†V6´Væ&ÆR“°Ğ Ğ ––b‚…6–vÖÆ–Ö—D6†V6´Væ&ÆRÒ’bb…7FGW2ÓÒdÃS4Ã…ôU%$õ%ôäôäR’’°Ğ ’ò Ğ ’¢6ö×WFRF†R6–vÖæB6†V6²v—F‚Æ–Ö—@Ğ ’¢ğĞ •7FGW2ÒdÃS4Ã…ö6Æ5÷6–vÖöW7F–ÖFR€Ğ ”FWbÀĞ —&æv–ætÖV7W&VÖVçDFFÀĞ ’e6–vÖW7F–ÖFR“°Ğ ––b…7FGW2ÓÒdÃS4Ã…ôU%$õ%ôäôäRĞ •7FGW2ÒdÃS4Ã…ö6Æ5öFÖ‚€Ğ ”FWbÀĞ —&æv–ætÖV7W&VÖVçDFFÓäÖ&–VçE&FU'FäÖVv72ÀĞ ’dFÖ…öÖÒ“°Ğ ––b…7FGW2ÓÒdÃS4Ã…ôU%$õ%ôäôäRĞ —&æv–ætÖV7W&VÖVçDFFÓå&ævTDÖ„Ö–ÆÆ”ÖWFW"ÒFÖ…öÖÓ°Ğ Ğ ––b…7FGW2ÓÒdÃS4Ã…ôU%$õ%ôäôäR’°Ğ •7FGW2ÒdÃS4Ã…ôvWDÆ–Ö—D6†V6µfÇVR„FWbÀĞ •dÃS4Ã…ô4„T4´Tä$ÄUõ4”tÔôd”äÅõ$ätRÀĞ ’e6–vÖÆ–Ö—EfÇVR“°Ğ Ğ ––b‚…6–vÖÆ–Ö—EfÇVRâ’b`Ğ ’…6–vÖW7F–ÖFRâ6–vÖÆ–Ö—EfÇVR’Ğ ’ò¢Æ–Ö—Bf–Â¢ğĞ •6–vÖÆ–Ö—FfÆrÒ°Ğ —ĞĞ —ĞĞ Ğ ’ò Ğ ’¢6†V6²–b6–væÂ&Vb6Æ—Æ–Ö—B—2Væ&ÆVBÂ–b–W2F†VâFò6ö×&—6öàĞ ’¢v—F‚Æ–Ö—BfÇVRæBWBF†R&W7VÇB&6²–çFòÅ&ævU7FGW2àĞ ’¢ğĞ ––b…7FGW2ÓÒdÃS4Ã…ôU%$õ%ôäôäRĞ •7FGW2ÒdÃS4Ã…ôvWDÆ–Ö—D6†V6´Væ&ÆR„FWbÀĞ •dÃS4Ã…ô4„T4´Tä$ÄUõ4”täÅõ$Teô4Ä•ÀĞ ’e6–væÅ&Vd6Æ—Æ–Ö—D6†V6´Væ&ÆR“°Ğ Ğ ––b‚…6–væÅ&Vd6Æ—Æ–Ö—D6†V6´Væ&ÆRÒ’b`Ğ ’…7FGW2ÓÒdÃS4Ã…ôU%$õ%ôäôäR’’°Ğ Ğ •7FGW2ÒdÃS4Ã…ôvWDÆ–Ö—D6†V6µfÇVR„FWbÀĞ •dÃS4Ã…ô4„T4´Tä$ÄUõ4”täÅõ$Teô4Ä•ÀĞ ’e6–væÅ&Vd6Æ—fÇVR“°Ğ Ğ ’ò¢&VBÆ7E6–væÅ&VdÖ72g&öÒFWf–6R¢ğĞ ––b…7FGW2ÓÒdÃS4Ã…ôU%$õ%ôäôäRĞ •7FGW2ÒdÃS4Ã…õw$'—FR„FWbÂ„dbÂƒ“°Ğ Ğ ––b…7FGW2ÓÒdÃS4Ã…ôU%$õ%ôäôäRĞ •7FGW2ÒdÃS4Ã…õ&Ev÷&B„FWbÀĞ •dÃS4Ã…õ$Tuõ$U5TÅEõTµõ4”täÅõ$DUõ$TbÀĞ ’gF×v÷&B“°Ğ Ğ ––b…7FGW2ÓÒdÃS4Ã…ôU%$õ%ôäôäRĞ •7FGW2ÒdÃS4Ã…õw$'—FR„FWbÂ„dbÂƒ“°Ğ Ğ ”Æ7E6–væÅ&VdÖ72ÒdÃS4Ã…ôd•…ô”åC“uDôd•…ô”åCcb‡F×v÷&B“°Ğ •ÄFWdFF6WB„FWbÂÆ7E6–væÅ&VdÖ72ÂÆ7E6–væÅ&VdÖ72“°Ğ Ğ ––b‚…6–væÅ&Vd6Æ—fÇVRâ’b`Ğ ’„Æ7E6–væÅ&VdÖ72â6–væÅ&Vd6Æ—fÇVR’’°Ğ ’ò¢Æ–Ö—Bf–Â¢ğĞ •6–væÅ&Vd6Æ—fÆrÒ°Ğ —ĞĞ —ĞĞ Ğ ’ò Ğ ’¢6†V6²–b6–væÂ&Vb6Æ—Æ–Ö—B—2Væ&ÆVBÂ–b–W2F†VâFò6ö×&—6öàĞ ’¢v—F‚Æ–Ö—BfÇVRæBWBF†R&W7VÇB&6²–çFòÅ&ævU7FGW2àĞ ’¢VffV7F—fU7E'Fä6÷VçB†2f÷&ÖB‚ã€Ğ ’¢–b…&WGW&â6–væÂ&FRÂƒãR‚‡FÆ²‚çVÖ&W"öb7G2’’¢d”ÀĞ ’¢ğĞ ––b…7FGW2ÓÒdÃS4Ã…ôU%$õ%ôäôäRĞ •7FGW2ÒdÃS4Ã…ôvWDÆ–Ö—D6†V6´Væ&ÆR„FWbÀĞ •dÃS4Ã…ô4„T4´Tä$ÄUõ$ätUô”täõ$UõD…$U4„ôÄBÀĞ ’e&ævT–væ÷&UF‡&W6†öÆDÆ–Ö—D6†V6´Væ&ÆR“°Ğ Ğ ––b‚…&ævT–væ÷&UF‡&W6†öÆDÆ–Ö—D6†V6´Væ&ÆRÒ’b`Ğ ’…7FGW2ÓÒdÃS4Ã…ôU%$õ%ôäôäR’’°Ğ Ğ ’ò¢6ö×WFRF†R6–væÂ&FRW"7B¢ğĞ ––b„VffV7F—fU7E'Fä6÷VçBÓÒ’°Ğ •6–væÅ&FUW%7BÒ°Ğ —ÒVÇ6R°Ğ •6–væÅ&FUW%7BÒ„f—…ö–çCce÷B’‚ƒ#Sb¢6–væÅ&FRĞ ’òVffV7F—fU7E'Fä6÷VçB“°Ğ —ĞĞ Ğ •7FGW2ÒdÃS4Ã…ôvWDÆ–Ö—D6†V6µfÇVR„FWbÀĞ •dÃS4Ã…ô4„T4´Tä$ÄUõ$ätUô”täõ$UõD…$U4„ôÄBÀĞ ’e&ævT–væ÷&UF‡&W6†öÆEfÇVR“°Ğ Ğ ––b‚…&ævT–væ÷&UF‡&W6†öÆEfÇVRâ’b`Ğ ’…6–væÅ&FUW%7BÂ&ævT–væ÷&UF‡&W6†öÆEfÇVR’’°Ğ ’ò¢Æ–Ö—Bf–ÂFB%ãbFò&ævR7FGW2¢ğĞ •&ævT–væ÷&UF‡&W6†öÆFfÆrÒ°Ğ —ĞĞ —ĞĞ Ğ ––b…7FGW2ÓÒdÃS4Ã…ôU%$õ%ôäôäR’°Ğ ––b„æöæTfÆrÓÒ’°Ğ ’§Å&ævU7FGW2Ò#SS°’ò¢äôäR¢ğĞ —ÒVÇ6R–b„FWf–6U&ævU7FGW4–çFW&æÂÓÒÇÀĞ ”FWf–6U&ævU7FGW4–çFW&æÂÓÒ"ÇÀĞ ”FWf–6U&ævU7FGW4–çFW&æÂÓÒ2’°Ğ ’§Å&ævU7FGW2ÒS²ò¢…rf–Â¢ğĞ —ÒVÇ6R–b„FWf–6U&ævU7FGW4–çFW&æÂÓÒbÇÀĞ ”FWf–6U&ævU7FGW4–çFW&æÂÓÒ’’°Ğ ’§Å&ævU7FGW2ÒC²ò¢†6Rf–Â¢ğĞ —ÒVÇ6R–b„FWf–6U&ævU7FGW4–çFW&æÂÓÒ‚ÇÀĞ ”FWf–6U&ævU7FGW4–çFW&æÂÓÒÇÀĞ •6–væÅ&Vd6Æ—fÆrÓÒ’°Ğ ’§Å&ævU7FGW2Ò3²ò¢Ö–â&ævR¢ğĞ —ÒVÇ6R–b„FWf–6U&ævU7FGW4–çFW&æÂÓÒBÇÀĞ •&ævT–væ÷&UF‡&W6†öÆFfÆrÓÒ’°Ğ ’§Å&ævU7FGW2Ò#²ò¢6–væÂf–Â¢ğĞ —ÒVÇ6R–b…6–vÖÆ–Ö—FfÆrÓÒ’°Ğ ’§Å&ævU7FGW2Ò²ò¢6–vÖ’f–Â¢ğĞ —ÒVÇ6R°Ğ ’§Å&ævU7FGW2Ò²ò¢&ævRfÆ–B¢ğĞ —ĞĞ —ĞĞ Ğ ’ò¢f–ÆÂF†RÆ–Ö—B6†V6²7FGW2¢ğĞ Ğ •7FGW2ÒdÃS4Ã…ôvWDÆ–Ö—D6†V6´Væ&ÆR„FWbÀĞ •dÃS4Ã…ô4„T4´Tä$ÄUõ4”täÅõ$DUôd”äÅõ$ätRÀĞ ’e6–væÅ&FTf–æÅ&ævTÆ–Ö—D6†V6´Væ&ÆR“°Ğ Ğ ––b…7FGW2ÓÒdÃS4Ã…ôU%$õ%ôäôäR’°Ğ ––b‚…6–vÖÆ–Ö—D6†V6´Væ&ÆRÓÒ’ÇÂ…6–vÖÆ–Ö—FfÆrÓÒ’Ğ •FV×‚Ò°Ğ –VÇ6PĞ •FV×‚Ò°Ğ •dÃS4Ã…õ4UD%$•$ÔUDU$d”TÄB„FWbÂÆ–Ö—D6†V6·57FGW2ÀĞ •dÃS4Ã…ô4„T4´Tä$ÄUõ4”tÔôd”äÅõ$ätRÂFV×‚“°Ğ Ğ ––b‚„FWf–6U&ævU7FGW4–çFW&æÂÓÒB’ÇÀĞ ’…6–væÅ&FTf–æÅ&ævTÆ–Ö—D6†V6´Væ&ÆRÓÒ’Ğ •FV×‚Ò°Ğ –VÇ6PĞ •FV×‚Ò°Ğ •dÃS4Ã…õ4UD%$•$ÔUDU$d”TÄB„FWbÂÆ–Ö—D6†V6·57FGW2ÀĞ •dÃS4Ã…ô4„T4´Tä$ÄUõ4”täÅõ$DUôd”äÅõ$ätRÀĞ •FV×‚“°Ğ Ğ ––b‚…6–væÅ&Vd6Æ—Æ–Ö—D6†V6´Væ&ÆRÓÒ’ÇÀĞ ’…6–væÅ&Vd6Æ—fÆrÓÒ’Ğ •FV×‚Ò°Ğ –VÇ6PĞ •FV×‚Ò°Ğ Ğ •dÃS4Ã…õ4UD%$•$ÔUDU$d”TÄB„FWbÂÆ–Ö—D6†V6·57FGW2ÀĞ •dÃS4Ã…ô4„T4´Tä$ÄUõ4”täÅõ$Teô4Ä•ÂFV×‚“°Ğ Ğ ––b‚…&ævT–væ÷&UF‡&W6†öÆDÆ–Ö—D6†V6´Væ&ÆRÓÒ’ÇÀĞ ’…&ævT–væ÷&UF‡&W6†öÆFfÆrÓÒ’Ğ •FV×‚Ò°Ğ –VÇ6PĞ •FV×‚Ò°Ğ Ğ •dÃS4Ã…õ4UD%$•$ÔUDU$d”TÄB„FWbÂÆ–Ö—D6†V6·57FGW2ÀĞ •dÃS4Ã…ô4„T4´Tä$ÄUõ$ätUô”täõ$UõD…$U4„ôÄBÀĞ •FV×‚“°Ğ —ĞĞ Ğ ”ÄôuôeTä5D”ôåôTäB…7FGW2“°Ğ —&WGW&â7FGW3°Ğ Ğ§ĞĞ 
+	uint32_t timeout_macro_clks = 0;
+
+	timeout_macro_clks = ((uint32_t) (encoded_timeout & 0x00FF)
+			<< (uint32_t) ((encoded_timeout & 0xFF00) >> 8)) + 1;
+
+	return timeout_macro_clks;
+}
+
+
+/* To convert ms into register value */
+uint32_t VL53L0X_calc_timeout_mclks(VL53L0X_DEV Dev,
+		uint32_t timeout_period_us,
+		uint8_t vcsel_period_pclks)
+{
+	uint32_t macro_period_ps;
+	uint32_t macro_period_ns;
+	uint32_t timeout_period_mclks = 0;
+
+	macro_period_ps = VL53L0X_calc_macro_period_ps(Dev, vcsel_period_pclks);
+	macro_period_ns = (macro_period_ps + 500) / 1000;
+
+	timeout_period_mclks =
+		(uint32_t) (((timeout_period_us * 1000)
+		+ (macro_period_ns / 2)) / macro_period_ns);
+
+	return timeout_period_mclks;
+}
+
+/* To convert register value into us */
+uint32_t VL53L0X_calc_timeout_us(VL53L0X_DEV Dev,
+		uint16_t timeout_period_mclks,
+		uint8_t vcsel_period_pclks)
+{
+	uint32_t macro_period_ps;
+	uint32_t macro_period_ns;
+	uint32_t actual_timeout_period_us = 0;
+
+	macro_period_ps = VL53L0X_calc_macro_period_ps(Dev, vcsel_period_pclks);
+	macro_period_ns = (macro_period_ps + 500) / 1000;
+
+	actual_timeout_period_us =
+		((timeout_period_mclks * macro_period_ns) + 500) / 1000;
+
+	return actual_timeout_period_us;
+}
+
+
+VL53L0X_Error get_sequence_step_timeout(VL53L0X_DEV Dev,
+				VL53L0X_SequenceStepId SequenceStepId,
+				uint32_t *pTimeOutMicroSecs)
+{
+	VL53L0X_Error Status = VL53L0X_ERROR_NONE;
+	uint8_t CurrentVCSELPulsePeriodPClk;
+	uint8_t EncodedTimeOutByte = 0;
+	uint32_t TimeoutMicroSeconds = 0;
+	uint16_t PreRangeEncodedTimeOut = 0;
+	uint16_t MsrcTimeOutMClks;
+	uint16_t PreRangeTimeOutMClks;
+	uint16_t FinalRangeTimeOutMClks = 0;
+	uint16_t FinalRangeEncodedTimeOut;
+	VL53L0X_SchedulerSequenceSteps_t SchedulerSequenceSteps;
+
+	if ((SequenceStepId == VL53L0X_SEQUENCESTEP_TCC)	 ||
+		(SequenceStepId == VL53L0X_SEQUENCESTEP_DSS)	 ||
+		(SequenceStepId == VL53L0X_SEQUENCESTEP_MSRC)) {
+
+		Status = VL53L0X_GetVcselPulsePeriod(Dev,
+					VL53L0X_VCSEL_PERIOD_PRE_RANGE,
+					&CurrentVCSELPulsePeriodPClk);
+		if (Status == VL53L0X_ERROR_NONE) {
+			Status = VL53L0X_RdByte(Dev,
+					VL53L0X_REG_MSRC_CONFIG_TIMEOUT_MACROP,
+					&EncodedTimeOutByte);
+		}
+		MsrcTimeOutMClks = VL53L0X_decode_timeout(EncodedTimeOutByte);
+
+		TimeoutMicroSeconds = VL53L0X_calc_timeout_us(Dev,
+						MsrcTimeOutMClks,
+						CurrentVCSELPulsePeriodPClk);
+	} else if (SequenceStepId == VL53L0X_SEQUENCESTEP_PRE_RANGE) {
+		/* Retrieve PRE-RANGE VCSEL Period */
+		Status = VL53L0X_GetVcselPulsePeriod(Dev,
+						VL53L0X_VCSEL_PERIOD_PRE_RANGE,
+						&CurrentVCSELPulsePeriodPClk);
+
+		/* Retrieve PRE-RANGE Timeout in Macro periods (MCLKS) */
+		if (Status == VL53L0X_ERROR_NONE) {
+
+			/* Retrieve PRE-RANGE VCSEL Period */
+			Status = VL53L0X_GetVcselPulsePeriod(Dev,
+					VL53L0X_VCSEL_PERIOD_PRE_RANGE,
+					&CurrentVCSELPulsePeriodPClk);
+
+			if (Status == VL53L0X_ERROR_NONE) {
+				Status = VL53L0X_RdWord(Dev,
+				VL53L0X_REG_PRE_RANGE_CONFIG_TIMEOUT_MACROP_HI,
+				&PreRangeEncodedTimeOut);
+			}
+
+			PreRangeTimeOutMClks = VL53L0X_decode_timeout(
+					PreRangeEncodedTimeOut);
+
+			TimeoutMicroSeconds = VL53L0X_calc_timeout_us(Dev,
+					PreRangeTimeOutMClks,
+					CurrentVCSELPulsePeriodPClk);
+		}
+	} else if (SequenceStepId == VL53L0X_SEQUENCESTEP_FINAL_RANGE) {
+
+		VL53L0X_GetSequenceStepEnables(Dev, &SchedulerSequenceSteps);
+		PreRangeTimeOutMClks = 0;
+
+		if (SchedulerSequenceSteps.PreRangeOn) {
+			/* Retrieve PRE-RANGE VCSEL Period */
+			Status = VL53L0X_GetVcselPulsePeriod(Dev,
+				VL53L0X_VCSEL_PERIOD_PRE_RANGE,
+				&CurrentVCSELPulsePeriodPClk);
+
+			/* Retrieve PRE-RANGE Timeout in Macro periods
+			 * (MCLKS)
+			 */
+			if (Status == VL53L0X_ERROR_NONE) {
+				Status = VL53L0X_RdWord(Dev,
+				VL53L0X_REG_PRE_RANGE_CONFIG_TIMEOUT_MACROP_HI,
+				&PreRangeEncodedTimeOut);
+				PreRangeTimeOutMClks = VL53L0X_decode_timeout(
+						PreRangeEncodedTimeOut);
+			}
+		}
+
+		if (Status == VL53L0X_ERROR_NONE) {
+			/* Retrieve FINAL-RANGE VCSEL Period */
+			Status = VL53L0X_GetVcselPulsePeriod(Dev,
+					VL53L0X_VCSEL_PERIOD_FINAL_RANGE,
+					&CurrentVCSELPulsePeriodPClk);
+		}
+
+		/* Retrieve FINAL-RANGE Timeout in Macro periods (MCLKS) */
+		if (Status == VL53L0X_ERROR_NONE) {
+			Status = VL53L0X_RdWord(Dev,
+			    VL53L0X_REG_FINAL_RANGE_CONFIG_TIMEOUT_MACROP_HI,
+			    &FinalRangeEncodedTimeOut);
+			FinalRangeTimeOutMClks = VL53L0X_decode_timeout(
+					FinalRangeEncodedTimeOut);
+		}
+
+		FinalRangeTimeOutMClks -= PreRangeTimeOutMClks;
+		TimeoutMicroSeconds = VL53L0X_calc_timeout_us(Dev,
+						FinalRangeTimeOutMClks,
+						CurrentVCSELPulsePeriodPClk);
+	}
+
+	*pTimeOutMicroSecs = TimeoutMicroSeconds;
+
+	return Status;
+}
+
+
+VL53L0X_Error set_sequence_step_timeout(VL53L0X_DEV Dev,
+					VL53L0X_SequenceStepId SequenceStepId,
+					uint32_t TimeOutMicroSecs)
+{
+	VL53L0X_Error Status = VL53L0X_ERROR_NONE;
+	uint8_t CurrentVCSELPulsePeriodPClk;
+	uint8_t MsrcEncodedTimeOut;
+	uint16_t PreRangeEncodedTimeOut;
+	uint16_t PreRangeTimeOutMClks;
+	uint16_t MsrcRangeTimeOutMClks;
+	uint32_t FinalRangeTimeOutMClks;
+	uint16_t FinalRangeEncodedTimeOut;
+	VL53L0X_SchedulerSequenceSteps_t SchedulerSequenceSteps;
+
+	if ((SequenceStepId == VL53L0X_SEQUENCESTEP_TCC)	 ||
+		(SequenceStepId == VL53L0X_SEQUENCESTEP_DSS)	 ||
+		(SequenceStepId == VL53L0X_SEQUENCESTEP_MSRC)) {
+
+		Status = VL53L0X_GetVcselPulsePeriod(Dev,
+					VL53L0X_VCSEL_PERIOD_PRE_RANGE,
+					&CurrentVCSELPulsePeriodPClk);
+
+		if (Status == VL53L0X_ERROR_NONE) {
+			MsrcRangeTimeOutMClks = VL53L0X_calc_timeout_mclks(Dev,
+					TimeOutMicroSecs,
+					(uint8_t)CurrentVCSELPulsePeriodPClk);
+
+			if (MsrcRangeTimeOutMClks > 256)
+				MsrcEncodedTimeOut = 255;
+			else
+				MsrcEncodedTimeOut =
+					(uint8_t)MsrcRangeTimeOutMClks - 1;
+
+			VL53L0X_SETDEVICESPECIFICPARAMETER(Dev,
+				LastEncodedTimeout,
+				MsrcEncodedTimeOut);
+		}
+
+		if (Status == VL53L0X_ERROR_NONE) {
+			Status = VL53L0X_WrByte(Dev,
+				VL53L0X_REG_MSRC_CONFIG_TIMEOUT_MACROP,
+				MsrcEncodedTimeOut);
+		}
+	} else {
+
+		if (SequenceStepId == VL53L0X_SEQUENCESTEP_PRE_RANGE) {
+
+			if (Status == VL53L0X_ERROR_NONE) {
+				Status = VL53L0X_GetVcselPulsePeriod(Dev,
+						VL53L0X_VCSEL_PERIOD_PRE_RANGE,
+						&CurrentVCSELPulsePeriodPClk);
+				PreRangeTimeOutMClks =
+					VL53L0X_calc_timeout_mclks(Dev,
+					TimeOutMicroSecs,
+					(uint8_t)CurrentVCSELPulsePeriodPClk);
+				PreRangeEncodedTimeOut = VL53L0X_encode_timeout(
+					PreRangeTimeOutMClks);
+
+				VL53L0X_SETDEVICESPECIFICPARAMETER(Dev,
+					LastEncodedTimeout,
+					PreRangeEncodedTimeOut);
+			}
+
+			if (Status == VL53L0X_ERROR_NONE) {
+				Status = VL53L0X_WrWord(Dev,
+				VL53L0X_REG_PRE_RANGE_CONFIG_TIMEOUT_MACROP_HI,
+				PreRangeEncodedTimeOut);
+			}
+
+			if (Status == VL53L0X_ERROR_NONE) {
+				VL53L0X_SETDEVICESPECIFICPARAMETER(
+					Dev,
+					PreRangeTimeoutMicroSecs,
+					TimeOutMicroSecs);
+			}
+		} else if (SequenceStepId == VL53L0X_SEQUENCESTEP_FINAL_RANGE) {
+
+			/* For the final range timeout, the pre-range timeout
+			 * must be added. To do this both final and pre-range
+			 * timeouts must be expressed in macro periods MClks
+			 * because they have different vcsel periods.
+			 */
+
+			VL53L0X_GetSequenceStepEnables(Dev,
+					&SchedulerSequenceSteps);
+			PreRangeTimeOutMClks = 0;
+			if (SchedulerSequenceSteps.PreRangeOn) {
+
+				/* Retrieve PRE-RANGE VCSEL Period */
+				Status = VL53L0X_GetVcselPulsePeriod(Dev,
+					VL53L0X_VCSEL_PERIOD_PRE_RANGE,
+					&CurrentVCSELPulsePeriodPClk);
+
+				/* Retrieve PRE-RANGE Timeout in Macro periods
+				 * (MCLKS)
+				 */
+				if (Status == VL53L0X_ERROR_NONE) {
+					Status = VL53L0X_RdWord(Dev, 0x51,
+						&PreRangeEncodedTimeOut);
+					PreRangeTimeOutMClks =
+						VL53L0X_decode_timeout(
+							PreRangeEncodedTimeOut);
+				}
+			}
+
+			/* Calculate FINAL RANGE Timeout in Macro Periods
+			 * (MCLKS) and add PRE-RANGE value
+			 */
+			if (Status == VL53L0X_ERROR_NONE) {
+
+				Status = VL53L0X_GetVcselPulsePeriod(Dev,
+					    VL53L0X_VCSEL_PERIOD_FINAL_RANGE,
+					    &CurrentVCSELPulsePeriodPClk);
+			}
+			if (Status == VL53L0X_ERROR_NONE) {
+
+				FinalRangeTimeOutMClks =
+					VL53L0X_calc_timeout_mclks(Dev,
+					TimeOutMicroSecs,
+					(uint8_t) CurrentVCSELPulsePeriodPClk);
+
+				FinalRangeTimeOutMClks += PreRangeTimeOutMClks;
+
+				FinalRangeEncodedTimeOut =
+				VL53L0X_encode_timeout(FinalRangeTimeOutMClks);
+
+				if (Status == VL53L0X_ERROR_NONE) {
+					Status = VL53L0X_WrWord(Dev, 0x71,
+					FinalRangeEncodedTimeOut);
+				}
+
+				if (Status == VL53L0X_ERROR_NONE) {
+					VL53L0X_SETDEVICESPECIFICPARAMETER(
+						Dev,
+						FinalRangeTimeoutMicroSecs,
+						TimeOutMicroSecs);
+				}
+			}
+		} else
+			Status = VL53L0X_ERROR_INVALID_PARAMS;
+
+	}
+	return Status;
+}
+
+VL53L0X_Error VL53L0X_set_vcsel_pulse_period(VL53L0X_DEV Dev,
+	VL53L0X_VcselPeriod VcselPeriodType, uint8_t VCSELPulsePeriodPCLK)
+{
+	VL53L0X_Error Status = VL53L0X_ERROR_NONE;
+	uint8_t vcsel_period_reg;
+	uint8_t MinPreVcselPeriodPCLK = 12;
+	uint8_t MaxPreVcselPeriodPCLK = 18;
+	uint8_t MinFinalVcselPeriodPCLK = 8;
+	uint8_t MaxFinalVcselPeriodPCLK = 14;
+	uint32_t MeasurementTimingBudgetMicroSeconds;
+	uint32_t FinalRangeTimeoutMicroSeconds;
+	uint32_t PreRangeTimeoutMicroSeconds;
+	uint32_t MsrcTimeoutMicroSeconds;
+	uint8_t PhaseCalInt = 0;
+
+	/* Check if valid clock period requested */
+
+	if ((VCSELPulsePeriodPCLK % 2) != 0) {
+		/* Value must be an even number */
+		Status = VL53L0X_ERROR_INVALID_PARAMS;
+	} else if (VcselPeriodType == VL53L0X_VCSEL_PERIOD_PRE_RANGE &&
+		(VCSELPulsePeriodPCLK < MinPreVcselPeriodPCLK ||
+		VCSELPulsePeriodPCLK > MaxPreVcselPeriodPCLK)) {
+		Status = VL53L0X_ERROR_INVALID_PARAMS;
+	} else if (VcselPeriodType == VL53L0X_VCSEL_PERIOD_FINAL_RANGE &&
+		(VCSELPulsePeriodPCLK < MinFinalVcselPeriodPCLK ||
+		 VCSELPulsePeriodPCLK > MaxFinalVcselPeriodPCLK)) {
+
+		Status = VL53L0X_ERROR_INVALID_PARAMS;
+	}
+
+	/* Apply specific settings for the requested clock period */
+
+	if (Status != VL53L0X_ERROR_NONE)
+		return Status;
+
+
+	if (VcselPeriodType == VL53L0X_VCSEL_PERIOD_PRE_RANGE) {
+
+		/* Set phase check limits */
+		if (VCSELPulsePeriodPCLK == 12) {
+
+			Status = VL53L0X_WrByte(Dev,
+				VL53L0X_REG_PRE_RANGE_CONFIG_VALID_PHASE_HIGH,
+				0x18);
+			Status = VL53L0X_WrByte(Dev,
+				VL53L0X_REG_PRE_RANGE_CONFIG_VALID_PHASE_LOW,
+				0x08);
+		} else if (VCSELPulsePeriodPCLK == 14) {
+
+			Status = VL53L0X_WrByte(Dev,
+				VL53L0X_REG_PRE_RANGE_CONFIG_VALID_PHASE_HIGH,
+				0x30);
+			Status = VL53L0X_WrByte(Dev,
+				VL53L0X_REG_PRE_RANGE_CONFIG_VALID_PHASE_LOW,
+				0x08);
+		} else if (VCSELPulsePeriodPCLK == 16) {
+
+			Status = VL53L0X_WrByte(Dev,
+				VL53L0X_REG_PRE_RANGE_CONFIG_VALID_PHASE_HIGH,
+				0x40);
+			Status = VL53L0X_WrByte(Dev,
+				VL53L0X_REG_PRE_RANGE_CONFIG_VALID_PHASE_LOW,
+				0x08);
+		} else if (VCSELPulsePeriodPCLK == 18) {
+
+			Status = VL53L0X_WrByte(Dev,
+				VL53L0X_REG_PRE_RANGE_CONFIG_VALID_PHASE_HIGH,
+				0x50);
+			Status = VL53L0X_WrByte(Dev,
+				VL53L0X_REG_PRE_RANGE_CONFIG_VALID_PHASE_LOW,
+				0x08);
+		}
+	} else if (VcselPeriodType == VL53L0X_VCSEL_PERIOD_FINAL_RANGE) {
+
+		if (VCSELPulsePeriodPCLK == 8) {
+
+			Status = VL53L0X_WrByte(Dev,
+				VL53L0X_REG_FINAL_RANGE_CONFIG_VALID_PHASE_HIGH,
+				0x10);
+			Status = VL53L0X_WrByte(Dev,
+				VL53L0X_REG_FINAL_RANGE_CONFIG_VALID_PHASE_LOW,
+				0x08);
+
+			Status |= VL53L0X_WrByte(Dev,
+				VL53L0X_REG_GLOBAL_CONFIG_VCSEL_WIDTH, 0x02);
+			Status |= VL53L0X_WrByte(Dev,
+				VL53L0X_REG_ALGO_PHASECAL_CONFIG_TIMEOUT, 0x0C);
+
+			Status |= VL53L0X_WrByte(Dev, 0xff, 0x01);
+			Status |= VL53L0X_WrByte(Dev,
+				VL53L0X_REG_ALGO_PHASECAL_LIM,
+				0x30);
+			Status |= VL53L0X_WrByte(Dev, 0xff, 0x00);
+		} else if (VCSELPulsePeriodPCLK == 10) {
+
+			Status = VL53L0X_WrByte(Dev,
+				VL53L0X_REG_FINAL_RANGE_CONFIG_VALID_PHASE_HIGH,
+				0x28);
+			Status = VL53L0X_WrByte(Dev,
+				VL53L0X_REG_FINAL_RANGE_CONFIG_VALID_PHASE_LOW,
+				0x08);
+
+			Status |= VL53L0X_WrByte(Dev,
+				VL53L0X_REG_GLOBAL_CONFIG_VCSEL_WIDTH, 0x03);
+			Status |= VL53L0X_WrByte(Dev,
+				VL53L0X_REG_ALGO_PHASECAL_CONFIG_TIMEOUT, 0x09);
+
+			Status |= VL53L0X_WrByte(Dev, 0xff, 0x01);
+			Status |= VL53L0X_WrByte(Dev,
+				VL53L0X_REG_ALGO_PHASECAL_LIM,
+				0x20);
+			Status |= VL53L0X_WrByte(Dev, 0xff, 0x00);
+		} else if (VCSELPulsePeriodPCLK == 12) {
+
+			Status = VL53L0X_WrByte(Dev,
+				VL53L0X_REG_FINAL_RANGE_CONFIG_VALID_PHASE_HIGH,
+				0x38);
+			Status = VL53L0X_WrByte(Dev,
+				VL53L0X_REG_FINAL_RANGE_CONFIG_VALID_PHASE_LOW,
+				0x08);
+
+			Status |= VL53L0X_WrByte(Dev,
+				VL53L0X_REG_GLOBAL_CONFIG_VCSEL_WIDTH, 0x03);
+			Status |= VL53L0X_WrByte(Dev,
+				VL53L0X_REG_ALGO_PHASECAL_CONFIG_TIMEOUT, 0x08);
+
+			Status |= VL53L0X_WrByte(Dev, 0xff, 0x01);
+			Status |= VL53L0X_WrByte(Dev,
+				VL53L0X_REG_ALGO_PHASECAL_LIM,
+				0x20);
+			Status |= VL53L0X_WrByte(Dev, 0xff, 0x00);
+		} else if (VCSELPulsePeriodPCLK == 14) {
+
+			Status = VL53L0X_WrByte(Dev,
+				VL53L0X_REG_FINAL_RANGE_CONFIG_VALID_PHASE_HIGH,
+				0x048);
+			Status = VL53L0X_WrByte(Dev,
+				VL53L0X_REG_FINAL_RANGE_CONFIG_VALID_PHASE_LOW,
+				0x08);
+
+			Status |= VL53L0X_WrByte(Dev,
+				VL53L0X_REG_GLOBAL_CONFIG_VCSEL_WIDTH, 0x03);
+			Status |= VL53L0X_WrByte(Dev,
+				VL53L0X_REG_ALGO_PHASECAL_CONFIG_TIMEOUT, 0x07);
+
+			Status |= VL53L0X_WrByte(Dev, 0xff, 0x01);
+			Status |= VL53L0X_WrByte(Dev,
+				VL53L0X_REG_ALGO_PHASECAL_LIM,
+				0x20);
+			Status |= VL53L0X_WrByte(Dev, 0xff, 0x00);
+		}
+	}
+
+
+	/* Re-calculate and apply timeouts, in macro periods */
+
+	if (Status == VL53L0X_ERROR_NONE) {
+		vcsel_period_reg = VL53L0X_encode_vcsel_period((uint8_t)
+			VCSELPulsePeriodPCLK);
+
+		/* When the VCSEL period for the pre or final range is changed,
+		* the corresponding timeout must be read from the device using
+		* the current VCSEL period, then the new VCSEL period can be
+		* applied. The timeout then must be written back to the device
+		* using the new VCSEL period.
+		*
+		* For the MSRC timeout, the same applies - this timeout being
+		* dependant on the pre-range vcsel period.
+		*/
+		switch (VcselPeriodType) {
+		case VL53L0X_VCSEL_PERIOD_PRE_RANGE:
+			Status = get_sequence_step_timeout(Dev,
+				VL53L0X_SEQUENCESTEP_PRE_RANGE,
+				&PreRangeTimeoutMicroSeconds);
+
+			if (Status == VL53L0X_ERROR_NONE)
+				Status = get_sequence_step_timeout(Dev,
+					VL53L0X_SEQUENCESTEP_MSRC,
+					&MsrcTimeoutMicroSeconds);
+
+			if (Status == VL53L0X_ERROR_NONE)
+				Status = VL53L0X_WrByte(Dev,
+				VL53L0X_REG_PRE_RANGE_CONFIG_VCSEL_PERIOD,
+					vcsel_period_reg);
+
+
+			if (Status == VL53L0X_ERROR_NONE)
+				Status = set_sequence_step_timeout(Dev,
+					VL53L0X_SEQUENCESTEP_PRE_RANGE,
+					PreRangeTimeoutMicroSeconds);
+
+
+			if (Status == VL53L0X_ERROR_NONE)
+				Status = set_sequence_step_timeout(Dev,
+					VL53L0X_SEQUENCESTEP_MSRC,
+					MsrcTimeoutMicroSeconds);
+
+			VL53L0X_SETDEVICESPECIFICPARAMETER(
+				Dev,
+				PreRangeVcselPulsePeriod,
+				VCSELPulsePeriodPCLK);
+			break;
+		case VL53L0X_VCSEL_PERIOD_FINAL_RANGE:
+			Status = get_sequence_step_timeout(Dev,
+				VL53L0X_SEQUENCESTEP_FINAL_RANGE,
+				&FinalRangeTimeoutMicroSeconds);
+
+			if (Status == VL53L0X_ERROR_NONE)
+				Status = VL53L0X_WrByte(Dev,
+				VL53L0X_REG_FINAL_RANGE_CONFIG_VCSEL_PERIOD,
+					vcsel_period_reg);
+
+
+			if (Status == VL53L0X_ERROR_NONE)
+				Status = set_sequence_step_timeout(Dev,
+					VL53L0X_SEQUENCESTEP_FINAL_RANGE,
+					FinalRangeTimeoutMicroSeconds);
+
+			VL53L0X_SETDEVICESPECIFICPARAMETER(
+				Dev,
+				FinalRangeVcselPulsePeriod,
+				VCSELPulsePeriodPCLK);
+			break;
+		default:
+			Status = VL53L0X_ERROR_INVALID_PARAMS;
+		}
+	}
+
+	/* Finally, the timing budget must be re-applied */
+	if (Status == VL53L0X_ERROR_NONE) {
+		VL53L0X_GETPARAMETERFIELD(Dev,
+			MeasurementTimingBudgetMicroSeconds,
+			MeasurementTimingBudgetMicroSeconds);
+
+		Status = VL53L0X_SetMeasurementTimingBudgetMicroSeconds(Dev,
+				MeasurementTimingBudgetMicroSeconds);
+	}
+
+	/* Perform the phase calibration. This is needed after changing on
+	 * vcsel period.
+	 * get_data_enable = 0, restore_config = 1
+	 */
+	if (Status == VL53L0X_ERROR_NONE)
+		Status = VL53L0X_perform_phase_calibration(
+			Dev, &PhaseCalInt, 0, 1);
+
+	return Status;
+}
+
+VL53L0X_Error VL53L0X_get_vcsel_pulse_period(VL53L0X_DEV Dev,
+	VL53L0X_VcselPeriod VcselPeriodType, uint8_t *pVCSELPulsePeriodPCLK)
+{
+	VL53L0X_Error Status = VL53L0X_ERROR_NONE;
+	uint8_t vcsel_period_reg;
+
+	switch (VcselPeriodType) {
+	case VL53L0X_VCSEL_PERIOD_PRE_RANGE:
+		Status = VL53L0X_RdByte(Dev,
+			VL53L0X_REG_PRE_RANGE_CONFIG_VCSEL_PERIOD,
+			&vcsel_period_reg);
+	break;
+	case VL53L0X_VCSEL_PERIOD_FINAL_RANGE:
+		Status = VL53L0X_RdByte(Dev,
+			VL53L0X_REG_FINAL_RANGE_CONFIG_VCSEL_PERIOD,
+			&vcsel_period_reg);
+	break;
+	default:
+		Status = VL53L0X_ERROR_INVALID_PARAMS;
+	}
+
+	if (Status == VL53L0X_ERROR_NONE)
+		*pVCSELPulsePeriodPCLK =
+			VL53L0X_decode_vcsel_period(vcsel_period_reg);
+
+	return Status;
+}
+
+
+
+VL53L0X_Error VL53L0X_set_measurement_timing_budget_micro_seconds(
+		VL53L0X_DEV Dev,
+		uint32_t MeasurementTimingBudgetMicroSeconds)
+{
+	VL53L0X_Error Status = VL53L0X_ERROR_NONE;
+	uint32_t FinalRangeTimingBudgetMicroSeconds;
+	VL53L0X_SchedulerSequenceSteps_t SchedulerSequenceSteps;
+	uint32_t MsrcDccTccTimeoutMicroSeconds	= 2000;
+	uint32_t StartOverheadMicroSeconds		= 1910;
+	uint32_t EndOverheadMicroSeconds		= 960;
+	uint32_t MsrcOverheadMicroSeconds		= 660;
+	uint32_t TccOverheadMicroSeconds		= 590;
+	uint32_t DssOverheadMicroSeconds		= 690;
+	uint32_t PreRangeOverheadMicroSeconds	= 660;
+	uint32_t FinalRangeOverheadMicroSeconds = 550;
+	uint32_t PreRangeTimeoutMicroSeconds	= 0;
+	uint32_t SubTimeout = 0;
+
+	LOG_FUNCTION_START("");
+
+	FinalRangeTimingBudgetMicroSeconds =
+		MeasurementTimingBudgetMicroSeconds -
+		(StartOverheadMicroSeconds + EndOverheadMicroSeconds);
+
+	Status = VL53L0X_GetSequenceStepEnables(Dev, &SchedulerSequenceSteps);
+
+	if (Status == VL53L0X_ERROR_NONE &&
+		(SchedulerSequenceSteps.TccOn  ||
+		SchedulerSequenceSteps.MsrcOn ||
+		SchedulerSequenceSteps.DssOn)) {
+
+		/* TCC, MSRC and DSS all share the same timeout */
+		Status = get_sequence_step_timeout(Dev,
+					VL53L0X_SEQUENCESTEP_MSRC,
+					&MsrcDccTccTimeoutMicroSeconds);
+
+		/* Subtract the TCC, MSRC and DSS timeouts if they are
+		 * enabled.
+		 */
+
+		if (Status != VL53L0X_ERROR_NONE)
+			return Status;
+
+		/* TCC */
+		if (SchedulerSequenceSteps.TccOn) {
+
+			SubTimeout = MsrcDccTccTimeoutMicroSeconds
+				+ TccOverheadMicroSeconds;
+
+			if (SubTimeout <
+				FinalRangeTimingBudgetMicroSeconds) {
+				FinalRangeTimingBudgetMicroSeconds -=
+							SubTimeout;
+			} else {
+				/* Requested timeout too big. */
+				Status = VL53L0X_ERROR_INVALID_PARAMS;
+			}
+		}
+
+		if (Status != VL53L0X_ERROR_NONE) {
+			LOG_FUNCTION_END(Status);
+			return Status;
+		}
+
+		/* DSS */
+		if (SchedulerSequenceSteps.DssOn) {
+
+			SubTimeout = 2 * (MsrcDccTccTimeoutMicroSeconds +
+				DssOverheadMicroSeconds);
+
+			if (SubTimeout < FinalRangeTimingBudgetMicroSeconds) {
+				FinalRangeTimingBudgetMicroSeconds
+							-= SubTimeout;
+			} else {
+				/* Requested timeout too big. */
+				Status = VL53L0X_ERROR_INVALID_PARAMS;
+			}
+		} else if (SchedulerSequenceSteps.MsrcOn) {
+			/* MSRC */
+			SubTimeout = MsrcDccTccTimeoutMicroSeconds +
+						MsrcOverheadMicroSeconds;
+
+			if (SubTimeout < FinalRangeTimingBudgetMicroSeconds) {
+				FinalRangeTimingBudgetMicroSeconds
+							-= SubTimeout;
+			} else {
+				/* Requested timeout too big. */
+				Status = VL53L0X_ERROR_INVALID_PARAMS;
+			}
+		}
+
+	}
+
+	if (Status != VL53L0X_ERROR_NONE) {
+		LOG_FUNCTION_END(Status);
+		return Status;
+	}
+
+	if (SchedulerSequenceSteps.PreRangeOn) {
+
+		/* Subtract the Pre-range timeout if enabled. */
+
+		Status = get_sequence_step_timeout(Dev,
+				VL53L0X_SEQUENCESTEP_PRE_RANGE,
+				&PreRangeTimeoutMicroSeconds);
+
+		SubTimeout = PreRangeTimeoutMicroSeconds +
+				PreRangeOverheadMicroSeconds;
+
+		if (SubTimeout < FinalRangeTimingBudgetMicroSeconds) {
+			FinalRangeTimingBudgetMicroSeconds -= SubTimeout;
+		} else {
+			/* Requested timeout too big. */
+			Status = VL53L0X_ERROR_INVALID_PARAMS;
+		}
+	}
+
+
+	if (Status == VL53L0X_ERROR_NONE &&
+		SchedulerSequenceSteps.FinalRangeOn) {
+
+		FinalRangeTimingBudgetMicroSeconds -=
+				FinalRangeOverheadMicroSeconds;
+
+		/* Final Range Timeout
+		 * Note that the final range timeout is determined by the timing
+		 * budget and the sum of all other timeouts within the sequence.
+		 * If there is no room for the final range timeout, then an
+		 * error will be set. Otherwise the remaining time will be
+		 * applied to the final range.
+		 */
+		Status = set_sequence_step_timeout(Dev,
+			VL53L0X_SEQUENCESTEP_FINAL_RANGE,
+			FinalRangeTimingBudgetMicroSeconds);
+
+		VL53L0X_SETPARAMETERFIELD(Dev,
+			MeasurementTimingBudgetMicroSeconds,
+			MeasurementTimingBudgetMicroSeconds);
+	}
+
+	LOG_FUNCTION_END(Status);
+
+	return Status;
+}
+
+VL53L0X_Error VL53L0X_get_measurement_timing_budget_micro_seconds(
+		VL53L0X_DEV Dev,
+		uint32_t *pMeasurementTimingBudgetMicroSeconds)
+{
+	VL53L0X_Error Status = VL53L0X_ERROR_NONE;
+	VL53L0X_SchedulerSequenceSteps_t SchedulerSequenceSteps;
+	uint32_t FinalRangeTimeoutMicroSeconds;
+	uint32_t MsrcDccTccTimeoutMicroSeconds	= 2000;
+	uint32_t StartOverheadMicroSeconds		= 1910;
+	uint32_t EndOverheadMicroSeconds		= 960;
+	uint32_t MsrcOverheadMicroSeconds		= 660;
+	uint32_t TccOverheadMicroSeconds		= 590;
+	uint32_t DssOverheadMicroSeconds		= 690;
+	uint32_t PreRangeOverheadMicroSeconds	= 660;
+	uint32_t FinalRangeOverheadMicroSeconds = 550;
+	uint32_t PreRangeTimeoutMicroSeconds	= 0;
+
+	LOG_FUNCTION_START("");
+
+	/* Start and end overhead times always present */
+	*pMeasurementTimingBudgetMicroSeconds
+		= StartOverheadMicroSeconds + EndOverheadMicroSeconds;
+
+	Status = VL53L0X_GetSequenceStepEnables(Dev, &SchedulerSequenceSteps);
+
+	if (Status != VL53L0X_ERROR_NONE) {
+		LOG_FUNCTION_END(Status);
+		return Status;
+	}
+
+
+	if (SchedulerSequenceSteps.TccOn  ||
+		SchedulerSequenceSteps.MsrcOn ||
+		SchedulerSequenceSteps.DssOn) {
+
+		Status = get_sequence_step_timeout(Dev,
+				VL53L0X_SEQUENCESTEP_MSRC,
+				&MsrcDccTccTimeoutMicroSeconds);
+
+		if (Status == VL53L0X_ERROR_NONE) {
+			if (SchedulerSequenceSteps.TccOn) {
+				*pMeasurementTimingBudgetMicroSeconds +=
+					MsrcDccTccTimeoutMicroSeconds +
+					TccOverheadMicroSeconds;
+			}
+
+			if (SchedulerSequenceSteps.DssOn) {
+				*pMeasurementTimingBudgetMicroSeconds +=
+				2 * (MsrcDccTccTimeoutMicroSeconds +
+					DssOverheadMicroSeconds);
+			} else if (SchedulerSequenceSteps.MsrcOn) {
+				*pMeasurementTimingBudgetMicroSeconds +=
+					MsrcDccTccTimeoutMicroSeconds +
+					MsrcOverheadMicroSeconds;
+			}
+		}
+	}
+
+	if (Status == VL53L0X_ERROR_NONE) {
+		if (SchedulerSequenceSteps.PreRangeOn) {
+			Status = get_sequence_step_timeout(Dev,
+				VL53L0X_SEQUENCESTEP_PRE_RANGE,
+				&PreRangeTimeoutMicroSeconds);
+			*pMeasurementTimingBudgetMicroSeconds +=
+				PreRangeTimeoutMicroSeconds +
+				PreRangeOverheadMicroSeconds;
+		}
+	}
+
+	if (Status == VL53L0X_ERROR_NONE) {
+		if (SchedulerSequenceSteps.FinalRangeOn) {
+			Status = get_sequence_step_timeout(Dev,
+					VL53L0X_SEQUENCESTEP_FINAL_RANGE,
+					&FinalRangeTimeoutMicroSeconds);
+			*pMeasurementTimingBudgetMicroSeconds +=
+				(FinalRangeTimeoutMicroSeconds +
+				FinalRangeOverheadMicroSeconds);
+		}
+	}
+
+	if (Status == VL53L0X_ERROR_NONE) {
+		VL53L0X_SETPARAMETERFIELD(Dev,
+			MeasurementTimingBudgetMicroSeconds,
+			*pMeasurementTimingBudgetMicroSeconds);
+	}
+
+	LOG_FUNCTION_END(Status);
+	return Status;
+}
+
+
+
+VL53L0X_Error VL53L0X_load_tuning_settings(VL53L0X_DEV Dev,
+		uint8_t *pTuningSettingBuffer)
+{
+	VL53L0X_Error Status = VL53L0X_ERROR_NONE;
+	int i;
+	int Index;
+	uint8_t msb;
+	uint8_t lsb;
+	uint8_t SelectParam;
+	uint8_t NumberOfWrites;
+	uint8_t Address;
+	uint8_t localBuffer[4]; /* max */
+	uint16_t Temp16;
+
+	LOG_FUNCTION_START("");
+
+	Index = 0;
+
+	while ((*(pTuningSettingBuffer + Index) != 0) &&
+			(Status == VL53L0X_ERROR_NONE)) {
+		NumberOfWrites = *(pTuningSettingBuffer + Index);
+		Index++;
+		if (NumberOfWrites == 0xFF) {
+			/* internal parameters */
+			SelectParam = *(pTuningSettingBuffer + Index);
+			Index++;
+			switch (SelectParam) {
+			case 0: /* uint16_t SigmaEstRefArray -> 2 bytes */
+				msb = *(pTuningSettingBuffer + Index);
+				Index++;
+				lsb = *(pTuningSettingBuffer + Index);
+				Index++;
+				Temp16 = VL53L0X_MAKEUINT16(lsb, msb);
+				PALDevDataSet(Dev, SigmaEstRefArray, Temp16);
+				break;
+			case 1: /* uint16_t SigmaEstEffPulseWidth -> 2 bytes */
+				msb = *(pTuningSettingBuffer + Index);
+				Index++;
+				lsb = *(pTuningSettingBuffer + Index);
+				Index++;
+				Temp16 = VL53L0X_MAKEUINT16(lsb, msb);
+				PALDevDataSet(Dev, SigmaEstEffPulseWidth,
+					Temp16);
+				break;
+			case 2: /* uint16_t SigmaEstEffAmbWidth -> 2 bytes */
+				msb = *(pTuningSettingBuffer + Index);
+				Index++;
+				lsb = *(pTuningSettingBuffer + Index);
+				Index++;
+				Temp16 = VL53L0X_MAKEUINT16(lsb, msb);
+				PALDevDataSet(Dev, SigmaEstEffAmbWidth, Temp16);
+				break;
+			case 3: /* uint16_t targetRefRate -> 2 bytes */
+				msb = *(pTuningSettingBuffer + Index);
+				Index++;
+				lsb = *(pTuningSettingBuffer + Index);
+				Index++;
+				Temp16 = VL53L0X_MAKEUINT16(lsb, msb);
+				PALDevDataSet(Dev, targetRefRate, Temp16);
+				break;
+			default: /* invalid parameter */
+				Status = VL53L0X_ERROR_INVALID_PARAMS;
+			}
+
+		} else if (NumberOfWrites <= 4) {
+			Address = *(pTuningSettingBuffer + Index);
+			Index++;
+
+			for (i = 0; i < NumberOfWrites; i++) {
+				localBuffer[i] = *(pTuningSettingBuffer +
+							Index);
+				Index++;
+			}
+
+			Status = VL53L0X_WriteMulti(Dev, Address, localBuffer,
+					NumberOfWrites);
+
+		} else {
+			Status = VL53L0X_ERROR_INVALID_PARAMS;
+		}
+	}
+
+	LOG_FUNCTION_END(Status);
+	return Status;
+}
+
+VL53L0X_Error VL53L0X_get_total_xtalk_rate(VL53L0X_DEV Dev,
+	VL53L0X_RangingMeasurementData_t *pRangingMeasurementData,
+	FixPoint1616_t *ptotal_xtalk_rate_mcps)
+{
+	VL53L0X_Error Status = VL53L0X_ERROR_NONE;
+
+	uint8_t xtalkCompEnable;
+	FixPoint1616_t totalXtalkMegaCps;
+	FixPoint1616_t xtalkPerSpadMegaCps;
+
+	*ptotal_xtalk_rate_mcps = 0;
+
+	Status = VL53L0X_GetXTalkCompensationEnable(Dev, &xtalkCompEnable);
+	if (Status == VL53L0X_ERROR_NONE) {
+
+		if (xtalkCompEnable) {
+
+			VL53L0X_GETPARAMETERFIELD(
+				Dev,
+				XTalkCompensationRateMegaCps,
+				xtalkPerSpadMegaCps);
+
+			/* FixPoint1616 * FixPoint 8:8 = FixPoint0824 */
+			totalXtalkMegaCps =
+				pRangingMeasurementData->EffectiveSpadRtnCount *
+				xtalkPerSpadMegaCps;
+
+			/* FixPoint0824 >> 8 = FixPoint1616 */
+			*ptotal_xtalk_rate_mcps =
+				(totalXtalkMegaCps + 0x80) >> 8;
+		}
+	}
+
+	return Status;
+}
+
+VL53L0X_Error VL53L0X_get_total_signal_rate(VL53L0X_DEV Dev,
+	VL53L0X_RangingMeasurementData_t *pRangingMeasurementData,
+	FixPoint1616_t *ptotal_signal_rate_mcps)
+{
+	VL53L0X_Error Status = VL53L0X_ERROR_NONE;
+	FixPoint1616_t totalXtalkMegaCps;
+
+	LOG_FUNCTION_START("");
+
+	*ptotal_signal_rate_mcps =
+		pRangingMeasurementData->SignalRateRtnMegaCps;
+
+	Status = VL53L0X_get_total_xtalk_rate(
+		Dev, pRangingMeasurementData, &totalXtalkMegaCps);
+
+	if (Status == VL53L0X_ERROR_NONE)
+		*ptotal_signal_rate_mcps += totalXtalkMegaCps;
+
+	return Status;
+}
+
+VL53L0X_Error get_dmax_lut_points(VL53L0X_DMaxLUT_t data, uint32_t lut_size,
+	FixPoint1616_t input, int32_t *index0,	int32_t *index1){
+	VL53L0X_Error Status = VL53L0X_ERROR_NONE;
+	FixPoint1616_t index0_tmp = 0;
+	FixPoint1616_t index1_tmp = 0;
+	int index = 0;
+
+	for (index = 0; index < lut_size; index++) {
+		if (input <= data.ambRate_mcps[index]) {
+			index1_tmp = index;
+			break;
+		}
+	}
+
+	if (index == lut_size) {
+		/* input is higher than last x point */
+		index0_tmp = index1_tmp = lut_size - 1;
+	} else if (index1_tmp == 0) {
+		/* input is lower than first x point */
+		index0_tmp = 0;
+	} else{
+		/* input is in between 2 points */
+		index0_tmp = index1_tmp - 1;
+	}
+
+	*index0 = index0_tmp;
+	*index1 = index1_tmp;
+
+	return Status;
+}
+
+VL53L0X_Error VL53L0X_calc_dmax(
+	VL53L0X_DEV Dev, FixPoint1616_t ambRateMeas, uint32_t *pdmax_mm){
+	VL53L0X_Error Status = VL53L0X_ERROR_NONE;
+	VL53L0X_DeviceParameters_t CurrentParameters;
+	int32_t index0 = 0;
+	int32_t index1 = 0;
+	FixPoint1616_t amb0, amb1, dmax0, dmax1;
+	FixPoint1616_t dmax_mm;
+	FixPoint1616_t linearSlope;
+
+	LOG_FUNCTION_START("");
+
+	Status = VL53L0X_GetDeviceParameters(Dev, &CurrentParameters);
+
+	if (ambRateMeas <= CurrentParameters.dmax_lut.ambRate_mcps[0]) {
+		dmax_mm = CurrentParameters.dmax_lut.dmax_mm[0];
+	} else if (ambRateMeas >=
+		   CurrentParameters.dmax_lut.
+		   ambRate_mcps[VL53L0X_DMAX_LUT_SIZE - 1]) {
+		dmax_mm =
+		    CurrentParameters.dmax_lut.dmax_mm[VL53L0X_DMAX_LUT_SIZE -
+						       1];
+	} else{
+		get_dmax_lut_points(CurrentParameters.dmax_lut,
+			VL53L0X_DMAX_LUT_SIZE, ambRateMeas, &index0, &index1);
+
+		if (index0 == index1) {
+			dmax_mm = CurrentParameters.dmax_lut.dmax_mm[index0];
+		} else {
+			amb0 = CurrentParameters.dmax_lut.ambRate_mcps[index0];
+			amb1 = CurrentParameters.dmax_lut.ambRate_mcps[index1];
+			dmax0 = CurrentParameters.dmax_lut.dmax_mm[index0];
+			dmax1 = CurrentParameters.dmax_lut.dmax_mm[index1];
+			if ((amb1 - amb0) != 0) {
+				/* Fix16:16/Fix16:8 => Fix16:8 */
+				linearSlope = (dmax0-dmax1)/((amb1-amb0) >> 8);
+
+				/* Fix16:8 * Fix16:8 => Fix16:16 */
+				dmax_mm =
+				    (((amb1 -
+				       ambRateMeas) >> 8) * linearSlope) +
+				    dmax1;
+			} else{
+				dmax_mm = dmax0;
+			}
+		}
+	}
+	*pdmax_mm = (uint32_t)(dmax_mm >> 16);
+
+	LOG_FUNCTION_END(Status);
+
+	return Status;
+}
+
+VL53L0X_Error VL53L0X_calc_sigma_estimate(VL53L0X_DEV Dev,
+	VL53L0X_RangingMeasurementData_t *pRangingMeasurementData,
+	FixPoint1616_t *pSigmaEstimate)
+{
+	/* Expressed in 100ths of a ns, i.e. centi-ns */
+	const uint32_t cPulseEffectiveWidth_centi_ns   = 800;
+	/* Expressed in 100ths of a ns, i.e. centi-ns */
+	const uint32_t cAmbientEffectiveWidth_centi_ns = 600;
+	const FixPoint1616_t cDfltFinalRangeIntegrationTimeMilliSecs =
+						0x00190000; /* 25ms */
+	const uint32_t cVcselPulseWidth_ps	= 4700; /* pico secs */
+	const FixPoint1616_t cSigmaEstMax	= 0x028F87AE;
+	const FixPoint1616_t cSigmaEstRtnMax	= 0xF000;
+	const FixPoint1616_t cAmbToSignalRatioMax = 0xF0000000/
+		cAmbientEffectiveWidth_centi_ns;
+	/* Time Of Flight per mm (6.6 pico secs) */
+	const FixPoint1616_t cTOF_per_mm_ps		= 0x0006999A;
+	const uint32_t c16BitRoundingParam		= 0x00008000;
+	const FixPoint1616_t cMaxXTalk_kcps		= 0x00320000;
+	const uint32_t cPllPeriod_ps			= 1655;
+
+	uint32_t vcselTotalEventsRtn;
+	uint32_t finalRangeTimeoutMicroSecs;
+	uint32_t preRangeTimeoutMicroSecs;
+	uint32_t finalRangeIntegrationTimeMilliSecs;
+	FixPoint1616_t sigmaEstimateP1;
+	FixPoint1616_t sigmaEstimateP2;
+	FixPoint1616_t sigmaEstimateP3;
+	FixPoint1616_t deltaT_ps;
+	FixPoint1616_t pwMult;
+	FixPoint1616_t sigmaEstRtn;
+	FixPoint1616_t sigmaEstimate;
+	FixPoint1616_t xTalkCorrection;
+	FixPoint1616_t ambientRate_kcps;
+	FixPoint1616_t peakSignalRate_kcps;
+	FixPoint1616_t xTalkCompRate_mcps;
+	uint32_t xTalkCompRate_kcps;
+	VL53L0X_Error Status = VL53L0X_ERROR_NONE;
+	FixPoint1616_t diff1_mcps;
+	FixPoint1616_t diff2_mcps;
+	FixPoint1616_t sqr1;
+	FixPoint1616_t sqr2;
+	FixPoint1616_t sqrSum;
+	FixPoint1616_t sqrtResult_centi_ns;
+	FixPoint1616_t sqrtResult;
+	FixPoint1616_t totalSignalRate_mcps;
+	FixPoint1616_t sigmaEstRef;
+	uint32_t vcselWidth;
+	uint32_t finalRangeMacroPCLKS;
+	uint32_t preRangeMacroPCLKS;
+	uint32_t peakVcselDuration_us;
+	uint8_t finalRangeVcselPCLKS;
+	uint8_t preRangeVcselPCLKS;
+	/*! \addtogroup calc_sigma_estimate
+	 * @{
+	 *
+	 * Estimates the range sigma
+	 */
+
+	LOG_FUNCTION_START("");
+
+	VL53L0X_GETPARAMETERFIELD(Dev, XTalkCompensationRateMegaCps,
+			xTalkCompRate_mcps);
+
+	/*
+	 * We work in kcps rather than mcps as this helps keep within the
+	 * confines of the 32 Fix1616 type.
+	 */
+
+	ambientRate_kcps =
+		(pRangingMeasurementData->AmbientRateRtnMegaCps * 1000) >> 16;
+
+	Status = VL53L0X_get_total_signal_rate(
+		Dev, pRangingMeasurementData, &totalSignalRate_mcps);
+	Status = VL53L0X_get_total_xtalk_rate(
+		Dev, pRangingMeasurementData, &xTalkCompRate_mcps);
+
+
+	/* Signal rate measurement provided by device is the
+	 * peak signal rate, not average.
+	 */
+	peakSignalRate_kcps = (totalSignalRate_mcps * 1000);
+	peakSignalRate_kcps = (peakSignalRate_kcps + 0x8000) >> 16;
+
+	xTalkCompRate_kcps = xTalkCompRate_mcps * 1000;
+
+	if (xTalkCompRate_kcps > cMaxXTalk_kcps)
+		xTalkCompRate_kcps = cMaxXTalk_kcps;
+
+	if (Status == VL53L0X_ERROR_NONE) {
+
+		/* Calculate final range macro periods */
+		finalRangeTimeoutMicroSecs = VL53L0X_GETDEVICESPECIFICPARAMETER(
+			Dev, FinalRangeTimeoutMicroSecs);
+
+		finalRangeVcselPCLKS = VL53L0X_GETDEVICESPECIFICPARAMETER(
+			Dev, FinalRangeVcselPulsePeriod);
+
+		finalRangeMacroPCLKS = VL53L0X_calc_timeout_mclks(
+			Dev, finalRangeTimeoutMicroSecs, finalRangeVcselPCLKS);
+
+		/* Calculate pre-range macro periods */
+		preRangeTimeoutMicroSecs = VL53L0X_GETDEVICESPECIFICPARAMETER(
+			Dev, PreRangeTimeoutMicroSecs);
+
+		preRangeVcselPCLKS = VL53L0X_GETDEVICESPECIFICPARAMETER(
+			Dev, PreRangeVcselPulsePeriod);
+
+		preRangeMacroPCLKS = VL53L0X_calc_timeout_mclks(
+			Dev, preRangeTimeoutMicroSecs, preRangeVcselPCLKS);
+
+		vcselWidth = 3;
+		if (finalRangeVcselPCLKS == 8)
+			vcselWidth = 2;
+
+
+		peakVcselDuration_us = vcselWidth * 2048 *
+			(preRangeMacroPCLKS + finalRangeMacroPCLKS);
+		peakVcselDuration_us = (peakVcselDuration_us + 500)/1000;
+		peakVcselDuration_us *= cPllPeriod_ps;
+		peakVcselDuration_us = (peakVcselDuration_us + 500)/1000;
+
+		/* Fix1616 >> 8 = Fix2408 */
+		totalSignalRate_mcps = (totalSignalRate_mcps + 0x80) >> 8;
+
+		/* Fix2408 * uint32 = Fix2408 */
+		vcselTotalEventsRtn = totalSignalRate_mcps *
+			peakVcselDuration_us;
+
+		/* Fix2408 >> 8 = uint32 */
+		vcselTotalEventsRtn = (vcselTotalEventsRtn + 0x80) >> 8;
+
+		/* Fix2408 << 8 = Fix1616 = */
+		totalSignalRate_mcps <<= 8;
+	}
+
+	if (Status != VL53L0X_ERROR_NONE) {
+		LOG_FUNCTION_END(Status);
+		return Status;
+	}
+
+	if (peakSignalRate_kcps == 0) {
+		*pSigmaEstimate = cSigmaEstMax;
+		PALDevDataSet(Dev, SigmaEstimate, cSigmaEstMax);
+	} else {
+		if (vcselTotalEventsRtn < 1)
+			vcselTotalEventsRtn = 1;
+
+		sigmaEstimateP1 = cPulseEffectiveWidth_centi_ns;
+
+		/* ((FixPoint1616 << 16)* uint32)/uint32 = FixPoint1616 */
+		sigmaEstimateP2 = (ambientRate_kcps << 16)/peakSignalRate_kcps;
+		if (sigmaEstimateP2 > cAmbToSignalRatioMax) {
+			/* Clip to prevent overflow. Will ensure safe
+			 * max result.
+			 */
+			sigmaEstimateP2 = cAmbToSignalRatioMax;
+		}
+		sigmaEstimateP2 *= cAmbientEffectiveWidth_centi_ns;
+
+		sigmaEstimateP3 = 2 * VL53L0X_isqrt(vcselTotalEventsRtn * 12);
+
+		/* uint32 * FixPoint1616 = FixPoint1616 */
+		deltaT_ps = pRangingMeasurementData->RangeMilliMeter *
+					cTOF_per_mm_ps;
+
+		/*
+		 * vcselRate - xtalkCompRate
+		 * (uint32 << 16) - FixPoint1616 = FixPoint1616.
+		 * Divide result by 1000 to convert to mcps.
+		 * 500 is added to ensure rounding when integer division
+		 * truncates.
+		 */
+		diff1_mcps = (((peakSignalRate_kcps << 16) -
+			2 * xTalkCompRate_kcps) + 500)/1000;
+
+		/* vcselRate + xtalkCompRate */
+		diff2_mcps = ((peakSignalRate_kcps << 16) + 500)/1000;
+
+		/* Shift by 8 bits to increase resolution prior to the
+		 * division
+		 */
+		diff1_mcps <<= 8;
+
+		/* FixPoint0824/FixPoint1616 = FixPoint2408 */
+		xTalkCorrection	 = abs(diff1_mcps/diff2_mcps);
+
+		/* FixPoint2408 << 8 = FixPoint1616 */
+		xTalkCorrection <<= 8;
+
+		if (pRangingMeasurementData->RangeStatus != 0) {
+			pwMult = 1 << 16;
+		} else {
+			/* FixPoint1616/uint32 = FixPoint1616 */
+			/* smaller than 1.0f */
+			pwMult = deltaT_ps/cVcselPulseWidth_ps;
+
+			/*
+			 * FixPoint1616 * FixPoint1616 = FixPoint3232, however
+			 * both values are small enough such that32 bits will
+			 * not be exceeded.
+			 */
+			pwMult *= ((1 << 16) - xTalkCorrection);
+
+			/* (FixPoint3232 >> 16) = FixPoint1616 */
+			pwMult =  (pwMult + c16BitRoundingParam) >> 16;
+
+			/* FixPoint1616 + FixPoint1616 = FixPoint1616 */
+			pwMult += (1 << 16);
+
+			/*
+			 * At this point the value will be 1.xx, therefore if we
+			 * square the value this will exceed 32 bits. To address
+			 * this perform a single shift to the right before the
+			 * multiplication.
+			 */
+			pwMult >>= 1;
+			/* FixPoint1715 * FixPoint1715 = FixPoint3430 */
+			pwMult = pwMult * pwMult;
+
+			/* (FixPoint3430 >> 14) = Fix1616 */
+			pwMult >>= 14;
+		}
+
+		/* FixPoint1616 * uint32 = FixPoint1616 */
+		sqr1 = pwMult * sigmaEstimateP1;
+
+		/* (FixPoint1616 >> 16) = FixPoint3200 */
+		sqr1 = (sqr1 + 0x8000) >> 16;
+
+		/* FixPoint3200 * FixPoint3200 = FixPoint6400 */
+		sqr1 *= sqr1;
+
+		sqr2 = sigmaEstimateP2;
+
+		/* (FixPoint1616 >> 16) = FixPoint3200 */
+		sqr2 = (sqr2 + 0x8000) >> 16;
+
+		/* FixPoint3200 * FixPoint3200 = FixPoint6400 */
+		sqr2 *= sqr2;
+
+		/* FixPoint64000 + FixPoint6400 = FixPoint6400 */
+		sqrSum = sqr1 + sqr2;
+
+		/* SQRT(FixPoin6400) = FixPoint3200 */
+		sqrtResult_centi_ns = VL53L0X_isqrt(sqrSum);
+
+		/* (FixPoint3200 << 16) = FixPoint1616 */
+		sqrtResult_centi_ns <<= 16;
+
+		/*
+		 * Note that the Speed Of Light is expressed in um per 1E-10
+		 * seconds (2997) Therefore to get mm/ns we have to divide by
+		 * 10000
+		 */
+		sigmaEstRtn = (((sqrtResult_centi_ns+50)/100) /
+				sigmaEstimateP3);
+		sigmaEstRtn		 *= VL53L0X_SPEED_OF_LIGHT_IN_AIR;
+
+		/* Add 5000 before dividing by 10000 to ensure rounding. */
+		sigmaEstRtn		 += 5000;
+		sigmaEstRtn		 /= 10000;
+
+		if (sigmaEstRtn > cSigmaEstRtnMax) {
+			/* Clip to prevent overflow. Will ensure safe
+			 * max result.
+			 */
+			sigmaEstRtn = cSigmaEstRtnMax;
+		}
+		finalRangeIntegrationTimeMilliSecs =
+		    (finalRangeTimeoutMicroSecs + preRangeTimeoutMicroSecs +
+		     500) / 1000;
+
+		/* sigmaEstRef = 1mm * 25ms/final range integration time
+		 * (inc pre-range)
+		 * sqrt(FixPoint1616/int) = FixPoint2408)
+		 */
+		sigmaEstRef =
+			VL53L0X_isqrt((cDfltFinalRangeIntegrationTimeMilliSecs +
+				finalRangeIntegrationTimeMilliSecs/2)/
+				finalRangeIntegrationTimeMilliSecs);
+
+		/* FixPoint2408 << 8 = FixPoint1616 */
+		sigmaEstRef <<= 8;
+		sigmaEstRef = (sigmaEstRef + 500)/1000;
+
+		/* FixPoint1616 * FixPoint1616 = FixPoint3232 */
+		sqr1 = sigmaEstRtn * sigmaEstRtn;
+		/* FixPoint1616 * FixPoint1616 = FixPoint3232 */
+		sqr2 = sigmaEstRef * sigmaEstRef;
+
+		/* sqrt(FixPoint3232) = FixPoint1616 */
+		sqrtResult = VL53L0X_isqrt((sqr1 + sqr2));
+		/*
+		 * Note that the Shift by 4 bits increases resolution prior to
+		 * the sqrt, therefore the result must be shifted by 2 bits to
+		 * the right to revert back to the FixPoint1616 format.
+		 */
+
+		sigmaEstimate	 = 1000 * sqrtResult;
+
+		if ((peakSignalRate_kcps < 1) || (vcselTotalEventsRtn < 1) ||
+				(sigmaEstimate > cSigmaEstMax)) {
+			sigmaEstimate = cSigmaEstMax;
+		}
+
+		*pSigmaEstimate = (uint32_t)(sigmaEstimate);
+		PALDevDataSet(Dev, SigmaEstimate, *pSigmaEstimate);
+	}
+
+	LOG_FUNCTION_END(Status);
+	return Status;
+}
+
+VL53L0X_Error VL53L0X_get_pal_range_status(VL53L0X_DEV Dev,
+		uint8_t DeviceRangeStatus,
+		FixPoint1616_t SignalRate,
+		uint16_t EffectiveSpadRtnCount,
+		VL53L0X_RangingMeasurementData_t *pRangingMeasurementData,
+		uint8_t *pPalRangeStatus)
+{
+	VL53L0X_Error Status = VL53L0X_ERROR_NONE;
+	uint8_t NoneFlag;
+	uint8_t SigmaLimitflag = 0;
+	uint8_t SignalRefClipflag = 0;
+	uint8_t RangeIgnoreThresholdflag = 0;
+	uint8_t SigmaLimitCheckEnable = 0;
+	uint8_t SignalRateFinalRangeLimitCheckEnable = 0;
+	uint8_t SignalRefClipLimitCheckEnable = 0;
+	uint8_t RangeIgnoreThresholdLimitCheckEnable = 0;
+	FixPoint1616_t SigmaEstimate;
+	FixPoint1616_t SigmaLimitValue;
+	FixPoint1616_t SignalRefClipValue;
+	FixPoint1616_t RangeIgnoreThresholdValue;
+	FixPoint1616_t SignalRatePerSpad;
+	uint8_t DeviceRangeStatusInternal = 0;
+	uint16_t tmpWord = 0;
+	uint8_t Temp8;
+	uint32_t Dmax_mm = 0;
+	FixPoint1616_t LastSignalRefMcps;
+
+	LOG_FUNCTION_START("");
+
+
+	/*
+	 * VL53L0X has a good ranging when the value of the
+	 * DeviceRangeStatus = 11. This function will replace the value 0 with
+	 * the value 11 in the DeviceRangeStatus.
+	 * In addition, the SigmaEstimator is not included in the VL53L0X
+	 * DeviceRangeStatus, this will be added in the PalRangeStatus.
+	 */
+
+	DeviceRangeStatusInternal = ((DeviceRangeStatus & 0x78) >> 3);
+
+	if (DeviceRangeStatusInternal == 0 ||
+		DeviceRangeStatusInternal == 5 ||
+		DeviceRangeStatusInternal == 7 ||
+		DeviceRangeStatusInternal == 12 ||
+		DeviceRangeStatusInternal == 13 ||
+		DeviceRangeStatusInternal == 14 ||
+		DeviceRangeStatusInternal == 15
+			) {
+		NoneFlag = 1;
+	} else {
+		NoneFlag = 0;
+	}
+
+	/*
+	 * Check if Sigma limit is enabled, if yes then do comparison with limit
+	 * value and put the result back into pPalRangeStatus.
+	 */
+	if (Status == VL53L0X_ERROR_NONE)
+		Status =  VL53L0X_GetLimitCheckEnable(Dev,
+			VL53L0X_CHECKENABLE_SIGMA_FINAL_RANGE,
+			&SigmaLimitCheckEnable);
+
+	if ((SigmaLimitCheckEnable != 0) && (Status == VL53L0X_ERROR_NONE)) {
+		/*
+		* compute the Sigma and check with limit
+		*/
+		Status = VL53L0X_calc_sigma_estimate(
+			Dev,
+			pRangingMeasurementData,
+			&SigmaEstimate);
+		if (Status == VL53L0X_ERROR_NONE)
+			Status = VL53L0X_calc_dmax(
+				Dev,
+				pRangingMeasurementData->AmbientRateRtnMegaCps,
+				&Dmax_mm);
+		if (Status == VL53L0X_ERROR_NONE)
+			pRangingMeasurementData->RangeDMaxMilliMeter = Dmax_mm;
+
+		if (Status == VL53L0X_ERROR_NONE) {
+			Status = VL53L0X_GetLimitCheckValue(Dev,
+				VL53L0X_CHECKENABLE_SIGMA_FINAL_RANGE,
+				&SigmaLimitValue);
+
+			if ((SigmaLimitValue > 0) &&
+				(SigmaEstimate > SigmaLimitValue))
+					/* Limit Fail */
+				SigmaLimitflag = 1;
+		}
+	}
+
+	/*
+	 * Check if Signal ref clip limit is enabled, if yes then do comparison
+	 * with limit value and put the result back into pPalRangeStatus.
+	 */
+	if (Status == VL53L0X_ERROR_NONE)
+		Status =  VL53L0X_GetLimitCheckEnable(Dev,
+				VL53L0X_CHECKENABLE_SIGNAL_REF_CLIP,
+				&SignalRefClipLimitCheckEnable);
+
+	if ((SignalRefClipLimitCheckEnable != 0) &&
+			(Status == VL53L0X_ERROR_NONE)) {
+
+		Status = VL53L0X_GetLimitCheckValue(Dev,
+				VL53L0X_CHECKENABLE_SIGNAL_REF_CLIP,
+				&SignalRefClipValue);
+
+		/* Read LastSignalRefMcps from device */
+		if (Status == VL53L0X_ERROR_NONE)
+			Status = VL53L0X_WrByte(Dev, 0xFF, 0x01);
+
+		if (Status == VL53L0X_ERROR_NONE)
+			Status = VL53L0X_RdWord(Dev,
+				VL53L0X_REG_RESULT_PEAK_SIGNAL_RATE_REF,
+				&tmpWord);
+
+		if (Status == VL53L0X_ERROR_NONE)
+			Status = VL53L0X_WrByte(Dev, 0xFF, 0x00);
+
+		LastSignalRefMcps = VL53L0X_FIXPOINT97TOFIXPOINT1616(tmpWord);
+		PALDevDataSet(Dev, LastSignalRefMcps, LastSignalRefMcps);
+
+		if ((SignalRefClipValue > 0) &&
+				(LastSignalRefMcps > SignalRefClipValue)) {
+			/* Limit Fail */
+			SignalRefClipflag = 1;
+		}
+	}
+
+	/*
+	 * Check if Signal ref clip limit is enabled, if yes then do comparison
+	 * with limit value and put the result back into pPalRangeStatus.
+	 * EffectiveSpadRtnCount has a format 8.8
+	 * If (Return signal rate < (1.5 x Xtalk x number of Spads)) : FAIL
+	 */
+	if (Status == VL53L0X_ERROR_NONE)
+		Status =  VL53L0X_GetLimitCheckEnable(Dev,
+				VL53L0X_CHECKENABLE_RANGE_IGNORE_THRESHOLD,
+				&RangeIgnoreThresholdLimitCheckEnable);
+
+	if ((RangeIgnoreThresholdLimitCheckEnable != 0) &&
+			(Status == VL53L0X_ERROR_NONE)) {
+
+		/* Compute the signal rate per spad */
+		if (EffectiveSpadRtnCount == 0) {
+			SignalRatePerSpad = 0;
+		} else {
+			SignalRatePerSpad = (FixPoint1616_t)((256 * SignalRate)
+				/ EffectiveSpadRtnCount);
+		}
+
+		Status = VL53L0X_GetLimitCheckValue(Dev,
+				VL53L0X_CHECKENABLE_RANGE_IGNORE_THRESHOLD,
+				&RangeIgnoreThresholdValue);
+
+		if ((RangeIgnoreThresholdValue > 0) &&
+			(SignalRatePerSpad < RangeIgnoreThresholdValue)) {
+			/* Limit Fail add 2^6 to range status */
+			RangeIgnoreThresholdflag = 1;
+		}
+	}
+
+	if (Status == VL53L0X_ERROR_NONE) {
+		if (NoneFlag == 1) {
+			*pPalRangeStatus = 255;	 /* NONE */
+		} else if (DeviceRangeStatusInternal == 1 ||
+					DeviceRangeStatusInternal == 2 ||
+					DeviceRangeStatusInternal == 3) {
+			*pPalRangeStatus = 5; /* HW fail */
+		} else if (DeviceRangeStatusInternal == 6 ||
+					DeviceRangeStatusInternal == 9) {
+			*pPalRangeStatus = 4;  /* Phase fail */
+		} else if (DeviceRangeStatusInternal == 8 ||
+					DeviceRangeStatusInternal == 10 ||
+					SignalRefClipflag == 1) {
+			*pPalRangeStatus = 3;  /* Min range */
+		} else if (DeviceRangeStatusInternal == 4 ||
+					RangeIgnoreThresholdflag == 1) {
+			*pPalRangeStatus = 2;  /* Signal Fail */
+		} else if (SigmaLimitflag == 1) {
+			*pPalRangeStatus = 1;  /* Sigma	 Fail */
+		} else {
+			*pPalRangeStatus = 0; /* Range Valid */
+		}
+	}
+
+	/* fill the Limit Check Status */
+
+	Status =  VL53L0X_GetLimitCheckEnable(Dev,
+			VL53L0X_CHECKENABLE_SIGNAL_RATE_FINAL_RANGE,
+			&SignalRateFinalRangeLimitCheckEnable);
+
+	if (Status == VL53L0X_ERROR_NONE) {
+		if ((SigmaLimitCheckEnable == 0) || (SigmaLimitflag == 1))
+			Temp8 = 1;
+		else
+			Temp8 = 0;
+		VL53L0X_SETARRAYPARAMETERFIELD(Dev, LimitChecksStatus,
+				VL53L0X_CHECKENABLE_SIGMA_FINAL_RANGE, Temp8);
+
+		if ((DeviceRangeStatusInternal == 4) ||
+				(SignalRateFinalRangeLimitCheckEnable == 0))
+			Temp8 = 1;
+		else
+			Temp8 = 0;
+		VL53L0X_SETARRAYPARAMETERFIELD(Dev, LimitChecksStatus,
+				VL53L0X_CHECKENABLE_SIGNAL_RATE_FINAL_RANGE,
+				Temp8);
+
+		if ((SignalRefClipLimitCheckEnable == 0) ||
+					(SignalRefClipflag == 1))
+			Temp8 = 1;
+		else
+			Temp8 = 0;
+
+		VL53L0X_SETARRAYPARAMETERFIELD(Dev, LimitChecksStatus,
+				VL53L0X_CHECKENABLE_SIGNAL_REF_CLIP, Temp8);
+
+		if ((RangeIgnoreThresholdLimitCheckEnable == 0) ||
+				(RangeIgnoreThresholdflag == 1))
+			Temp8 = 1;
+		else
+			Temp8 = 0;
+
+		VL53L0X_SETARRAYPARAMETERFIELD(Dev, LimitChecksStatus,
+				VL53L0X_CHECKENABLE_RANGE_IGNORE_THRESHOLD,
+				Temp8);
+	}
+
+	LOG_FUNCTION_END(Status);
+	return Status;
+
+}
