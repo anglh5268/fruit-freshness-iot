@@ -1,0 +1,38 @@
+# Local secrets
+**/.env
+**/.env.*
+!**/.env.example
+firmware/main/app_wifi_credentials.h
+firmware/main/cloud_gateway_config.h
+
+# Python
+**/.venv/
+**/__pycache__/
+**/*.py[cod]
+**/.pytest_cache/
+**/.cache/
+**/*.egg-info/
+
+# ESP-IDF and generated binaries
+firmware/build/
+firmware/managed_components/
+**/sdkconfig.old
+**/*.bin
+**/*.elf
+**/*.map
+**/compile_commands.json
+
+# Raw/private experiment data and generated working artifacts
+ai/data/raw/*.csv
+ai/data/validation/*
+ai/models/*.joblib
+ai/dist/
+
+# Editors and operating systems
+.idea/
+*.swp
+*.swo
+Thumbs.db
+Desktop.ini
+.DS_Store
+

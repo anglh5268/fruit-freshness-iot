@@ -1,0 +1,137 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python：运行当前文件",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "检查光谱工作区环境",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/check_environment.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "串口采集（交互输入样品信息）",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/serial_collect.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "分析最新一次重复性数据",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/analyze_repeatability.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "分析P1三材料试采数据",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/analyze_pilot_dataset.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "args": [
+        "--sample-prefix",
+        "P1",
+        "--labels",
+        "white_card",
+        "green_tea",
+        "black_tea"
+      ]
+    },
+    {
+      "name": "训练最新材料分类模型",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/train_material_classifier.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "水果：采集一组数据（交互输入）",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/serial_collect.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "args": ["--frames", "30"]
+    },
+    {
+      "name": "油桃新鲜度：采集 Day 0 一组（交互输入编号和位置）",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/serial_collect.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "args": [
+        "--fruit-type",
+        "nectarine",
+        "--storage-day",
+        "0",
+        "--freshness-state",
+        "fresh",
+        "--frames",
+        "20"
+      ]
+    },
+    {
+      "name": "油桃新鲜度：整理数据与更新趋势图",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/analyze_freshness_dataset.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "水果：分析先导数据",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/analyze_pilot_dataset.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "args": [
+        "--all-samples",
+        "--output-prefix",
+        "FRUIT_PILOT",
+        "--labels",
+        "banana",
+        "fuzzy_peach",
+        "nectarine"
+      ]
+    },
+    {
+      "name": "水果：训练分类模型",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/train_material_classifier.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
+      "args": [
+        "--input",
+        "data/processed/FRUIT_PILOT_pilot_combined.csv",
+        "--dataset-name",
+        "FRUIT_PILOT",
+        "--group-column",
+        "auto"
+      ]
+    },
+    {
+      "name": "油桃新鲜度：四位置实时预测",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/predict_freshness_live.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

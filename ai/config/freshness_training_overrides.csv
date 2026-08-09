@@ -1,0 +1,9 @@
+sample_id,storage_day,position,action,training_label,reason
+NECT06,0,1,exclude,,Localized rotten pit was confirmed only at P3 on day 0
+NECT06,0,2,exclude,,Localized rotten pit was confirmed only at P3 on day 0
+NECT06,0,3,include,risk,Sensor was aimed at the center of the rotten pit on day 0
+NECT06,0,4,exclude,,Localized rotten pit was confirmed only at P3 on day 0
+NECT06,1,1,include,risk,Sensor was aimed at the rotten pit on day 1 as confirmed by operator
+NECT06,1,2,exclude,,Day 1 non-pit position must not inherit the whole-fruit spoiled label
+NECT06,1,3,exclude,,Day 1 non-pit position must not inherit the whole-fruit spoiled label
+NECT06,1,4,exclude,,Day 1 non-pit position must not inherit the whole-fruit spoiled label

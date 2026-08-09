@@ -1,0 +1,26 @@
+{
+  "protocol_version": 1,
+  "request_id": "demo-0001",
+  "device_id": "ESP32S3-01",
+  "timestamp_ms": 123456,
+  "measurement": {
+    "distance_mm": 20,
+    "spectrum": {
+      "F1_415nm": 72,
+      "F2_445nm": 120,
+      "F3_480nm": 165,
+      "F4_515nm": 395,
+      "F5_555nm": 605,
+      "F6_590nm": 742,
+      "F7_630nm": 965,
+      "F8_680nm": 848,
+      "Clear": 1910,
+      "NIR": 124
+    }
+  },
+  "edge_result": {
+    "task": "fruit_identity",
+    "label": "banana",
+    "confidence": 0.72
+  }
+}

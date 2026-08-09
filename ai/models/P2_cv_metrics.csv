@@ -1,0 +1,5 @@
+﻿model,feature_set,accuracy
+logistic,raw,1.0
+logistic,normalized,0.8888888888888888
+random_forest,raw,1.0
+random_forest,normalized,0.8888888888888888

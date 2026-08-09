@@ -1,0 +1,36 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.cache/
+dist/
+.idea/
+.env
+cloud_gateway/.env
+
+# 原始采集数据和生成结果默认不提交版本库
+data/raw/*.csv
+data/processed/*.csv
+data/validation/*.csv
+data/validation/*.json
+figures/*.png
+figures/*.pdf
+models/*.joblib
+models/*.json
+models/*_annotated_samples.csv
+models/*_cv_daily_predictions.csv
+models/*_cv_folds.csv
+models/*_cv_predictions.csv
+models/*_training_overrides_applied.csv
+
+!.gitkeep
+
+# Curated release artifacts kept in the unified competition repository
+!data/processed/NECT_FRESHNESS_position_summary.csv
+!data/processed/NECT_FRESHNESS_daily_summary.csv
+!data/processed/NECT_FRESHNESS_completeness.csv
+!data/processed/NECT_FRESHNESS_distance_compensation.csv
+!figures/NECT_FRESHNESS_V1_model_evaluation.png
+!figures/NECT_FRESHNESS_trajectories.png
+!figures/NECT_FRESHNESS_day0_baseline.png
+!figures/NECT_FRESHNESS_positions_by_time.png

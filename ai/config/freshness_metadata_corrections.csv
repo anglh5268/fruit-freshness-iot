@@ -1,0 +1,13 @@
+source_file,field_name,corrected_value,reason
+20260721_173909_NECT03_day3_warning_pos1.csv,firmness_score,2,操作者确认与Day 2相同，原值录入错误
+20260721_173909_NECT03_day3_warning_pos1.csv,surface_note,表皮变皱,操作者确认与Day 2相同，原值录入错误
+20260721_173934_NECT03_day3_warning_pos2.csv,firmness_score,2,操作者确认与Day 2相同，原值录入错误
+20260721_173934_NECT03_day3_warning_pos2.csv,surface_note,表皮变皱,操作者确认与Day 2相同，原值录入错误
+20260721_173958_NECT03_day3_warning_pos3.csv,firmness_score,2,操作者确认与Day 2相同，原值录入错误
+20260721_173958_NECT03_day3_warning_pos3.csv,surface_note,表皮变皱,操作者确认与Day 2相同，原值录入错误
+20260721_174025_NECT03_day3_warning_pos4.csv,firmness_score,2,操作者确认与Day 2相同，原值录入错误
+20260721_174025_NECT03_day3_warning_pos4.csv,surface_note,表皮变皱,操作者确认与Day 2相同，原值录入错误
+20260723_193459_NECT02_day5_warning_pos1.csv,surface_note,表面有软坑,操作者确认软坑仍存在，原备注录入错误
+20260723_193524_NECT02_day5_warning_pos2.csv,surface_note,表面有软坑,操作者确认软坑仍存在，原备注录入错误
+20260723_193549_NECT02_day5_warning_pos3.csv,surface_note,表面有软坑,操作者确认软坑仍存在，原备注录入错误
+20260723_193616_NECT02_day5_warning_pos4.csv,surface_note,表面有软坑,操作者确认软坑仍存在，原备注录入错误

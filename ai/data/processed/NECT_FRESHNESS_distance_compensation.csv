@@ -1,0 +1,5 @@
+﻿method,exponent,reference_distance_mm,median_position_cv_percent,mean_position_cv_percent,improvement_vs_none_percent,recommended_for_v1,note
+none,0.0,20.0,28.62712852059588,28.88785214967236,0.0,1,第一版推荐：距离仅做范围门控
+linear_inverse,1.0,20.0,25.250819330934537,27.115986359888755,11.794089607109024,0,对照方法
+inverse_square,2.0,20.0,26.44475829926476,27.44562905178289,7.623433903826596,0,不建议直接假设自由空间平方反比
+in_sample_fitted,1.6015101876546665,20.0,26.550622493999548,27.066732010335887,7.253630154007175,0,仅供观察，不能替代独立距离标定

@@ -1,0 +1,7 @@
+﻿model,feature_set,accuracy
+logistic,raw,0.8240740740740741
+logistic,normalized,0.774074074074074
+random_forest,raw,0.687037037037037
+random_forest,normalized,0.6962962962962963
+svm_rbf,raw,0.9611111111111111
+svm_rbf,normalized,0.7425925925925926

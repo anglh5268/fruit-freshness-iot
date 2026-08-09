@@ -1,0 +1,33 @@
+{
+  "serial": {
+    "port": "COM5",
+    "baudrate": 115200,
+    "timeout_seconds": 1.0
+  },
+  "measurement": {
+    "channels": [
+      "f1",
+      "f2",
+      "f3",
+      "f4",
+      "f5",
+      "f6",
+      "f7",
+      "f8",
+      "clear",
+      "nir"
+    ],
+    "frames_per_position": 30,
+    "settle_seconds": 3,
+    "warmup_frames": 10,
+    "target_distance_mm": 20,
+    "distance_min_mm": 15,
+    "distance_max_mm": 25
+  },
+  "paths": {
+    "raw_data_dir": "data/raw",
+    "processed_data_dir": "data/processed",
+    "figures_dir": "figures",
+    "models_dir": "models"
+  }
+}
